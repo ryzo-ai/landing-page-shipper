@@ -1,0 +1,218 @@
+{
+  "slug": "buy-off-your-guilt",
+  "meta": {
+    "title": "Buy Off Your Guilt — 100 charities, 1 donation",
+    "description": "Because confessing is harder. Spread one donation across 100 hand-picked charities and feel measurably better about being human.",
+    "ogImage": "/og-image.png"
+  },
+  "navbar": {
+    "logo": { "text": "Absolution" },
+    "links": [
+      { "label": "How it works", "href": "#how" },
+      { "label": "Pricing", "href": "#pricing" },
+      { "label": "FAQ", "href": "#faq" }
+    ],
+    "cta": { "label": "Buy absolution now", "href": "#cta" }
+  },
+  "hero": {
+    "headline": "100 charities. 1 donation. Buy off your guilt online.",
+    "subheadline": "Because confessing is harder. Spread one donation across 100 hand-picked causes and feel measurably better about being human.",
+    "cta": { "label": "Buy absolution now", "href": "#cta" },
+    "socialProof": "Trusted by 12,000+ slightly less guilty people.",
+    "backgroundImage": {
+      "src": "https://images.unsplash.com/photo-1419242902214-272b3f66ee7a?w=2400&q=80&auto=format&fit=crop",
+      "alt": "Golden sunset clouds with god-rays — divine absolution vibes",
+      "overlayOpacity": 0
+    }
+  },
+  "mediaBlock": {
+    "type": "placeholder",
+    "aspectRatio": "16/9",
+    "alt": "An index fund for your conscience"
+  },
+  "problemSection": {
+    "eyebrow": "The human condition",
+    "headline": "The math of feeling slightly less awful",
+    "cards": [
+      {
+        "icon": "M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-6 9l2 2 4-4",
+        "title": "Decision paralysis",
+        "description": "100 charities all asking for €5. Who do you pick? Nobody picks. Nobody donates. Nobody wins."
+      },
+      {
+        "icon": "M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064",
+        "title": "Compassion fatigue",
+        "description": "You read the news. You feel things. You close the tab. Your bank account is unmoved. The cycle repeats Monday."
+      },
+      {
+        "icon": "M11 5.882V19.24a1.76 1.76 0 01-3.417.592l-2.147-6.15M18 13a3 3 0 100-6M5.436 13.683A4.001 4.001 0 017 6h1.832c4.1 0 7.625-1.234 9.168-3v14c-1.543-1.766-5.067-3-9.168-3H7a3.988 3.988 0 01-1.564-.317z",
+        "title": "Performative guilt",
+        "description": "Posting about a cause is free. Donating is hard. We fixed the part that actually matters and skipped the part that doesn't."
+      }
+    ]
+  },
+  "valueProposition": {
+    "eyebrow": "The solution",
+    "headline": "Outsource your conscience to a portfolio",
+    "body": "We curate 100 high-impact charities across climate, hunger, health, education, and animal welfare. You make one donation. We split it evenly. You get one tax receipt, one warm feeling, and zero decision fatigue.\n\nThink of it as an index fund for your soul. The same logic that beats stock pickers — diversification, low fees, set-and-forget — applied to the part of your life where you keep meaning to do better and never quite get around to it."
+  },
+  "partnerLogos": {
+    "eyebrow": "As featured in",
+    "logos": []
+  },
+  "services": {
+    "eyebrow": "Pricing",
+    "headline": "Pick your path to redemption",
+    "cards": [
+      {
+        "icon": "M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z",
+        "title": "Sin Tax — €10 / month",
+        "description": "A modest monthly payment for your moral misdemeanors. Includes a clean conscience and basic bragging rights at dinner parties."
+      },
+      {
+        "icon": "M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z",
+        "title": "Saint Status — €50 / month",
+        "description": "Most popular. Your conscience will practically levitate. Comes with quarterly impact reports and a tote bag you'll mention twice."
+      },
+      {
+        "icon": "M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z",
+        "title": "Moral High Ground — €100 / month",
+        "description": "Enjoy the view from up here. It's lonely, but pure. Includes a custom portfolio of causes you actually care about."
+      }
+    ]
+  },
+  "process": {
+    "eyebrow": "How it works",
+    "headline": "Sinned. Paid. Forgiven.",
+    "steps": [
+      {
+        "title": "Pick your guilt level",
+        "description": "Monthly or one-time. €10 to €1,000+. Set it, forget it, feel marginally better."
+      },
+      {
+        "title": "We split it across 100 vetted charities",
+        "description": "Climate, hunger, health, education, animal welfare. All 100 audited annually. No PR-machine NGOs, no overhead-heavy operations."
+      },
+      {
+        "title": "You get one tax receipt",
+        "description": "For the taxman and your conscience. We've done the bookkeeping so you can spend the time you saved feeling slightly less awful."
+      },
+      {
+        "title": "Quarterly impact report",
+        "description": "What your money actually did, with receipts. Meals served, trees planted, scholarships funded. The numbers don't lie even if the marketing does."
+      }
+    ]
+  },
+  "testimonials": {
+    "eyebrow": "Customer voices",
+    "headline": "Reviews from the recently absolved",
+    "items": [
+      {
+        "quote": "Finally, a way to outsource the thinking. I just set it and forget I'm a person.",
+        "name": "Anonymous CFO",
+        "title": "Amsterdam"
+      },
+      {
+        "quote": "Cheaper than therapy. Tax-deductible. My accountant approves. Don't ask me about the rest of my life.",
+        "name": "Hedge fund partner",
+        "title": "London — name withheld on legal advice"
+      },
+      {
+        "quote": "I bought Saint Status and now I sleep through the night again. Whether it's the absolution or the tote bag, I can't say.",
+        "name": "Crypto founder",
+        "title": "Lisbon"
+      }
+    ]
+  },
+  "caseStudies": {
+    "eyebrow": "Where the money goes",
+    "headline": "Three causes from the portfolio of 100",
+    "items": [
+      {
+        "title": "Climate Action Network",
+        "resultStat": "€12M deployed",
+        "description": "14 climate initiatives funded in 2025 across reforestation, grid decarbonisation, and direct air capture. Receipts in the impact report."
+      },
+      {
+        "title": "Direct Hunger Relief",
+        "resultStat": "2.4M meals served",
+        "description": "Average cost per meal: €0.68. Operates in 23 countries with a 4-cent overhead per dollar raised. Numbers audited by KPMG."
+      },
+      {
+        "title": "Global Education Fund",
+        "resultStat": "3,200 scholarships",
+        "description": "Awarded across 40 countries in 2025. 87% completion rate. Tracks alumni outcomes for 10 years post-graduation."
+      }
+    ]
+  },
+  "nextSteps": {
+    "eyebrow": "Other ways to engage",
+    "headline": "Before you buy your absolution",
+    "cards": [
+      {
+        "title": "Read our impact report",
+        "description": "What €100/month actually does, in dollars, lives, and tonnes of CO₂. With receipts."
+      },
+      {
+        "title": "Browse all 100 charities",
+        "description": "The full list with vetting criteria, governance scores, and overhead ratios. We don't hide anything."
+      },
+      {
+        "title": "Talk to a human",
+        "description": "If you have questions a chatbot can't answer — like \"is this even legal?\" (yes) or \"do you actually do this?\" (also yes)."
+      }
+    ]
+  },
+  "ctaSection": {
+    "headline": "Buy your absolution. Starts at €10/month.",
+    "subheadline": "It's not redemption. It's adjacent. That's still better than what most of us are doing, which is nothing.",
+    "cta": { "label": "Start at €10/month", "href": "#" }
+  },
+  "faq": {
+    "eyebrow": "FAQ",
+    "headline": "What you're really wondering",
+    "items": [
+      {
+        "question": "Is this a joke?",
+        "answer": "Half. The mechanism — one donation, split across 100 vetted charities, one receipt, quarterly impact report — is real. The branding is honest about why most people never get around to giving: decision paralysis dressed up as standards. We removed the decision."
+      },
+      {
+        "question": "How do I know my money goes where you say?",
+        "answer": "Quarterly impact reports with itemised deployment per charity. Annual third-party audit by a Big Four firm. Every charity in the portfolio is independently rated and re-evaluated yearly."
+      },
+      {
+        "question": "What if I want to pick the charities myself?",
+        "answer": "You can. Custom portfolios are available on the Saint Status tier and above. Pick from the curated 100, weight however you want, override our defaults."
+      },
+      {
+        "question": "Is this tax-deductible?",
+        "answer": "Yes — you get a single annual receipt covering all 100 charities. We've done the paperwork so your accountant doesn't have to. Valid in NL, BE, DE, UK, US."
+      },
+      {
+        "question": "Can I cancel anytime?",
+        "answer": "Anytime, no guilt. The whole point is less guilt, not more. One click cancels. We'll send a final impact report and an emoji of a halo."
+      },
+      {
+        "question": "Is this affiliated with a religion?",
+        "answer": "No. We're a secular product with religious copy because the metaphors are sitting right there and pretending otherwise would be more annoying than the joke. The charities span every cause area, not just religious ones."
+      }
+    ]
+  },
+  "footer": {
+    "logo": { "text": "Absolution" },
+    "links": [
+      { "label": "How it works", "href": "#how" },
+      { "label": "Pricing", "href": "#pricing" },
+      { "label": "Charities", "href": "#charities" },
+      { "label": "Impact reports", "href": "#impact" },
+      { "label": "Privacy", "href": "#privacy" },
+      { "label": "Terms", "href": "#terms" }
+    ],
+    "socialLinks": [
+      { "platform": "linkedin", "href": "https://www.linkedin.com" },
+      { "platform": "instagram", "href": "https://www.instagram.com" },
+      { "platform": "twitter", "href": "https://www.twitter.com" }
+    ],
+    "copyright": "© 2026 Absolution Co. — Pay your way to peace."
+  }
+}

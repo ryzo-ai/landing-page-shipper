@@ -7,14 +7,14 @@
     "description": "Full section showcase for the Ryzo landing page builder."
   },
   "navbar": {
-    "logo": { "text": "AcmeCorp" },
+    "logo": { "text": "Ryzo" },
     "links": [
       { "label": "Product", "href": "#product" },
       { "label": "Services", "href": "#services" },
       { "label": "Case Studies", "href": "#case-studies" },
       { "label": "Pricing", "href": "#pricing" }
     ],
-    "cta": { "label": "Get Started Free", "href": "#cta" }
+    "cta": { "label": "Book a call", "href": "#cta" }
   },
   "hero": {
     "headline": "Automate Everything. Focus on What Matters.",
@@ -223,7 +223,7 @@
     ]
   },
   "footer": {
-    "logo": { "text": "AcmeCorp" },
+    "logo": { "text": "Ryzo" },
     "links": [
       { "label": "Product", "href": "#" },
       { "label": "Pricing", "href": "#" },
@@ -237,6 +237,6 @@
       { "platform": "linkedin", "href": "https://linkedin.com" },
       { "platform": "github", "href": "https://github.com" }
     ],
-    "copyright": "© 2026 AcmeCorp, Inc. All rights reserved."
+    "copyright": "© 2026 Ryzo. All rights reserved."
   }
 }

@@ -3,36 +3,27 @@
 import SectionWrapper from '../ui/SectionWrapper'
 import { NextStepsContent } from '../../types/content'
 
-interface NextStepsProps {
-  content: NextStepsContent
-}
-
-export default function NextSteps({ content }: NextStepsProps) {
+export default function NextSteps({ content }: { content: NextStepsContent }) {
   return (
-    <SectionWrapper
-      className="py-[var(--section-padding-y)] px-[var(--container-padding-x)] bg-[var(--color-background)]"
-    >
-      <div className="mx-auto" style={{ maxWidth: 'var(--container-max-width)' }}>
+    <SectionWrapper className="py-24 px-6 bg-[#F2EDE8]">
+      <div className="max-w-6xl mx-auto">
         {content.eyebrow && (
-          <p className="text-sm font-semibold uppercase tracking-widest text-[var(--color-primary)] mb-3 text-center">
+          <p className="font-geist text-xs font-medium text-[#E0621A] tracking-[0.2em] uppercase mb-4 text-center">
             {content.eyebrow}
           </p>
         )}
-        <h2 className="text-3xl sm:text-4xl font-bold text-[var(--color-text-primary)] text-center mb-12 max-w-2xl mx-auto">
+        <h2 className="font-albra font-bold text-[clamp(32px,5vw,56px)] text-[#333] leading-snug text-center mb-16 max-w-2xl mx-auto">
           {content.headline}
         </h2>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
           {content.cards.map((card, index) => (
-            <div
-              key={card.title}
-              className="flex flex-col gap-4 p-8 rounded-[var(--radius-xl)] border border-[var(--color-border)] bg-[var(--color-surface)]"
-            >
-              <span className="text-5xl font-black text-[var(--color-primary)]/20 leading-none select-none">
+            <div key={card.title} className="flex flex-col gap-4 p-8 rounded-xl bg-[#FAF7F4]">
+              <span className="font-albra font-bold text-5xl text-[#E0621A]/20 leading-none select-none">
                 {String(index + 1).padStart(2, '0')}
               </span>
-              <h3 className="text-xl font-bold text-[var(--color-text-primary)]">{card.title}</h3>
-              <p className="text-[var(--color-text-secondary)] leading-relaxed">{card.description}</p>
+              <h3 className="font-albra font-bold text-2xl text-[#333] leading-snug">{card.title}</h3>
+              <p className="font-geist text-base text-[#2D2926]/55 leading-relaxed">{card.description}</p>
             </div>
           ))}
         </div>

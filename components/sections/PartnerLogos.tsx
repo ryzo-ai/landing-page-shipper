@@ -3,20 +3,14 @@
 import SectionWrapper from '../ui/SectionWrapper'
 import { PartnerLogosContent } from '../../types/content'
 
-interface PartnerLogosProps {
-  content: PartnerLogosContent
-}
-
-export default function PartnerLogos({ content }: PartnerLogosProps) {
+export default function PartnerLogos({ content }: { content: PartnerLogosContent }) {
   if (content.logos.length === 0) return null
 
   return (
-    <SectionWrapper
-      className="py-12 px-[var(--container-padding-x)] bg-[var(--color-surface)] border-y border-[var(--color-border)]"
-    >
-      <div className="mx-auto" style={{ maxWidth: 'var(--container-max-width)' }}>
+    <SectionWrapper className="py-12 px-6 bg-[#FAF7F4] border-y border-[#2D2926]/10">
+      <div className="max-w-6xl mx-auto">
         {content.eyebrow && (
-          <p className="text-sm font-medium text-[var(--color-text-muted)] text-center mb-8">
+          <p className="font-geist text-xs text-[#2D2926]/30 tracking-[0.18em] uppercase text-center mb-8">
             {content.eyebrow}
           </p>
         )}
@@ -26,13 +20,11 @@ export default function PartnerLogos({ content }: PartnerLogosProps) {
               <img
                 src={logo.src}
                 alt={logo.alt}
-                className="h-8 w-auto object-contain grayscale opacity-60 hover:opacity-100 hover:grayscale-0 transition-all duration-200"
+                className="h-8 w-auto object-contain grayscale opacity-50 hover:opacity-80 hover:grayscale-0 transition-all duration-200"
               />
             )
             return logo.href ? (
-              <a key={logo.alt} href={logo.href} target="_blank" rel="noopener noreferrer">
-                {img}
-              </a>
+              <a key={logo.alt} href={logo.href} target="_blank" rel="noopener noreferrer">{img}</a>
             ) : (
               <span key={logo.alt}>{img}</span>
             )

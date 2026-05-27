@@ -107,6 +107,12 @@ export function mapAirtableToContent(
 
   return {
     slug,
+    templateType: 'pitch',
+    sections: [
+      'hero', 'mediaBlock', 'problemSection', 'valueProposition',
+      'partnerLogos', 'services', 'process', 'testimonials',
+      'caseStudies', 'nextSteps', 'ctaSection', 'faq',
+    ],
     meta: {
       title: `${companyName} — ${cp['CTA Text'] ?? cf['Campaign Name'] ?? ''}`,
       description: cp['Outcome Statement'] ?? cp['Problem Statement'] ?? '',

@@ -18,7 +18,7 @@
   },
   "hero": {
     "headline": "Automate Everything. Focus on What Matters.",
-    "subheadline": "AcmeCorp uses advanced AI to eliminate repetitive workflows, reduce errors by 90%, and give your team back 20+ hours per week.",
+    "subheadline": "Ryzo uses advanced AI to eliminate repetitive workflows, reduce errors by 90%, and give your team back 20+ hours per week.",
     "cta": { "label": "Start Your Free Trial", "href": "#cta" },
     "socialProof": "Trusted by 2,000+ teams at companies like Stripe, Notion, and Linear"
   },
@@ -51,7 +51,7 @@
   "valueProposition": {
     "eyebrow": "The Solution",
     "headline": "One platform to automate your entire operation",
-    "body": "AcmeCorp connects your existing tools — Slack, Notion, Salesforce, and 200+ others — and automates the workflows between them. No code required. Setup takes minutes, not months.\n\nOur AI learns your team's patterns and proactively suggests new automations, so you get smarter over time without lifting a finger."
+    "body": "Ryzo connects your existing tools — Slack, Notion, Salesforce, and 200+ others — and automates the workflows between them. No code required. Setup takes minutes, not months.\n\nOur AI learns your team's patterns and proactively suggests new automations, so you get smarter over time without lifting a finger."
   },
   "partnerLogos": {
     "eyebrow": "Integrates with your existing stack",
@@ -105,7 +105,7 @@
   },
   "testimonials": {
     "eyebrow": "What Our Customers Say",
-    "headline": "Teams love AcmeCorp",
+    "headline": "Teams love Ryzo",
     "items": [
       {
         "quote": "We automated our entire onboarding process in a weekend. New hires now get set up in 20 minutes instead of 3 days. The ROI was immediate.",
@@ -114,7 +114,7 @@
         "company": "Stripe"
       },
       {
-        "quote": "AcmeCorp eliminated 15 hours of weekly manual work for our sales team. They can now focus on closing deals instead of updating spreadsheets.",
+        "quote": "Ryzo eliminated 15 hours of weekly manual work for our sales team. They can now focus on closing deals instead of updating spreadsheets.",
         "name": "Marcus Johnson",
         "title": "VP of Sales",
         "company": "Notion"
@@ -132,13 +132,13 @@
         "company": "Figma"
       },
       {
-        "quote": "We tried four other automation tools before AcmeCorp. Nothing else comes close in terms of reliability and ease of use.",
+        "quote": "We tried four other automation tools before Ryzo. Nothing else comes close in terms of reliability and ease of use.",
         "name": "Emily Torres",
         "title": "Product Manager",
         "company": "Vercel"
       },
       {
-        "quote": "Error rates in our data pipeline dropped 94% after implementing AcmeCorp. Our data team can finally sleep soundly.",
+        "quote": "Error rates in our data pipeline dropped 94% after implementing Ryzo. Our data team can finally sleep soundly.",
         "name": "David Kim",
         "title": "Data Engineering Lead",
         "company": "Airbnb"
@@ -152,7 +152,7 @@
       {
         "title": "Stripe cuts onboarding time by 85%",
         "resultStat": "85% faster onboarding",
-        "description": "Stripe used AcmeCorp to automate their 47-step employee onboarding process, reducing average completion time from 3 days to under 4 hours.",
+        "description": "Stripe used Ryzo to automate their 47-step employee onboarding process, reducing average completion time from 3 days to under 4 hours.",
         "link": { "label": "Read case study", "href": "#" }
       },
       {
@@ -179,7 +179,7 @@
       },
       {
         "title": "Book a Demo",
-        "description": "See AcmeCorp in action with a personalized 30-minute walkthrough from one of our automation experts."
+        "description": "See Ryzo in action with a personalized 30-minute walkthrough from one of our automation experts."
       },
       {
         "title": "Explore Templates",
@@ -189,7 +189,7 @@
   },
   "ctaSection": {
     "headline": "Ready to get your time back?",
-    "subheadline": "Join 2,000+ teams saving an average of 20 hours per week with AcmeCorp. Start free today.",
+    "subheadline": "Join 2,000+ teams saving an average of 20 hours per week with Ryzo. Start free today.",
     "cta": { "label": "Start Free Trial — No Card Needed", "href": "#" }
   },
   "faq": {
@@ -202,7 +202,7 @@
       },
       {
         "question": "Do I need to know how to code?",
-        "answer": "Not at all. AcmeCorp is designed for non-technical users. Our drag-and-drop editor lets you build complex automations without writing a single line of code. For advanced users, we also offer a JavaScript sandbox for custom logic."
+        "answer": "Not at all. Ryzo is designed for non-technical users. Our drag-and-drop editor lets you build complex automations without writing a single line of code. For advanced users, we also offer a JavaScript sandbox for custom logic."
       },
       {
         "question": "Which tools and apps do you integrate with?",
@@ -214,7 +214,7 @@
       },
       {
         "question": "What happens if an automation fails?",
-        "answer": "AcmeCorp automatically retries failed automations with exponential backoff. You'll receive an immediate notification with a detailed error log. Our step-through debugger lets you see exactly where the failure occurred and re-run from that point after you fix the issue."
+        "answer": "Ryzo automatically retries failed automations with exponential backoff. You'll receive an immediate notification with a detailed error log. Our step-through debugger lets you see exactly where the failure occurred and re-run from that point after you fix the issue."
       },
       {
         "question": "Can I try it for free?",

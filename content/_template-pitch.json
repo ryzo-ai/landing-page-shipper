@@ -1,0 +1,161 @@
+{
+  "slug": "_template-pitch",
+  "templateType": "pitch",
+  "sections": ["hero", "problemSection", "valueProposition", "services", "process", "testimonials", "ctaSection", "faq"],
+  "meta": {
+    "title": "Campaign Title — Ryzo",
+    "description": "One-sentence campaign description for search and social sharing."
+  },
+  "navbar": {
+    "logo": { "text": "Ryzo" },
+    "cta": { "label": "Book a call", "href": "#cta" }
+  },
+  "hero": {
+    "headline": "Stop paying SaaS tax on your growth",
+    "subheadline": "Ryzo deploys an agent-led GTM system that replaces your tool stack and generates pipeline in 90 days.",
+    "cta": { "label": "Book your pipeline audit", "href": "#cta" },
+    "socialProof": "Trusted by B2B scale-ups across Europe"
+  },
+  "problemSection": {
+    "eyebrow": "The problem",
+    "headline": "Your GTM stack is expensive and disconnected",
+    "cards": [
+      {
+        "icon": "M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z",
+        "title": "SaaS tax eating your margin",
+        "description": "The average B2B scale-up pays €8k–€20k/month for tools that don't talk to each other. You pay for ZoomInfo, Outreach, Clay, and HubSpot — and still don't have a predictable pipeline."
+      },
+      {
+        "icon": "M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z",
+        "title": "Outbound that doesn't scale",
+        "description": "Manual sequences burn your domain reputation. Without AI-native personalization and signal-based targeting, your reply rates drop every quarter."
+      },
+      {
+        "icon": "M13 10V3L4 14h7v7l9-11h-7z",
+        "title": "CRM that nobody trusts",
+        "description": "Dirty data, manual entry, and no lifecycle enforcement mean your pipeline report is a guess. Leadership makes decisions on fiction."
+      }
+    ]
+  },
+  "valueProposition": {
+    "eyebrow": "The solution",
+    "headline": "Map. Deploy. Operate.",
+    "body": "Ryzo overlays an agent-led GTM system on your existing team. We map your revenue gaps, deploy the right systems for each layer (outbound, performance, RevOps), and operate them as a managed service.\n\nYou don't hire. You don't buy more tools. You get a complete GTM system that runs, learns, and compounds."
+  },
+  "services": {
+    "eyebrow": "Three capabilities",
+    "headline": "Neither alone is enough",
+    "cards": [
+      {
+        "icon": "M12 19l9 2-9-18-9 18 9-2zm0 0v-8",
+        "title": "OutboundOS",
+        "description": "Agent-led outbound with ICP research, signal monitoring, multi-channel sequencing, and inbox management. Runs without an SDR headcount.",
+        "link": { "label": "Learn more", "href": "https://ryzo.nl/outbound" }
+      },
+      {
+        "icon": "M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z",
+        "title": "PerformanceOS",
+        "description": "Paid acquisition managed end-to-end across Google, LinkedIn, and Meta. Creative strategy, media buying, and conversion tracking — no agency retainer required.",
+        "link": { "label": "Learn more", "href": "https://ryzo.nl/performance" }
+      },
+      {
+        "icon": "M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15",
+        "title": "RevOS",
+        "description": "HubSpot or Attio implementation with lifecycle stages, lead scoring, pipeline automation, and weekly RevOps coaching. Your CRM becomes a revenue system.",
+        "link": { "label": "Learn more", "href": "https://ryzo.nl/revops" }
+      }
+    ]
+  },
+  "process": {
+    "eyebrow": "How we work",
+    "headline": "Live in 90 days",
+    "steps": [
+      {
+        "title": "GTM Audit",
+        "description": "We map your ICP, current stack, pipeline gaps, and competitive positioning. Deliverable: a written GTM blueprint in week two."
+      },
+      {
+        "title": "System Design",
+        "description": "We design your agent-led GTM stack: which OS layers you need, which tools we replace, how the systems connect."
+      },
+      {
+        "title": "Deploy",
+        "description": "We build and launch your OutboundOS sequences, PerformanceOS campaigns, and RevOS configuration. You review; we operate."
+      },
+      {
+        "title": "Operate & Optimise",
+        "description": "Ongoing management, weekly reporting, and quarterly strategy reviews. The system compounds as it learns your market."
+      }
+    ]
+  },
+  "testimonials": {
+    "eyebrow": "What clients say",
+    "headline": "Results, not promises",
+    "items": [
+      {
+        "quote": "Ryzo mapped our GTM gaps in week one and had outbound running by week three. We closed two deals from the first sequence.",
+        "name": "Founder",
+        "title": "CEO",
+        "company": "SaaS scale-up"
+      },
+      {
+        "quote": "We replaced three vendors and a contractor. Ryzo costs less and produces more pipeline.",
+        "name": "Founder",
+        "title": "CCO",
+        "company": "B2B services firm"
+      },
+      {
+        "quote": "The RevOS implementation cleaned up our HubSpot and gave us actual pipeline visibility for the first time.",
+        "name": "Founder",
+        "title": "VP Revenue",
+        "company": "Series A SaaS"
+      }
+    ]
+  },
+  "ctaSection": {
+    "headline": "Ready to deploy your GTM system?",
+    "subheadline": "Book a 30-minute pipeline audit. We'll map your gaps and show you what an agent-led system looks like for your business.",
+    "cta": { "label": "Book your pipeline audit", "href": "https://ryzo.nl/contact" }
+  },
+  "faq": {
+    "eyebrow": "FAQ",
+    "headline": "Common questions",
+    "items": [
+      {
+        "question": "How is Ryzo different from a growth agency?",
+        "answer": "Traditional agencies sell hours. Ryzo deploys systems. We replace your tool stack with agent-led infrastructure and operate it — so results compound instead of resetting every retainer cycle."
+      },
+      {
+        "question": "Do we need to replace our existing tools?",
+        "answer": "Sometimes yes, sometimes no. We audit your stack in week one and identify which tools to keep, which to replace, and which to consolidate. We'll never recommend a change without clear ROI justification."
+      },
+      {
+        "question": "How long until we see results?",
+        "answer": "OutboundOS typically generates first replies in week three. PerformanceOS campaigns launch in week four. RevOS pipeline data improves progressively over the first 60 days as scoring and lifecycle enforcement kick in."
+      },
+      {
+        "question": "What does Ryzo cost?",
+        "answer": "Pricing depends on which OS layers you need and your pipeline targets. Most clients invest €5k–€15k/month — typically less than their current disconnected tool stack. Book an audit to get a scoped proposal."
+      },
+      {
+        "question": "Do we need an in-house sales or marketing team?",
+        "answer": "No. Ryzo is designed to run without in-house specialists. You provide market knowledge and approve strategy; we build and operate the system. That said, we work well alongside existing teams too."
+      },
+      {
+        "question": "Which CRMs do you work with?",
+        "answer": "We specialise in HubSpot and Attio. If you're on Salesforce or another platform, book an audit — we'll tell you honestly whether we can serve you well."
+      }
+    ]
+  },
+  "footer": {
+    "logo": { "text": "Ryzo" },
+    "links": [
+      { "label": "Website", "href": "https://ryzo.nl" },
+      { "label": "Privacy", "href": "https://ryzo.nl/privacy" }
+    ],
+    "socialLinks": [
+      { "platform": "linkedin", "href": "https://linkedin.com/company/ryzo" }
+    ],
+    "copyright": "© 2026 Ryzo. All rights reserved."
+  }
+}

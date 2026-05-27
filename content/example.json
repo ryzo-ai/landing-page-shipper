@@ -1,9 +1,10 @@
 {
   "slug": "example",
+  "templateType": "pitch",
+  "sections": ["hero", "mediaBlock", "problemSection", "valueProposition", "partnerLogos", "services", "process", "testimonials", "caseStudies", "nextSteps", "ctaSection", "faq"],
   "meta": {
-    "title": "AcmeCorp — AI-Powered Workflow Automation",
-    "description": "Stop wasting time on manual processes. AcmeCorp automates your entire workflow so your team can focus on what matters most.",
-    "ogImage": "/og-image.png"
+    "title": "Example — Landing Page Builder (Ryzo)",
+    "description": "Full section showcase for the Ryzo landing page builder."
   },
   "navbar": {
     "logo": { "text": "AcmeCorp" },

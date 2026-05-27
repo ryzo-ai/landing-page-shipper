@@ -1,0 +1,56 @@
+{
+  "slug": "_template-sprint",
+  "templateType": "sprint",
+  "sections": ["hero", "partnerLogos", "testimonials", "ctaSection"],
+  "meta": {
+    "title": "Campaign Title — Ryzo",
+    "description": "One-sentence campaign description for search and social sharing."
+  },
+  "navbar": {
+    "logo": { "text": "Ryzo" },
+    "cta": { "label": "Book a call", "href": "#cta" }
+  },
+  "hero": {
+    "headline": "Stop paying SaaS tax on your growth",
+    "subheadline": "Ryzo deploys an agent-led GTM system that replaces your tool stack and generates pipeline in 90 days.",
+    "cta": { "label": "Book your pipeline audit", "href": "#cta" },
+    "socialProof": "Trusted by B2B scale-ups across Europe"
+  },
+  "partnerLogos": {
+    "eyebrow": "Clients we've deployed for",
+    "logos": []
+  },
+  "testimonials": {
+    "eyebrow": "What clients say",
+    "headline": "Results, not promises",
+    "items": [
+      {
+        "quote": "Ryzo mapped our GTM gaps in week one and had outbound running by week three. We closed two deals from the first sequence.",
+        "name": "Founder",
+        "title": "CEO",
+        "company": "SaaS scale-up"
+      },
+      {
+        "quote": "We replaced three vendors and a contractor. Ryzo costs less and produces more pipeline.",
+        "name": "Founder",
+        "title": "CCO",
+        "company": "B2B services firm"
+      },
+      {
+        "quote": "The RevOS implementation cleaned up our HubSpot and gave us actual pipeline visibility for the first time.",
+        "name": "Founder",
+        "title": "VP Revenue",
+        "company": "Series A SaaS"
+      }
+    ]
+  },
+  "ctaSection": {
+    "headline": "Ready to deploy your GTM system?",
+    "subheadline": "Book a 30-minute pipeline audit. We'll map your gaps and show you what an agent-led system looks like for your business.",
+    "cta": { "label": "Book your pipeline audit", "href": "https://ryzo.nl/contact" }
+  },
+  "footer": {
+    "logo": { "text": "Ryzo" },
+    "copyright": "© 2026 Ryzo. All rights reserved."
+  }
+}

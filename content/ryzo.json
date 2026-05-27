@@ -1,5 +1,7 @@
 {
   "slug": "ryzo",
+  "templateType": "pitch",
+  "sections": ["hero", "mediaBlock", "problemSection", "valueProposition", "partnerLogos", "services", "process", "testimonials", "caseStudies", "nextSteps", "ctaSection", "faq"],
   "meta": {
     "title": "Ryzo Revenue Operations B.V. — Apply for Your Free Revenue Audit →",
     "description": "We build workflows that find and convert buying intent, re-engage cold leads, and install everything inside your business so you own the data, tools, and workflows — freeing reps to focus on closing."

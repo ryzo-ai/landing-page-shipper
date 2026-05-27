@@ -1,5 +1,7 @@
 {
   "slug": "buy-off-your-guilt",
+  "templateType": "pitch",
+  "sections": ["hero", "mediaBlock", "problemSection", "valueProposition", "partnerLogos", "services", "process", "testimonials", "caseStudies", "nextSteps", "ctaSection", "faq"],
   "meta": {
     "title": "Buy Off Your Guilt — 100 charities, 1 donation",
     "description": "Because confessing is harder. Spread one donation across 100 hand-picked charities and feel measurably better about being human.",

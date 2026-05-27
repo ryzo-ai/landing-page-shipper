@@ -1,5 +1,7 @@
 {
   "slug": "carbon-equity",
+  "templateType": "pitch",
+  "sections": ["hero", "mediaBlock", "problemSection", "valueProposition", "partnerLogos", "services", "process", "testimonials", "caseStudies", "nextSteps", "ctaSection", "faq"],
   "meta": {
     "title": "The Brains Behind the Grid — Carbon Equity",
     "description": "AI is rewiring the energy grid. Join Carbon Equity for a 2-hour deep dive on the climate tech companies funding what comes next. April 22, 2026, 18:00 CET, online.",

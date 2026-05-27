@@ -8,12 +8,12 @@
   },
   "navbar": {
     "logo": { "text": "Ryzo" },
-    "cta": { "label": "Schedule a demo", "href": "#cta" }
+    "cta": { "label": "Schedule a demo", "href": "https://calendar.app.google/Vto1WDyCoDXnmtRs9" }
   },
   "hero": {
     "headline": "You've cracked the cell chemistry. Now crack commercial go-to-market.",
     "subheadline": "Ryzo deploys an AI-native GTM system that builds pipeline to utilities, grid operators, and OEMs — without an SDR team or another tool subscription.",
-    "cta": { "label": "Schedule a 30-min demo", "href": "#cta" },
+    "cta": { "label": "Schedule a 30-min demo", "href": "https://calendar.app.google/Vto1WDyCoDXnmtRs9" },
     "socialProof": "Trusted by B2B scale-ups across Europe"
   },
   "problemSection": {
@@ -115,7 +115,7 @@
   "ctaSection": {
     "headline": "Ready to build a commercial motion that matches your technology?",
     "subheadline": "Schedule a 30-minute demo. We'll map your GTM gaps and show you what an agent-led system looks like for your market.",
-    "cta": { "label": "Schedule a 30-min demo", "href": "https://ryzo.nl/contact" }
+    "cta": { "label": "Schedule a 30-min demo", "href": "https://calendar.app.google/Vto1WDyCoDXnmtRs9" }
   },
   "faq": {
     "eyebrow": "FAQ",

@@ -5,13 +5,24 @@ import path from 'path'
 import { LandingPageContent } from '../../../types/content'
 import LandingPage from '../../../components/LandingPage'
 
+// Only serve slugs that were known at build time — blocks dynamic traversal attempts
+export const dynamicParams = false
+
 interface PageProps {
   params: Promise<{ slug: string }>
 }
 
 function readContent(slug: string): LandingPageContent | null {
+  // Allowlist: slugs may only contain letters, digits, and hyphens
+  if (!/^[a-z0-9-]+$/i.test(slug)) return null
+
+  const base = path.resolve(process.cwd(), 'content', 'lp')
+  const filePath = path.resolve(base, `${slug}.json`)
+
+  // Belt-and-suspenders: confirm resolved path stays inside content/lp/
+  if (!filePath.startsWith(base + path.sep)) return null
+
   try {
-    const filePath = path.join(process.cwd(), 'content', 'lp', `${slug}.json`)
     const raw = fs.readFileSync(filePath, 'utf-8')
     return JSON.parse(raw) as LandingPageContent
   } catch {

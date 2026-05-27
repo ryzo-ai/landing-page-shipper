@@ -1,14 +1,24 @@
 export interface NavLink { label: string; href: string }
 export interface NavbarContent {
   logo: { text: string; imageSrc?: string; imageAlt?: string }
-  links: NavLink[]
+  links?: NavLink[]
   cta: { label: string; href: string }
 }
 export interface HeroContent {
   headline: string
   subheadline: string
   cta: { label: string; href: string }
-  socialProof: string
+  socialProof?: string
+  backgroundImage?: {
+    src: string
+    alt: string
+    overlayOpacity?: number
+  }
+  backgroundVideo?: {
+    src: string
+    poster?: string
+    overlayOpacity?: number
+  }
 }
 export interface MediaBlockContent {
   type: 'image' | 'video' | 'placeholder'
@@ -89,7 +99,7 @@ export interface FAQItem { question: string; answer: string }
 export interface FAQContent {
   eyebrow?: string
   headline: string
-  items: [FAQItem, FAQItem, FAQItem, FAQItem, FAQItem, FAQItem]
+  items: FAQItem[]
 }
 export interface SocialLink {
   platform: 'twitter' | 'linkedin' | 'github' | 'youtube' | 'instagram'
@@ -97,26 +107,44 @@ export interface SocialLink {
 }
 export interface FooterContent {
   logo: { text: string; imageSrc?: string; imageAlt?: string }
-  links: NavLink[]
-  socialLinks: SocialLink[]
+  links?: NavLink[]
+  socialLinks?: SocialLink[]
   copyright: string
 }
 export interface PageMeta { title: string; description: string; ogImage?: string }
+
+export type SectionKey =
+  | 'hero'
+  | 'mediaBlock'
+  | 'problemSection'
+  | 'valueProposition'
+  | 'partnerLogos'
+  | 'services'
+  | 'process'
+  | 'testimonials'
+  | 'caseStudies'
+  | 'nextSteps'
+  | 'ctaSection'
+  | 'faq'
+
 export interface LandingPageContent {
   slug: string
+  templateType: 'sprint' | 'pitch'
+  /** Ordered list of sections to render. Navbar and Footer are always rendered. */
+  sections: SectionKey[]
   meta: PageMeta
   navbar: NavbarContent
-  hero: HeroContent
-  mediaBlock: MediaBlockContent
-  problemSection: ProblemSectionContent
-  valueProposition: ValuePropositionContent
-  partnerLogos: PartnerLogosContent
-  services: ServicesContent
-  process: ProcessContent
-  testimonials: TestimonialsContent
-  caseStudies: CaseStudiesContent
-  nextSteps: NextStepsContent
-  ctaSection: CTASectionContent
-  faq: FAQContent
   footer: FooterContent
+  hero?: HeroContent
+  mediaBlock?: MediaBlockContent
+  problemSection?: ProblemSectionContent
+  valueProposition?: ValuePropositionContent
+  partnerLogos?: PartnerLogosContent
+  services?: ServicesContent
+  process?: ProcessContent
+  testimonials?: TestimonialsContent
+  caseStudies?: CaseStudiesContent
+  nextSteps?: NextStepsContent
+  ctaSection?: CTASectionContent
+  faq?: FAQContent
 }

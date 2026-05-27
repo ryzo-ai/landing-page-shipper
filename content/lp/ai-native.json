@@ -1,0 +1,161 @@
+{
+  "slug": "lp/ai-native",
+  "templateType": "pitch",
+  "sections": ["hero", "problemSection", "valueProposition", "services", "process", "testimonials", "ctaSection", "faq"],
+  "meta": {
+    "title": "AI-native GTM for energy & battery companies — Ryzo",
+    "description": "Ryzo deploys an agent-led GTM system that builds pipeline to utilities, grid operators, and OEMs — without hiring an SDR team or adding more tools."
+  },
+  "navbar": {
+    "logo": { "text": "Ryzo" },
+    "cta": { "label": "Schedule a demo", "href": "#cta" }
+  },
+  "hero": {
+    "headline": "You've cracked the cell chemistry. Now crack commercial go-to-market.",
+    "subheadline": "Ryzo deploys an AI-native GTM system that builds pipeline to utilities, grid operators, and OEMs — without an SDR team or another tool subscription.",
+    "cta": { "label": "Schedule a 30-min demo", "href": "#cta" },
+    "socialProof": "Trusted by B2B scale-ups across Europe"
+  },
+  "problemSection": {
+    "eyebrow": "The problem",
+    "headline": "Great technology stalls on broken go-to-market",
+    "cards": [
+      {
+        "icon": "M9 17v-2m3 2v-4m3 4v-6m2 10H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z",
+        "title": "No pipeline visibility on 12-month cycles",
+        "description": "Selling to utilities, grid operators, and OEMs means cycles of 12–18 months. Without a proper CRM and lifecycle enforcement, you don't know where deals stall or why they go cold."
+      },
+      {
+        "icon": "M4 7v10c0 2.21 3.582 4 8 4s8-1.79 8-4V7M4 7c0 2.21 3.582 4 8 4s8-1.79 8-4M4 7c0-2.21 3.582-4 8-4s8 4 8 4m-4 5.001v-.001",
+        "title": "Tool jungle with no signal",
+        "description": "LinkedIn outreach from personal inboxes, a CRM nobody updates, cold email that burns your domain. You have the tools — you just don't have a system connecting them."
+      },
+      {
+        "icon": "M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0z",
+        "title": "Technical team, no commercial playbook",
+        "description": "You know how your technology works. No one on the team has built a repeatable outbound motion to procurement leads, sustainability directors, or engineering buyers at scale."
+      }
+    ]
+  },
+  "valueProposition": {
+    "eyebrow": "The solution",
+    "headline": "Map. Deploy. Operate.",
+    "body": "Ryzo overlays an agent-led GTM system on your existing team. We map your ICP across the energy value chain — utilities, grid operators, EV manufacturers, industrial buyers — deploy the right outbound and inbound systems, and operate them as a managed service.\n\nYou don't hire a sales team. You don't buy more tools. You get a complete commercial motion that runs, learns your market, and compounds over time."
+  },
+  "services": {
+    "eyebrow": "Three capabilities",
+    "headline": "The full commercial stack — without the headcount",
+    "cards": [
+      {
+        "icon": "M12 19l9 2-9-18-9 18 9-2zm0 0v-8",
+        "title": "OutboundOS",
+        "description": "AI-native outbound targeting procurement leads, sustainability directors, and engineering buyers at utilities, OEMs, and grid operators. ICP research, signal monitoring, multi-channel sequences — no SDR headcount required.",
+        "link": { "label": "Learn more", "href": "https://ryzo.nl/outbound" }
+      },
+      {
+        "icon": "M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z",
+        "title": "PerformanceOS",
+        "description": "Paid acquisition on LinkedIn and Google targeting the right decision-makers in the energy transition. Creative strategy, media buying, and conversion tracking — without an agency retainer.",
+        "link": { "label": "Learn more", "href": "https://ryzo.nl/performance" }
+      },
+      {
+        "icon": "M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15",
+        "title": "RevOS",
+        "description": "HubSpot implementation built for long B2B cycles — 12–18 month deal stages, multi-stakeholder tracking, pipeline forecasting, and weekly RevOps coaching. Your CRM becomes a revenue system.",
+        "link": { "label": "Learn more", "href": "https://ryzo.nl/revops" }
+      }
+    ]
+  },
+  "process": {
+    "eyebrow": "How we work",
+    "headline": "Live in 90 days",
+    "steps": [
+      {
+        "title": "GTM Audit",
+        "description": "We map your ICP across the energy value chain, review your current stack and outbound motion, and identify the highest-leverage pipeline gaps. Deliverable: written GTM blueprint in week two."
+      },
+      {
+        "title": "System Design",
+        "description": "We design your agent-led GTM stack — which OS layers you need, which tools to replace or consolidate, and how to connect outbound, performance, and RevOps into one system."
+      },
+      {
+        "title": "Deploy",
+        "description": "We build and launch your OutboundOS sequences, PerformanceOS campaigns, and RevOS configuration. You review the strategy; we operate the execution."
+      },
+      {
+        "title": "Operate & Optimise",
+        "description": "Ongoing management, weekly pipeline reporting, and quarterly strategy reviews. The system compounds as it learns your market and the buying signals in your sector."
+      }
+    ]
+  },
+  "testimonials": {
+    "eyebrow": "What clients say",
+    "headline": "Results, not promises",
+    "items": [
+      {
+        "quote": "Ryzo mapped our GTM gaps in week one and had outbound running by week three. We closed two deals from the first sequence.",
+        "name": "Founder",
+        "title": "CEO",
+        "company": "B2B scale-up"
+      },
+      {
+        "quote": "We replaced three vendors and a contractor. Ryzo costs less and produces more pipeline than anything we had before.",
+        "name": "Founder",
+        "title": "CCO",
+        "company": "B2B services firm"
+      },
+      {
+        "quote": "The RevOS implementation gave us actual pipeline visibility for the first time. We finally know where deals are and why they move.",
+        "name": "Founder",
+        "title": "VP Revenue",
+        "company": "Series A SaaS"
+      }
+    ]
+  },
+  "ctaSection": {
+    "headline": "Ready to build a commercial motion that matches your technology?",
+    "subheadline": "Schedule a 30-minute demo. We'll map your GTM gaps and show you what an agent-led system looks like for your market.",
+    "cta": { "label": "Schedule a 30-min demo", "href": "https://ryzo.nl/contact" }
+  },
+  "faq": {
+    "eyebrow": "FAQ",
+    "headline": "Common questions",
+    "items": [
+      {
+        "question": "Do you work with cleantech and energy companies specifically?",
+        "answer": "Yes. We've built GTM systems for B2B companies with long, complex sales cycles — including those selling to utilities, grid operators, and industrial buyers. The ICP research, sequencing, and CRM configuration are tailored to your specific buyer landscape."
+      },
+      {
+        "question": "Our sales cycle is 12–18 months. Can GTM automation actually help?",
+        "answer": "Especially then. Long cycles don't mean slow starts — they mean you need more leads entering the top of the funnel consistently, better multi-stakeholder tracking, and clear pipeline visibility. OutboundOS and RevOS are built for exactly this."
+      },
+      {
+        "question": "We're a technical team — we don't have a sales or marketing function.",
+        "answer": "That's exactly who Ryzo is built for. You provide market knowledge and approve strategy; we design and operate the commercial system. Most clients run a full GTM motion without hiring a single salesperson."
+      },
+      {
+        "question": "How is Ryzo different from hiring an agency?",
+        "answer": "Agencies sell hours and deliverables. Ryzo deploys systems that run continuously. We replace your tool stack with agent-led infrastructure and operate it — so results compound instead of resetting every retainer cycle."
+      },
+      {
+        "question": "What does it cost?",
+        "answer": "Pricing depends on which OS layers you need and your pipeline targets. Most clients invest €5k–€15k/month — typically less than their current disconnected tool stack. Book a demo and we'll scope it against your specific situation."
+      },
+      {
+        "question": "We're not based in the Netherlands — does that matter?",
+        "answer": "Not at all. We work with B2B scale-ups across Europe. The GTM system, outbound sequences, and RevOps configuration are fully remote and language-adaptable."
+      }
+    ]
+  },
+  "footer": {
+    "logo": { "text": "Ryzo" },
+    "links": [
+      { "label": "Website", "href": "https://ryzo.nl" },
+      { "label": "Privacy", "href": "https://ryzo.nl/privacy" }
+    ],
+    "socialLinks": [
+      { "platform": "linkedin", "href": "https://linkedin.com/company/ryzo" }
+    ],
+    "copyright": "© 2026 Ryzo. All rights reserved."
+  }
+}

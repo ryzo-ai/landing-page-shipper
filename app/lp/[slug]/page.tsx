@@ -2,8 +2,8 @@ import { notFound } from 'next/navigation'
 import { Metadata } from 'next'
 import fs from 'fs'
 import path from 'path'
-import { LandingPageContent } from '../../types/content'
-import LandingPage from '../../components/LandingPage'
+import { LandingPageContent } from '../../../types/content'
+import LandingPage from '../../../components/LandingPage'
 
 interface PageProps {
   params: Promise<{ slug: string }>
@@ -11,7 +11,7 @@ interface PageProps {
 
 function readContent(slug: string): LandingPageContent | null {
   try {
-    const filePath = path.join(process.cwd(), 'content', `${slug}.json`)
+    const filePath = path.join(process.cwd(), 'content', 'lp', `${slug}.json`)
     const raw = fs.readFileSync(filePath, 'utf-8')
     return JSON.parse(raw) as LandingPageContent
   } catch {
@@ -21,7 +21,7 @@ function readContent(slug: string): LandingPageContent | null {
 
 export async function generateStaticParams() {
   try {
-    const contentDir = path.join(process.cwd(), 'content')
+    const contentDir = path.join(process.cwd(), 'content', 'lp')
     const files = fs.readdirSync(contentDir)
     return files
       .filter((f) => f.endsWith('.json'))

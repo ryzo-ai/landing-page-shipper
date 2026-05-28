@@ -150,12 +150,16 @@
   "footer": {
     "logo": { "text": "Ryzo" },
     "links": [
-      { "label": "Website", "href": "https://ryzo.nl" },
-      { "label": "Privacy", "href": "https://ryzo.nl/privacy" }
+      { "label": "Services", "href": "https://ryzo.nl/services" },
+      { "label": "Blog", "href": "https://ryzo.nl/blog" },
+      { "label": "Contact", "href": "https://ryzo.nl/contact" },
+      { "label": "Privacy", "href": "https://ryzo.nl/privacy" },
+      { "label": "Terms", "href": "https://ryzo.nl/terms" }
     ],
     "socialLinks": [
-      { "platform": "linkedin", "href": "https://linkedin.com/company/ryzo" }
+      { "platform": "linkedin", "href": "https://www.linkedin.com/company/ryzo-revops/" },
+      { "platform": "instagram", "href": "https://www.instagram.com/ryzo.revops" }
     ],
-    "copyright": "© 2026 Ryzo. All rights reserved."
+    "copyright": "© 2026 Ryzo Revenue Operations B.V. All rights reserved."
   }
 }

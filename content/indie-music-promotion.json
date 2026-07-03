@@ -7,7 +7,7 @@
     "description": "Get your indie music heard on real Spotify playlists. Verified curators, transparent results, pay per campaign. No bots, no fake streams, no subscription."
   },
   "navbar": {
-    "logo": { "text": "Playlist Push" },
+    "logo": { "text": "Playlist Push", "showMark": false },
     "cta": { "label": "Start your campaign", "href": "#cta" }
   },
   "hero": {
@@ -116,7 +116,7 @@
     ]
   },
   "footer": {
-    "logo": { "text": "Playlist Push" },
+    "logo": { "text": "Playlist Push", "showMark": false },
     "links": [
       { "label": "Website", "href": "https://playlistpush.com" },
       { "label": "Privacy", "href": "https://playlistpush.com/privacy" }

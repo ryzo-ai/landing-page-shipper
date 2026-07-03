@@ -1,31 +1,24 @@
 @import "tailwindcss";
 
-/* ── Ryzo brand tokens ─────────────────────────── */
-:root {
-  --brand-orange:  #E0621A;
-  --bg-primary:    #F2EDE8;
-  --bg-dark:       #2D2926;
-  --bg-highlight:  #231F1C;
-  --text-primary:  #3B3536;
-  --text-inverse:  #F2EDE8;
-}
-
-/* ── Tailwind font utilities (Tailwind v4 @theme inline) ── */
+/* ── Tailwind font utilities (Tailwind v4 @theme inline) ──
+   Aliases the theme-engine's --font-body / --font-heading custom
+   properties (injected at :root by app/layout.tsx from theme.config.ts)
+   into Tailwind's font-body / font-heading utility classes. ── */
 @theme inline {
-  --font-albra: var(--font-albra);
-  --font-geist: var(--font-geist);
+  --font-heading: var(--font-heading);
+  --font-body: var(--font-body);
 }
 
 /* ── Base element styles ─────────────────────────── */
 @layer base {
   body {
-    background-color: var(--bg-primary);
-    color: var(--text-primary);
-    font-family: var(--font-geist), system-ui, sans-serif;
+    background-color: var(--color-background);
+    color: var(--color-text-primary);
+    font-family: var(--font-body);
   }
 
   h1, h2, h3, h4, h5, h6 {
-    font-family: var(--font-albra), Georgia, serif;
+    font-family: var(--font-heading);
     font-weight: 700;
   }
 

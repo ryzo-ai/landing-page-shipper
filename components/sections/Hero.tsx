@@ -12,7 +12,7 @@ export default function Hero({ content }: { content: HeroContent }) {
     0
 
   return (
-    <section className="relative flex flex-col items-start justify-center min-h-screen text-left px-6 pt-24 pb-16 bg-[#F2EDE8] overflow-hidden">
+    <section className="relative flex flex-col items-start justify-center min-h-screen text-left px-6 pt-24 pb-16 bg-[var(--color-background)] overflow-hidden">
       {/* Background video */}
       {content.backgroundVideo && (
         <video
@@ -43,7 +43,7 @@ export default function Hero({ content }: { content: HeroContent }) {
         <div
           className="absolute inset-0 pointer-events-none"
           aria-hidden="true"
-          style={{ background: 'linear-gradient(90deg, rgba(45,41,38,0.55) 0%, rgba(45,41,38,0.2) 50%, transparent 75%)' }}
+          style={{ background: 'linear-gradient(90deg, color-mix(in srgb, var(--color-text-primary) 55%, transparent) 0%, color-mix(in srgb, var(--color-text-primary) 20%, transparent) 50%, transparent 75%)' }}
         />
       )}
 
@@ -52,7 +52,7 @@ export default function Hero({ content }: { content: HeroContent }) {
         <div
           className="absolute inset-0 pointer-events-none"
           aria-hidden="true"
-          style={{ background: `rgba(45,41,38,${overlayOpacity})` }}
+          style={{ background: `color-mix(in srgb, var(--color-text-primary) ${overlayOpacity * 100}%, transparent)` }}
         />
       )}
 
@@ -63,16 +63,16 @@ export default function Hero({ content }: { content: HeroContent }) {
         className="relative z-10 w-full max-w-4xl"
       >
         <h1
-          className={`font-albra font-bold text-[clamp(42px,7.5vw,92px)] leading-[1.02] tracking-tight mb-6 ${
-            hasMedia ? 'text-[#F2EDE8]' : 'text-[#333]'
+          className={`font-heading font-bold text-[clamp(42px,7.5vw,92px)] leading-[1.02] tracking-tight mb-6 ${
+            hasMedia ? 'text-[var(--color-background)]' : 'text-[var(--color-text-primary)]'
           }`}
         >
           {content.headline}
         </h1>
 
         <p
-          className={`font-geist text-lg sm:text-xl max-w-lg mb-8 leading-relaxed ${
-            hasMedia ? 'text-[#F2EDE8]/80' : 'text-[#2D2926]/55'
+          className={`font-body text-lg sm:text-xl max-w-lg mb-8 leading-relaxed ${
+            hasMedia ? 'text-[var(--color-background)]/80' : 'text-[var(--color-text-secondary)]'
           }`}
         >
           {content.subheadline}
@@ -85,7 +85,7 @@ export default function Hero({ content }: { content: HeroContent }) {
         </div>
 
         {content.socialProof && (
-          <p className={`font-geist text-sm ${hasMedia ? 'text-[#F2EDE8]/55' : 'text-[#2D2926]/30'}`}>
+          <p className={`font-body text-sm ${hasMedia ? 'text-[var(--color-background)]/55' : 'text-[var(--color-text-muted)]'}`}>
             {content.socialProof}
           </p>
         )}

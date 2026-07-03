@@ -6,14 +6,14 @@ import { ProblemSectionContent } from '../../types/content'
 
 export default function ProblemSection({ content }: { content: ProblemSectionContent }) {
   return (
-    <SectionWrapper className="py-24 px-6 bg-[#F2EDE8]">
+    <SectionWrapper className="py-24 px-6 bg-[var(--color-background)]">
       <div className="max-w-6xl mx-auto">
         {content.eyebrow && (
-          <p className="font-geist text-xs font-medium text-[#E0621A] tracking-[0.2em] uppercase mb-4 text-center">
+          <p className="font-body text-xs font-medium text-[var(--color-primary)] tracking-[0.2em] uppercase mb-4 text-center">
             {content.eyebrow}
           </p>
         )}
-        <h2 className="font-albra font-bold text-[clamp(32px,5vw,56px)] text-[#333] leading-snug text-center mb-16 max-w-2xl mx-auto">
+        <h2 className="font-heading font-bold text-[clamp(32px,5vw,56px)] text-[var(--color-text-primary)] leading-snug text-center mb-16 max-w-2xl mx-auto">
           {content.headline}
         </h2>
 
@@ -21,13 +21,13 @@ export default function ProblemSection({ content }: { content: ProblemSectionCon
           {content.cards.map((card) => (
             <div
               key={card.title}
-              className="flex flex-col items-start gap-4 p-8 rounded-xl bg-[#FAF7F4] hover:shadow-lg transition-shadow duration-200"
+              className="flex flex-col items-start gap-4 p-8 rounded-[var(--radius-lg)] bg-[var(--color-surface)] hover:shadow-[var(--shadow-lg)] transition-shadow duration-200"
             >
-              <div className="w-11 h-11 rounded-lg bg-[#E0621A]/10 flex items-center justify-center text-[#E0621A]">
+              <div className="w-11 h-11 rounded-[var(--radius-md)] bg-[var(--color-primary)]/10 flex items-center justify-center text-[var(--color-primary)]">
                 <Icon d={card.icon} size={22} />
               </div>
-              <h3 className="font-albra font-bold text-2xl text-[#333] leading-snug">{card.title}</h3>
-              <p className="font-geist text-base text-[#2D2926]/55 leading-relaxed">{card.description}</p>
+              <h3 className="font-heading font-bold text-2xl text-[var(--color-text-primary)] leading-snug">{card.title}</h3>
+              <p className="font-body text-base text-[var(--color-text-secondary)] leading-relaxed">{card.description}</p>
             </div>
           ))}
         </div>

@@ -7,10 +7,10 @@ export default function PartnerLogos({ content }: { content: PartnerLogosContent
   if (content.logos.length === 0) return null
 
   return (
-    <SectionWrapper className="py-12 px-6 bg-[#FAF7F4] border-y border-[#2D2926]/10">
+    <SectionWrapper className="py-12 px-6 bg-[var(--color-surface)] border-y border-[var(--color-border)]">
       <div className="max-w-6xl mx-auto">
         {content.eyebrow && (
-          <p className="font-geist text-xs text-[#2D2926]/30 tracking-[0.18em] uppercase text-center mb-8">
+          <p className="font-body text-xs text-[var(--color-text-muted)] tracking-[0.18em] uppercase text-center mb-8">
             {content.eyebrow}
           </p>
         )}

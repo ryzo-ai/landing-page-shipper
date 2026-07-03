@@ -1,5 +1,7 @@
 import type { Metadata } from 'next'
 import localFont from 'next/font/local'
+import themeConfig from '../theme.config'
+import { buildCSSVars } from '../lib/theme'
 import './globals.css'
 
 const geist = localFont({
@@ -26,8 +28,13 @@ export default function RootLayout({
 }: {
   children: React.ReactNode
 }) {
+  const tokens = themeConfig[themeConfig.defaultMode]
+
   return (
     <html lang="en">
+      <head>
+        <style>{`:root { ${buildCSSVars(tokens)} }`}</style>
+      </head>
       <body className={`${geist.variable} ${junicode.variable} antialiased`}>
         {children}
       </body>

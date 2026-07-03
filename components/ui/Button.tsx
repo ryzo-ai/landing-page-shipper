@@ -15,11 +15,11 @@ interface ButtonProps {
 
 const variantClasses: Record<ButtonVariant, string> = {
   primary:
-    'bg-[#E0621A] text-white hover:brightness-110 outline outline-1 outline-[#d4c8bc] outline-offset-4 rounded-full',
+    'bg-[var(--color-primary)] text-[var(--color-primary-fg)] hover:brightness-110 outline outline-1 outline-[var(--color-border)] outline-offset-4 rounded-[var(--radius-full)]',
   secondary:
-    'border border-[#2D2926]/20 text-[#2D2926] hover:border-[#2D2926]/40 rounded-lg',
+    'border border-[var(--color-border-hover)] text-[var(--color-text-primary)] hover:border-[var(--color-text-primary)]/40 rounded-[var(--radius-md)]',
   ghost:
-    'bg-transparent text-[#2D2926] hover:bg-[#2D2926]/5 rounded-lg',
+    'bg-transparent text-[var(--color-text-primary)] hover:bg-[var(--color-text-primary)]/5 rounded-[var(--radius-md)]',
 }
 
 export default function Button({
@@ -31,7 +31,7 @@ export default function Button({
   type = 'button',
 }: ButtonProps) {
   const baseClasses =
-    'inline-flex items-center justify-center gap-2 px-8 py-4 font-geist font-medium transition-all duration-150 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#E0621A] focus-visible:ring-offset-2'
+    'inline-flex items-center justify-center gap-2 px-8 py-4 font-body font-medium transition-all duration-150 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[var(--color-primary)] focus-visible:ring-offset-2'
 
   const classes = `${baseClasses} ${variantClasses[variant]} ${className}`
 

@@ -83,7 +83,7 @@ export default function Footer({ content }: { content: FooterContent }) {
                   href={link.href}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="font-geist text-sm text-white/50 hover:text-white transition-colors duration-150"
+                  className="font-body text-sm text-white/50 hover:text-white transition-colors duration-150"
                 >
                   {link.label}
                 </a>
@@ -93,7 +93,7 @@ export default function Footer({ content }: { content: FooterContent }) {
         </div>
 
         <div className="mt-8 pt-8 border-t border-white/10">
-          <p className="font-geist text-xs text-white/25">{content.copyright}</p>
+          <p className="font-body text-xs text-white/25">{content.copyright}</p>
         </div>
       </div>
     </footer>

@@ -21,7 +21,7 @@ export default function Navbar({ content }: NavbarProps) {
     <header
       className={`fixed top-0 inset-x-0 z-50 transition-all duration-300 ${
         scrolled
-          ? 'bg-[#F2EDE8]/80 backdrop-blur-md border-b border-[#2D2926]/10 shadow-sm'
+          ? 'bg-[var(--color-background)]/80 backdrop-blur-md border-b border-[var(--color-border)] shadow-[var(--shadow-sm)]'
           : 'bg-transparent'
       }`}
     >

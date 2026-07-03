@@ -14,6 +14,7 @@ const poppins = Poppins({
 export const metadata: Metadata = {
   title: 'Playlist Push — Campaign Landing Pages',
   description: 'Playlist Push campaign landing pages',
+  robots: { index: false, follow: false },
 }
 
 export default function RootLayout({

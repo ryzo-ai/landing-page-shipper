@@ -8,7 +8,7 @@
     "ogImage": "/og-image.png"
   },
   "navbar": {
-    "logo": { "text": "Absolution" },
+    "logo": { "text": "Absolution", "href": "https://ryzo.nl" },
     "links": [
       { "label": "How it works", "href": "#how" },
       { "label": "Pricing", "href": "#pricing" },
@@ -201,7 +201,7 @@
     ]
   },
   "footer": {
-    "logo": { "text": "Absolution" },
+    "logo": { "text": "Absolution", "href": "https://ryzo.nl" },
     "links": [
       { "label": "How it works", "href": "#how" },
       { "label": "Pricing", "href": "#pricing" },

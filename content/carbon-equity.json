@@ -8,7 +8,7 @@
     "ogImage": "/og-image.png"
   },
   "navbar": {
-    "logo": { "text": "Carbon Equity" },
+    "logo": { "text": "Carbon Equity", "href": "https://ryzo.nl" },
     "links": [
       { "label": "Why now", "href": "#why-now" },
       { "label": "Agenda", "href": "#agenda" },
@@ -208,7 +208,7 @@
     ]
   },
   "footer": {
-    "logo": { "text": "Carbon Equity" },
+    "logo": { "text": "Carbon Equity", "href": "https://ryzo.nl" },
     "links": [
       { "label": "Funds", "href": "#funds" },
       { "label": "Insights", "href": "#insights" },

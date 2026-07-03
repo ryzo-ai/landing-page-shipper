@@ -2,7 +2,7 @@
 
 import { FooterContent } from '../../types/content'
 
-// Filled paths (matching ryzo.nl main website footer)
+// Filled paths (matching the Ryzo main website footer style)
 const socialIcons: Record<string, { path: string; filled: boolean }> = {
   linkedin: {
     filled: true,
@@ -30,13 +30,13 @@ export default function Footer({ content }: { content: FooterContent }) {
 
           {/* Logo + social */}
           <div className="flex flex-col gap-5">
-            <a href="https://ryzo.nl" target="_blank" rel="noopener noreferrer" aria-label="Ryzo">
+            <a href={content.logo.href ?? '/'} target="_blank" rel="noopener noreferrer" aria-label={content.logo.text}>
               {content.logo.imageSrc ? (
                 <img src={content.logo.imageSrc} alt={content.logo.imageAlt ?? content.logo.text} className="h-7 w-auto" />
               ) : content.logo.showMark === false ? (
                 <span className="font-heading text-sm font-semibold text-white">{content.logo.text}</span>
               ) : (
-                <svg viewBox="0 0 996.81 996.81" className="h-7 w-auto" role="img" aria-label="Ryzo">
+                <svg viewBox="0 0 996.81 996.81" className="h-7 w-auto" role="img" aria-label={content.logo.text}>
                   <rect width="996.81" height="996.81" fill="var(--color-primary)" />
                   <path
                     fill="#fff"

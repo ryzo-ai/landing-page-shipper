@@ -1,6 +1,14 @@
 export interface NavLink { label: string; href: string }
+export interface LogoContent {
+  text: string
+  imageSrc?: string
+  imageAlt?: string
+  showMark?: boolean
+  /** Where the logo links to. Defaults to '/' when omitted — never hardcode a brand URL in components. */
+  href?: string
+}
 export interface NavbarContent {
-  logo: { text: string; imageSrc?: string; imageAlt?: string; showMark?: boolean }
+  logo: LogoContent
   links?: NavLink[]
   cta: { label: string; href: string }
 }
@@ -106,7 +114,7 @@ export interface SocialLink {
   href: string
 }
 export interface FooterContent {
-  logo: { text: string; imageSrc?: string; imageAlt?: string; showMark?: boolean }
+  logo: LogoContent
   links?: NavLink[]
   socialLinks?: SocialLink[]
   copyright: string

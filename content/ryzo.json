@@ -8,7 +8,8 @@
   },
   "navbar": {
     "logo": {
-      "text": "Ryzo Revenue Operations B.V."
+      "text": "Ryzo Revenue Operations B.V.",
+      "href": "https://ryzo.nl"
     },
     "links": [
       {
@@ -187,7 +188,8 @@
   },
   "footer": {
     "logo": {
-      "text": "Ryzo Revenue Operations B.V."
+      "text": "Ryzo Revenue Operations B.V.",
+      "href": "https://ryzo.nl"
     },
     "links": [
       {

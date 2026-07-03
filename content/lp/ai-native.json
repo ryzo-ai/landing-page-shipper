@@ -7,7 +7,7 @@
     "description": "Ryzo deploys an agent-led GTM system that builds pipeline to utilities, grid operators, and OEMs — without hiring an SDR team or adding more tools."
   },
   "navbar": {
-    "logo": { "text": "Ryzo" },
+    "logo": { "text": "Ryzo", "href": "https://ryzo.nl" },
     "cta": { "label": "Schedule a demo", "href": "https://calendar.app.google/Vto1WDyCoDXnmtRs9" }
   },
   "hero": {
@@ -148,7 +148,7 @@
     ]
   },
   "footer": {
-    "logo": { "text": "Ryzo" },
+    "logo": { "text": "Ryzo", "href": "https://ryzo.nl" },
     "links": [
       { "label": "Services", "href": "https://ryzo.nl/services" },
       { "label": "Blog", "href": "https://ryzo.nl/blog" },

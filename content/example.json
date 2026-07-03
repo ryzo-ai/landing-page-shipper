@@ -7,7 +7,7 @@
     "description": "Full section showcase for the Ryzo landing page builder."
   },
   "navbar": {
-    "logo": { "text": "Ryzo" },
+    "logo": { "text": "Ryzo", "href": "https://ryzo.nl" },
     "links": [
       { "label": "Product", "href": "#product" },
       { "label": "Services", "href": "#services" },
@@ -223,7 +223,7 @@
     ]
   },
   "footer": {
-    "logo": { "text": "Ryzo" },
+    "logo": { "text": "Ryzo", "href": "https://ryzo.nl" },
     "links": [
       { "label": "Product", "href": "#" },
       { "label": "Pricing", "href": "#" },

@@ -26,13 +26,13 @@ export default function Navbar({ content }: NavbarProps) {
       }`}
     >
       <div className="max-w-6xl mx-auto flex items-center justify-between h-16 px-6">
-        {/* Logo — links back to ryzo.nl */}
+        {/* Logo — href comes from config, defaults to '/' */}
         <a
-          href="https://ryzo.nl"
+          href={content.logo.href ?? '/'}
           target="_blank"
           rel="noopener noreferrer"
           className="flex items-center"
-          aria-label="Ryzo"
+          aria-label={content.logo.text}
         >
           {content.logo.imageSrc ? (
             <img
@@ -49,7 +49,7 @@ export default function Navbar({ content }: NavbarProps) {
               viewBox="0 0 996.81 996.81"
               className="h-8 w-auto"
               role="img"
-              aria-label="Ryzo"
+              aria-label={content.logo.text}
             >
               <rect width="996.81" height="996.81" fill="var(--color-primary)" />
               <path

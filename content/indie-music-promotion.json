@@ -1,13 +1,13 @@
 {
   "slug": "indie-music-promotion",
   "templateType": "pitch",
-  "sections": ["hero", "problemSection", "valueProposition", "services", "process", "ctaSection", "faq"],
+  "sections": ["hero", "mediaBlock", "problemSection", "valueProposition", "services", "process", "ctaSection", "faq"],
   "meta": {
     "title": "Indie Music Promotion — Real Spotify Playlists | Playlist Push",
     "description": "Get your indie music heard on real Spotify playlists. Verified curators, transparent results, pay per campaign. No bots, no fake streams, no subscription."
   },
   "navbar": {
-    "logo": { "text": "Playlist Push", "showMark": false, "href": "https://playlistpush.com" },
+    "logo": { "text": "Playlist Push", "showMark": false, "href": "https://playlistpush.com", "imageSrc": "/brand/playlistpush/pp-logo-full-color.png", "imageAlt": "Playlist Push" },
     "cta": { "label": "Start your campaign", "href": "#cta" }
   },
   "hero": {
@@ -15,6 +15,12 @@
     "subheadline": "Submit your track once. Our Playlist DNA technology matches it to verified curators whose playlists actually fit your sound — and you see every result in your dashboard.",
     "cta": { "label": "Start your campaign", "href": "#cta" },
     "socialProof": "45,000+ independent artists · 4,000+ verified curators"
+  },
+  "mediaBlock": {
+    "type": "image",
+    "src": "/brand/playlistpush/pp-campaign-dashboard-mockup.webp",
+    "alt": "Playlist Push campaign dashboard showing Spotify playlist adds, stream growth, and TikTok video view metrics",
+    "aspectRatio": "4/3"
   },
   "problemSection": {
     "eyebrow": "The problem",
@@ -116,7 +122,7 @@
     ]
   },
   "footer": {
-    "logo": { "text": "Playlist Push", "showMark": false, "href": "https://playlistpush.com" },
+    "logo": { "text": "Playlist Push", "showMark": false, "href": "https://playlistpush.com", "imageSrc": "/brand/playlistpush/pp-logo-text-white.png", "imageAlt": "Playlist Push" },
     "links": [
       { "label": "Website", "href": "https://playlistpush.com" },
       { "label": "Privacy", "href": "https://playlistpush.com/privacy" }

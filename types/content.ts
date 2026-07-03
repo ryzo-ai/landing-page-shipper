@@ -1,6 +1,6 @@
 export interface NavLink { label: string; href: string }
 export interface NavbarContent {
-  logo: { text: string; imageSrc?: string; imageAlt?: string }
+  logo: { text: string; imageSrc?: string; imageAlt?: string; showMark?: boolean }
   links?: NavLink[]
   cta: { label: string; href: string }
 }
@@ -106,7 +106,7 @@ export interface SocialLink {
   href: string
 }
 export interface FooterContent {
-  logo: { text: string; imageSrc?: string; imageAlt?: string }
+  logo: { text: string; imageSrc?: string; imageAlt?: string; showMark?: boolean }
   links?: NavLink[]
   socialLinks?: SocialLink[]
   copyright: string

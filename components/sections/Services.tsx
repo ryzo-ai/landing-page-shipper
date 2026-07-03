@@ -17,7 +17,13 @@ export default function Services({ content }: { content: ServicesContent }) {
           {content.headline}
         </h2>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+        <div
+          className={
+            content.cards.length === 2
+              ? 'grid grid-cols-1 md:grid-cols-2 gap-6 max-w-3xl mx-auto'
+              : 'grid grid-cols-1 md:grid-cols-3 gap-6'
+          }
+        >
           {content.cards.map((card) => (
             <div
               key={card.title}

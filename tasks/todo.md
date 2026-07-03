@@ -1073,3 +1073,17 @@ git commit -m "feat: admin dashboard — client list with completion scoring and
 - [ ] Success message shows preview URL link
 - [ ] Page auto-refreshes client list every 30 seconds
 - [ ] Existing URL scanner still works end-to-end
+
+## Engine follow-ups from PlaylistPush client-branch work (2026-07-03, final review triage)
+
+Gate PRODUCTION deploys of client branches (fine for local prototypes):
+- [ ] Scroll-reveal leaves sections at inline `opacity:0` for non-scrolling/no-JS renderers (SectionWrapper) — add no-JS / prefers-reduced-motion fallback; affects Google ads LP quality crawl
+- [ ] Footer social icon aria-label hardcodes "Ryzo on ${platform}" (components/layout/Footer.tsx) — dormant while configs have no socialLinks
+- [ ] Delete dead `public/brand/asset-77.svg` (old orange hex, unreferenced, publicly served on any deploy)
+- [ ] Client-branch root page (`app/page.tsx`) is create-next-app boilerplate + default favicon — needs per-client landing/redirect + favicon before a branch deploys
+- [ ] Logo anchor unconditional `target="_blank"` odd with default `href='/'` (dormant, all configs set href)
+
+Nice-to-have:
+- [ ] Runtime schema validation of content JSON (currently `JSON.parse ... as LandingPageContent`; e.g. 4-card services would silently render 3-col)
+- [ ] Process connector hairlines use `--color-background` on inverse surface — should be `--color-text-on-inverse`
+- [ ] Primary button halo `outline-[var(--color-border)]` invisible on dark sections (was `#d4c8bc` pre-refactor)

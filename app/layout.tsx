@@ -1,26 +1,19 @@
 import type { Metadata } from 'next'
-import localFont from 'next/font/local'
+import { Poppins } from 'next/font/google'
 import themeConfig from '../theme.config'
 import { buildCSSVars } from '../lib/theme'
 import './globals.css'
 
-const geist = localFont({
-  src: './fonts/GeistVF.woff',
-  variable: '--font-geist',
-  weight: '100 900',
-  display: 'swap',
-})
-
-const junicode = localFont({
-  src: './fonts/JunicodeVF-Roman.woff2',
-  variable: '--font-albra',
-  weight: '300 900',
+const poppins = Poppins({
+  subsets: ['latin'],
+  weight: ['400', '500', '600', '700'],
+  variable: '--font-poppins',
   display: 'swap',
 })
 
 export const metadata: Metadata = {
-  title: 'Ryzo — Campaign Landing Pages',
-  description: 'Ryzo campaign landing pages',
+  title: 'Playlist Push — Campaign Landing Pages',
+  description: 'Playlist Push campaign landing pages',
 }
 
 export default function RootLayout({
@@ -35,7 +28,7 @@ export default function RootLayout({
       <head>
         <style>{`:root { ${buildCSSVars(tokens)} }`}</style>
       </head>
-      <body className={`${geist.variable} ${junicode.variable} antialiased`}>
+      <body className={`${poppins.variable} antialiased`}>
         {children}
       </body>
     </html>

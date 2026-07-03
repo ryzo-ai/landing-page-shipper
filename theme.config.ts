@@ -14,6 +14,8 @@ export interface ThemeTokens {
     textMuted: string
     border: string
     borderHover: string
+    surfaceInverse: string
+    textOnInverse: string
   }
   typography: {
     fontBody: string
@@ -61,6 +63,8 @@ const themeConfig: ThemeConfig = {
       textMuted:    'rgba(45,41,38,0.30)',
       border:       'rgba(45,41,38,0.10)',
       borderHover:  'rgba(45,41,38,0.20)',
+      surfaceInverse: '#2D2926',
+      textOnInverse:  '#F2EDE8',
     },
     typography: {
       fontBody:    'var(--font-geist), system-ui, sans-serif',
@@ -97,6 +101,8 @@ const themeConfig: ThemeConfig = {
       textMuted:    'rgba(242,237,232,0.40)',
       border:       'rgba(242,237,232,0.10)',
       borderHover:  'rgba(242,237,232,0.20)',
+      surfaceInverse: '#231F1C',
+      textOnInverse:  '#F2EDE8',
     },
     typography: {
       fontBody:    'var(--font-geist), system-ui, sans-serif',

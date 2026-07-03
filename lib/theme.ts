@@ -14,6 +14,8 @@ export function buildCSSVars(tokens: ThemeTokens): string {
     `--color-text-muted: ${colors.textMuted}`,
     `--color-border: ${colors.border}`,
     `--color-border-hover: ${colors.borderHover}`,
+    `--color-surface-inverse: ${colors.surfaceInverse}`,
+    `--color-text-on-inverse: ${colors.textOnInverse}`,
     `--font-body: ${typography.fontBody}`,
     `--font-heading: ${typography.fontHeading}`,
     `--section-padding-y: ${spacing.sectionPaddingY}`,

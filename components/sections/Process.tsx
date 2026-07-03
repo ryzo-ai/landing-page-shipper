@@ -5,14 +5,14 @@ import { ProcessContent } from '../../types/content'
 
 export default function Process({ content }: { content: ProcessContent }) {
   return (
-    <SectionWrapper className="py-24 px-6 bg-[var(--color-text-primary)]">
+    <SectionWrapper className="py-24 px-6 bg-[var(--color-surface-inverse)]">
       <div className="max-w-6xl mx-auto">
         {content.eyebrow && (
           <p className="font-body text-xs font-medium text-[var(--color-primary)] tracking-[0.2em] uppercase mb-4 text-center">
             {content.eyebrow}
           </p>
         )}
-        <h2 className="font-heading font-bold text-[clamp(32px,5vw,56px)] text-[var(--color-background)] leading-snug text-center mb-16 max-w-2xl mx-auto">
+        <h2 className="font-heading font-bold text-[clamp(32px,5vw,56px)] text-[var(--color-text-on-inverse)] leading-snug text-center mb-16 max-w-2xl mx-auto">
           {content.headline}
         </h2>
 
@@ -30,8 +30,8 @@ export default function Process({ content }: { content: ProcessContent }) {
                   {index + 1}
                 </div>
                 <div className="md:text-center">
-                  <h3 className="font-heading font-bold text-xl text-[var(--color-background)] mb-1">{step.title}</h3>
-                  <p className="font-body text-sm text-[var(--color-background)]/55 leading-relaxed">{step.description}</p>
+                  <h3 className="font-heading font-bold text-xl text-[var(--color-text-on-inverse)] mb-1">{step.title}</h3>
+                  <p className="font-body text-sm text-[var(--color-text-on-inverse)]/55 leading-relaxed">{step.description}</p>
                 </div>
               </div>
             </div>

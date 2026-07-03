@@ -29,7 +29,7 @@ export default function Testimonials({ content }: { content: TestimonialsContent
                 {t.avatarSrc ? (
                   <img src={t.avatarSrc} alt={t.avatarAlt ?? t.name} className="w-11 h-11 rounded-[var(--radius-full)] object-cover flex-shrink-0" />
                 ) : (
-                  <div className="w-11 h-11 rounded-[var(--radius-full)] bg-[var(--color-text-primary)] flex items-center justify-center flex-shrink-0">
+                  <div className="w-11 h-11 rounded-[var(--radius-full)] bg-[var(--color-surface-inverse)] flex items-center justify-center flex-shrink-0">
                     <span className="font-heading font-bold text-[var(--color-primary-fg)] text-sm">{t.name.charAt(0)}</span>
                   </div>
                 )}

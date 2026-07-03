@@ -1,0 +1,127 @@
+{
+  "slug": "indie-music-promotion",
+  "templateType": "pitch",
+  "sections": ["hero", "problemSection", "valueProposition", "services", "process", "ctaSection", "faq"],
+  "meta": {
+    "title": "Indie Music Promotion — Real Spotify Playlists | Playlist Push",
+    "description": "Get your indie music heard on real Spotify playlists. Verified curators, transparent results, pay per campaign. No bots, no fake streams, no subscription."
+  },
+  "navbar": {
+    "logo": { "text": "Playlist Push" },
+    "cta": { "label": "Start your campaign", "href": "#cta" }
+  },
+  "hero": {
+    "headline": "Indie music promotion on real Spotify playlists",
+    "subheadline": "Submit your track once. Our Playlist DNA technology matches it to verified curators whose playlists actually fit your sound — and you see every result in your dashboard.",
+    "cta": { "label": "Start your campaign", "href": "#cta" },
+    "socialProof": "45,000+ independent artists · 4,000+ verified curators"
+  },
+  "problemSection": {
+    "eyebrow": "The problem",
+    "headline": "Promoting indie music is a minefield",
+    "cards": [
+      {
+        "icon": "M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z",
+        "title": "Fake playlists burn artists",
+        "description": "Bot-filled playlists inflate your stream count and can get your music flagged by Spotify. Most \"promotion\" services can't tell you where your streams actually came from."
+      },
+      {
+        "icon": "M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z",
+        "title": "DIY pitching doesn't scale",
+        "description": "Finding curators, checking their playlists are real, writing pitches, following up — doing that one playlist at a time is a full-time job on top of making music."
+      },
+      {
+        "icon": "M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z",
+        "title": "No data, no learning",
+        "description": "If you can't see which playlists added you, how long you stayed, and what it did for your listeners, you can't tell what worked — or what to do differently on the next release."
+      }
+    ]
+  },
+  "valueProposition": {
+    "eyebrow": "How Playlist Push is different",
+    "headline": "Verified curators. Matched by your sound. Measured in the open.",
+    "body": "Playlist DNA analyzes your track's audio profile and matches it to curators whose playlists genuinely fit — by genre, mood, and sound, not spray-and-pray blasts.\n\nEvery curator in the network is vetted and re-verified, and every placement shows up in your campaign dashboard. You always know where your music is, and what it's doing there."
+  },
+  "services": {
+    "eyebrow": "Two ways to grow",
+    "headline": "Built for independent artists",
+    "cards": [
+      {
+        "icon": "M9 19V6l12-3v13M9 19c0 1.105-1.343 2-3 2s-3-.895-3-2 1.343-2 3-2 3 .895 3 2zm12-3c0 1.105-1.343 2-3 2s-3-.895-3-2 1.343-2 3-2 3 .895 3 2zM9 10l12-3",
+        "title": "Spotify Playlist Pitching",
+        "description": "Your track goes to verified curators matched by Playlist DNA. Curators listen and decide — placements are earned, tracked, and reported in your dashboard."
+      },
+      {
+        "icon": "M15 10l4.553-2.276A1 1 0 0121 8.618v6.764a1 1 0 01-1.447.894L15 14M5 18h8a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v8a2 2 0 002 2z",
+        "title": "TikTok Creator Campaigns",
+        "description": "Real TikTok creators use your sound in their content, putting your music in front of new audiences organically — no ads, no bots."
+      }
+    ]
+  },
+  "process": {
+    "eyebrow": "How it works",
+    "headline": "From upload to placements in four steps",
+    "steps": [
+      {
+        "title": "Submit your track",
+        "description": "Share your released or upcoming track and set your campaign budget. Campaigns are pay-per-campaign — no subscription, no lock-in."
+      },
+      {
+        "title": "Playlist DNA matches",
+        "description": "Our AI analyzes your track's audio profile and finds the verified curators whose playlists fit your genre, mood, and sound."
+      },
+      {
+        "title": "Curators listen",
+        "description": "Matched curators review your track and decide whether it fits their playlist. Placements are real editorial decisions by real people."
+      },
+      {
+        "title": "Track your results",
+        "description": "Follow every placement, review, and stream in your campaign dashboard — transparent data from start to finish."
+      }
+    ]
+  },
+  "ctaSection": {
+    "headline": "Ready to get your music heard?",
+    "subheadline": "Campaigns start at $280. Pay per campaign — no subscription. See exactly which playlists pick you up and what it does for your audience.",
+    "cta": { "label": "Start your campaign", "href": "https://playlistpush.com/?utm_source=google&utm_medium=cpc&utm_campaign=indie-lp-prototype" }
+  },
+  "faq": {
+    "eyebrow": "FAQ",
+    "headline": "Common questions",
+    "items": [
+      {
+        "question": "Is Playlist Push legit?",
+        "answer": "Yes. Playlist Push has been operating since 2017 and works only with verified playlist curators — real people with real audiences. Curators are reviewed before joining the network and monitored continuously. No bots, no fake streams, no guaranteed-placement schemes."
+      },
+      {
+        "question": "Do you guarantee streams or placements?",
+        "answer": "No — and you should be suspicious of anyone who does. Curators make their own editorial decisions. What we guarantee is that your track reaches verified curators matched to your sound, and that you can see every result in your dashboard."
+      },
+      {
+        "question": "What does a campaign cost?",
+        "answer": "Campaigns start at $280 and scale with your budget and goals. You pay per campaign — there's no subscription and no recurring fee."
+      },
+      {
+        "question": "How does Playlist DNA matching work?",
+        "answer": "Playlist DNA analyzes the audio characteristics of your track — genre, mood, energy, sound — and matches it against curator playlist profiles, so your music lands with curators who actually feature your kind of music."
+      },
+      {
+        "question": "I'm an independent artist without a label. Is this for me?",
+        "answer": "That's exactly who Playlist Push is built for. More than 45,000 independent artists have run campaigns — you don't need a label, a distributor deal, or an existing following to start."
+      },
+      {
+        "question": "How do I see my results?",
+        "answer": "Your campaign dashboard shows every curator review, playlist placement, and the follower and stream activity around your campaign — live, from start to finish."
+      }
+    ]
+  },
+  "footer": {
+    "logo": { "text": "Playlist Push" },
+    "links": [
+      { "label": "Website", "href": "https://playlistpush.com" },
+      { "label": "Privacy", "href": "https://playlistpush.com/privacy" }
+    ],
+    "socialLinks": [],
+    "copyright": "© 2026 Playlist Push. All rights reserved."
+  }
+}

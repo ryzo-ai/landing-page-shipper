@@ -4,9 +4,17 @@ import SectionWrapper from '../ui/SectionWrapper'
 import { ValuePropositionContent } from '../../types/content'
 
 export default function ValueProposition({ content }: { content: ValuePropositionContent }) {
+  const hasGraphic = Boolean(content.graphic)
+
   return (
     <SectionWrapper className="py-24 px-6 bg-[var(--color-surface-inverse)]">
-      <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+      <div
+        className={
+          hasGraphic
+            ? 'max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 items-center'
+            : 'max-w-3xl mx-auto text-center'
+        }
+      >
         {/* Text */}
         <div>
           {content.eyebrow && (
@@ -24,21 +32,12 @@ export default function ValueProposition({ content }: { content: ValuePropositio
           </div>
         </div>
 
-        {/* Graphic / Placeholder */}
-        {/* #231F1C is a bespoke "inset panel" shade with no light-theme token equivalent — see report exceptions */}
-        <div className="w-full aspect-[4/3] rounded-[var(--radius-lg)] overflow-hidden bg-[#231F1C] flex items-center justify-center">
-          {content.graphic ? (
+        {/* Graphic — only rendered when config provides real content; no placeholder panel */}
+        {content.graphic && (
+          <div className="w-full aspect-[4/3] rounded-[var(--radius-lg)] overflow-hidden bg-[var(--color-text-on-inverse)]/5 flex items-center justify-center">
             <img src={content.graphic.src} alt={content.graphic.alt} className="w-full h-full object-cover" />
-          ) : (
-            <div className="flex flex-col items-center gap-3 text-[var(--color-text-on-inverse)]/20">
-              <svg xmlns="http://www.w3.org/2000/svg" width={48} height={48} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={1.5} aria-hidden="true">
-                <rect x="3" y="3" width="18" height="18" rx="2" />
-                <path d="M3 9h18M9 21V9" />
-              </svg>
-              <span className="font-body text-sm">Solution graphic</span>
-            </div>
-          )}
-        </div>
+          </div>
+        )}
       </div>
     </SectionWrapper>
   )

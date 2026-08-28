@@ -1,5 +1,5 @@
 {
-  "slug": "indie-music-promotion",
+  "slug": "hip-hop-music-promotion",
   "templateType": "pitch",
   "sections": [
     "hero",
@@ -12,8 +12,8 @@
     "faq"
   ],
   "meta": {
-    "title": "Indie Music Promotion — Real Spotify Playlists | Playlist Push",
-    "description": "Get your indie music heard on real Spotify playlists. Verified curators, transparent results, pay per campaign. No bots, no fake streams, no subscription."
+    "title": "Hip-Hop Promotion — Real Spotify Playlists | Playlist Push",
+    "description": "Get your hip-hop track on real Spotify playlists. Verified playlists, transparent results, no bots. Campaigns from $280."
   },
   "navbar": {
     "logo": {
@@ -29,8 +29,8 @@
     }
   },
   "hero": {
-    "headline": "Indie music promotion on real Spotify playlists",
-    "subheadline": "Submit your track once. Our Playlist DNA technology matches it to verified curators whose playlists actually fit your sound — and you see every result in your dashboard.",
+    "headline": "Hip-hop promotion on real Spotify playlists",
+    "subheadline": "Submit your track once. Playlist DNA matches it to verified curators whose playlists actually run rap, trap and drill — not a generic blast to everyone.",
     "cta": {
       "label": "Start your campaign",
       "href": "#cta"
@@ -45,33 +45,33 @@
   },
   "problemSection": {
     "eyebrow": "The problem",
-    "headline": "Promoting indie music is a minefield",
+    "headline": "Hip-hop is the most saturated genre on Spotify",
     "cards": [
       {
         "icon": "M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z",
-        "title": "Fake playlists burn artists",
-        "description": "Bot-filled playlists inflate your stream count and can get your music flagged by Spotify. Most \"promotion\" services can't tell you where your streams actually came from."
+        "title": "Everyone is pitching the same playlists",
+        "description": "Hip-hop gets more submissions than any other genre. The well-known playlists are buried in demos, and a cold DM is competing with hundreds the same week."
       },
       {
         "icon": "M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z",
-        "title": "DIY pitching doesn't scale",
-        "description": "Finding curators, checking their playlists are real, writing pitches, following up — doing that one playlist at a time is a full-time job on top of making music."
+        "title": "The scam services target rappers hardest",
+        "description": "Bot-filled 'rap promo' packages are everywhere, and Spotify's filters catch them. A cheap stream spike can cost you the track — and sometimes the artist profile."
       },
       {
         "icon": "M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z",
-        "title": "No data, no learning",
-        "description": "If you can't see which playlists added you, how long you stayed, and what it did for your listeners, you can't tell what worked — or what to do differently on the next release."
+        "title": "Placement without fit does nothing",
+        "description": "Landing on a playlist that mixes drill with lo-fi study beats gets you skips, not listeners. Skip rate is what tells the algorithm whether to keep pushing your song."
       }
     ]
   },
   "valueProposition": {
     "eyebrow": "How Playlist Push is different",
-    "headline": "Verified curators. Matched by your sound. Measured in the open.",
-    "body": "Playlist DNA analyzes your track's audio profile and matches it to curators whose playlists genuinely fit — by genre, mood, and sound, not spray-and-pray blasts.\n\nEvery curator in the network is vetted and re-verified, and every placement shows up in your campaign dashboard. You always know where your music is, and what it's doing there."
+    "headline": "Matched to curators who actually run rap playlists",
+    "body": "Playlist DNA analyzes your track's audio profile — tempo, energy, vocal delivery, production — and matches it to curators whose playlists genuinely fit that sound. A trap record and a boom-bap record do not belong on the same playlist, and we don't pretend otherwise."
   },
   "services": {
     "eyebrow": "Two ways to grow",
-    "headline": "Built for independent artists",
+    "headline": "Built for rappers and producers",
     "cards": [
       {
         "icon": "M9 19V6l12-3v13M9 19c0 1.105-1.343 2-3 2s-3-.895-3-2 1.343-2 3-2 3 .895 3 2zm12-3c0 1.105-1.343 2-3 2s-3-.895-3-2 1.343-2 3-2 3 .895 3 2zM9 10l12-3",
@@ -108,7 +108,7 @@
     ]
   },
   "ctaSection": {
-    "headline": "Ready to get your music heard?",
+    "headline": "Ready to get your track heard?",
     "subheadline": "Campaigns start at $280. Pay per campaign — no subscription. See exactly which playlists pick you up and what it does for your audience.",
     "cta": {
       "label": "Start your campaign",

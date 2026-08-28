@@ -1,5 +1,5 @@
 {
-  "slug": "indie-music-promotion",
+  "slug": "pop-music-promotion",
   "templateType": "pitch",
   "sections": [
     "hero",
@@ -12,8 +12,8 @@
     "faq"
   ],
   "meta": {
-    "title": "Indie Music Promotion — Real Spotify Playlists | Playlist Push",
-    "description": "Get your indie music heard on real Spotify playlists. Verified curators, transparent results, pay per campaign. No bots, no fake streams, no subscription."
+    "title": "Pop Music Promotion — Real Spotify Playlists | Playlist Push",
+    "description": "Get your pop track on real Spotify playlists. Verified playlists, transparent results, no bots. Campaigns from $280."
   },
   "navbar": {
     "logo": {
@@ -29,8 +29,8 @@
     }
   },
   "hero": {
-    "headline": "Indie music promotion on real Spotify playlists",
-    "subheadline": "Submit your track once. Our Playlist DNA technology matches it to verified curators whose playlists actually fit your sound — and you see every result in your dashboard.",
+    "headline": "Pop music promotion on real Spotify playlists",
+    "subheadline": "Submit your track once. Playlist DNA matches it to verified curators whose playlists fit your sound — indie pop, synth-pop, hyperpop and everything between.",
     "cta": {
       "label": "Start your campaign",
       "href": "#cta"
@@ -45,33 +45,33 @@
   },
   "problemSection": {
     "eyebrow": "The problem",
-    "headline": "Promoting indie music is a minefield",
+    "headline": "Pop is where the gatekeeping is hardest",
     "cards": [
       {
         "icon": "M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z",
-        "title": "Fake playlists burn artists",
-        "description": "Bot-filled playlists inflate your stream count and can get your music flagged by Spotify. Most \"promotion\" services can't tell you where your streams actually came from."
+        "title": "Editorial playlists are a closed door",
+        "description": "The big pop playlists are editorially controlled and effectively unreachable without a label push. Independent curators are the route that is actually open."
       },
       {
         "icon": "M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z",
-        "title": "DIY pitching doesn't scale",
-        "description": "Finding curators, checking their playlists are real, writing pitches, following up — doing that one playlist at a time is a full-time job on top of making music."
+        "title": "'Pop' is a dozen different genres",
+        "description": "Bedroom pop, synth-pop, hyperpop and radio pop attract completely different listeners. Being pitched as generic 'pop' puts you in front of the wrong ones."
       },
       {
         "icon": "M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z",
-        "title": "No data, no learning",
-        "description": "If you can't see which playlists added you, how long you stayed, and what it did for your listeners, you can't tell what worked — or what to do differently on the next release."
+        "title": "Momentum windows are short",
+        "description": "Pop releases live or die on the first weeks. Placements that trickle in a month late miss the window where saves and skips still shape the algorithm."
       }
     ]
   },
   "valueProposition": {
     "eyebrow": "How Playlist Push is different",
-    "headline": "Verified curators. Matched by your sound. Measured in the open.",
-    "body": "Playlist DNA analyzes your track's audio profile and matches it to curators whose playlists genuinely fit — by genre, mood, and sound, not spray-and-pray blasts.\n\nEvery curator in the network is vetted and re-verified, and every placement shows up in your campaign dashboard. You always know where your music is, and what it's doing there."
+    "headline": "Matched by your actual sound, not a genre tag",
+    "body": "Playlist DNA analyzes your track's audio profile and matches it to curators whose playlists genuinely fit — by mood, production and vocal style, not just the word 'pop' in a dropdown."
   },
   "services": {
     "eyebrow": "Two ways to grow",
-    "headline": "Built for independent artists",
+    "headline": "Built for independent pop artists",
     "cards": [
       {
         "icon": "M9 19V6l12-3v13M9 19c0 1.105-1.343 2-3 2s-3-.895-3-2 1.343-2 3-2 3 .895 3 2zm12-3c0 1.105-1.343 2-3 2s-3-.895-3-2 1.343-2 3-2 3 .895 3 2zM9 10l12-3",
@@ -108,7 +108,7 @@
     ]
   },
   "ctaSection": {
-    "headline": "Ready to get your music heard?",
+    "headline": "Ready to get your song heard?",
     "subheadline": "Campaigns start at $280. Pay per campaign — no subscription. See exactly which playlists pick you up and what it does for your audience.",
     "cta": {
       "label": "Start your campaign",

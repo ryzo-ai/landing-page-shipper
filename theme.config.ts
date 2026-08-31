@@ -6,6 +6,7 @@ export interface ThemeTokens {
     primary: string
     primaryHover: string
     primaryFg: string
+    primaryOnInverse: string
     background: string
     surface: string
     surfaceHover: string
@@ -52,23 +53,24 @@ const themeConfig: ThemeConfig = {
   defaultMode: 'light',
   light: {
     colors: {
-      primary:      '#E0621A',
-      primaryHover: '#c9571a',
+      primary:      '#052D69',
+      primaryHover: '#041F4A',
       primaryFg:    '#FFFFFF',
-      background:   '#F2EDE8',
-      surface:      '#FAF7F4',
-      surfaceHover: '#F5EEE7',
-      textPrimary:  '#2D2926',
-      textSecondary:'rgba(45,41,38,0.55)',
-      textMuted:    'rgba(45,41,38,0.30)',
-      border:       'rgba(45,41,38,0.10)',
-      borderHover:  'rgba(45,41,38,0.20)',
-      surfaceInverse: '#2D2926',
-      textOnInverse:  '#F2EDE8',
+      primaryOnInverse: '#3BA0C1',
+      background:   '#FFFFFF',
+      surface:      '#F5F8FA',
+      surfaceHover: '#DEEDFB',
+      surfaceInverse: '#18233A',
+      textOnInverse:  '#F5F8FA',
+      textPrimary:  '#18233A',
+      textSecondary:'rgba(24,35,58,0.68)',
+      textMuted:    'rgba(24,35,58,0.45)',
+      border:       'rgba(24,35,58,0.10)',
+      borderHover:  'rgba(24,35,58,0.22)',
     },
     typography: {
-      fontBody:    'var(--font-geist), system-ui, sans-serif',
-      fontHeading: 'var(--font-albra), Georgia, serif',
+      fontBody:    'var(--font-roboto), system-ui, sans-serif',
+      fontHeading: 'var(--font-roboto), system-ui, sans-serif',
     },
     spacing: {
       sectionPaddingY:  '6rem',
@@ -90,23 +92,24 @@ const themeConfig: ThemeConfig = {
   },
   dark: {
     colors: {
-      primary:      '#E0621A',
-      primaryHover: '#c9571a',
-      primaryFg:    '#FFFFFF',
-      background:   '#2D2926',
-      surface:      '#231F1C',
-      surfaceHover: '#3a3330',
-      textPrimary:  '#F2EDE8',
-      textSecondary:'rgba(242,237,232,0.70)',
-      textMuted:    'rgba(242,237,232,0.40)',
-      border:       'rgba(242,237,232,0.10)',
-      borderHover:  'rgba(242,237,232,0.20)',
-      surfaceInverse: '#231F1C',
-      textOnInverse:  '#F2EDE8',
+      primary:      '#3BA0C1',
+      primaryHover: '#2F87A5',
+      primaryFg:    '#08111F',
+      primaryOnInverse: '#3BA0C1',
+      background:   '#18233A',
+      surface:      '#1F2C48',
+      surfaceHover: '#27375A',
+      surfaceInverse: '#1F2C48',
+      textOnInverse:  '#F5F8FA',
+      textPrimary:  '#F5F8FA',
+      textSecondary:'rgba(245,248,250,0.72)',
+      textMuted:    'rgba(245,248,250,0.45)',
+      border:       'rgba(245,248,250,0.12)',
+      borderHover:  'rgba(245,248,250,0.24)',
     },
     typography: {
-      fontBody:    'var(--font-geist), system-ui, sans-serif',
-      fontHeading: 'var(--font-albra), Georgia, serif',
+      fontBody:    'var(--font-roboto), system-ui, sans-serif',
+      fontHeading: 'var(--font-roboto), system-ui, sans-serif',
     },
     spacing: {
       sectionPaddingY:  '6rem',

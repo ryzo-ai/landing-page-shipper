@@ -2,7 +2,7 @@
 
 import { ReactNode } from 'react'
 
-type ButtonVariant = 'primary' | 'secondary' | 'ghost'
+type ButtonVariant = 'primary' | 'secondary' | 'ghost' | 'onInverse'
 
 interface ButtonProps {
   children: ReactNode
@@ -20,6 +20,8 @@ const variantClasses: Record<ButtonVariant, string> = {
     'border border-[var(--color-border-hover)] text-[var(--color-text-primary)] hover:border-[var(--color-text-primary)]/40 rounded-[var(--radius-md)]',
   ghost:
     'bg-transparent text-[var(--color-text-primary)] hover:bg-[var(--color-text-primary)]/5 rounded-[var(--radius-md)]',
+  onInverse:
+    'bg-[var(--color-primary-on-inverse)] text-[var(--color-surface-inverse)] font-semibold hover:brightness-110 outline outline-1 outline-[var(--color-text-on-inverse)]/20 outline-offset-4 rounded-[var(--radius-full)]',
 }
 
 export default function Button({

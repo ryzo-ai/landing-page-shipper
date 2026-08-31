@@ -18,7 +18,7 @@ export default function ValueProposition({ content }: { content: ValuePropositio
         {/* Text */}
         <div>
           {content.eyebrow && (
-            <p className="font-body text-xs font-medium text-[var(--color-primary)] tracking-[0.2em] uppercase mb-4">
+            <p className="font-body text-xs font-medium text-[var(--color-primary-on-inverse)] tracking-[0.2em] uppercase mb-4">
               {content.eyebrow}
             </p>
           )}

@@ -8,7 +8,7 @@ export default function Process({ content }: { content: ProcessContent }) {
     <SectionWrapper className="py-24 px-6 bg-[var(--color-surface-inverse)]">
       <div className="max-w-6xl mx-auto">
         {content.eyebrow && (
-          <p className="font-body text-xs font-medium text-[var(--color-primary)] tracking-[0.2em] uppercase mb-4 text-center">
+          <p className="font-body text-xs font-medium text-[var(--color-primary-on-inverse)] tracking-[0.2em] uppercase mb-4 text-center">
             {content.eyebrow}
           </p>
         )}

@@ -14,7 +14,7 @@ export default function CTASection({ content, id = 'cta' }: { content: CTASectio
         <p className="font-body text-lg text-[var(--color-text-on-inverse)]/55 max-w-2xl mx-auto mb-10">
           {content.subheadline}
         </p>
-        <Button href={content.cta.href} variant="primary">
+        <Button href={content.cta.href} variant="onInverse">
           {content.cta.label}
         </Button>
       </div>

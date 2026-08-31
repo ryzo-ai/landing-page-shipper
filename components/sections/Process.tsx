@@ -32,6 +32,14 @@ export default function Process({ content }: { content: ProcessContent }) {
                 <div className="md:text-center">
                   <h3 className="font-heading font-bold text-xl text-[var(--color-text-on-inverse)] mb-1">{step.title}</h3>
                   <p className="font-body text-sm text-[var(--color-text-on-inverse)]/55 leading-relaxed">{step.description}</p>
+                  {step.image && (
+                    <img
+                      src={step.image.src}
+                      alt={step.image.alt}
+                      loading="lazy"
+                      className="mt-6 w-full max-w-[260px] md:mx-auto h-auto rounded-[var(--radius-md)]"
+                    />
+                  )}
                 </div>
               </div>
             </div>

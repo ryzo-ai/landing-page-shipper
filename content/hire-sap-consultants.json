@@ -40,9 +40,9 @@
   },
   "mediaBlock": {
     "type": "image",
-    "src": "/brand/glopros/gp-recruitment-og.jpg",
-    "alt": "GloPros recruitment platform — shortlist, screening and contract management in one place",
-    "aspectRatio": "16/9"
+    "src": "/brand/glopros/img/global-reach.avif",
+    "alt": "Simplified world map showing GloPros recruitment across 24 countries",
+    "aspectRatio": "2/1"
   },
   "problemSection": {
     "eyebrow": "The problem",
@@ -89,7 +89,11 @@
   "valueProposition": {
     "eyebrow": "Why enterprises use GloPros",
     "headline": "AI-powered matching, human screening, one shortlist",
-    "body": "Our matching searches a network across 24 countries on module, seniority and actual start date — not on job title alone. Our recruiters then screen and qualify every candidate before the profile reaches you.\n\nWhat you receive is a short list of people who fit and are genuinely available, not a stack of CVs to triage. Shortlist, interviews and contract management run through a single platform, for both permanent and interim engagements."
+    "body": "Our matching searches a network across 24 countries on module, seniority and actual start date — not on job title alone. Our recruiters then screen and qualify every candidate before the profile reaches you.\n\nWhat you receive is a short list of people who fit and are genuinely available, not a stack of CVs to triage. Shortlist, interviews and contract management run through a single platform, for both permanent and interim engagements.",
+    "graphic": {
+      "src": "/brand/glopros/img/platform.avif",
+      "alt": "Recruiter search interface showing matched candidate profiles"
+    }
   },
   "process": {
     "eyebrow": "How it works",
@@ -97,19 +101,35 @@
     "steps": [
       {
         "title": "Share the requirement",
-        "description": "Module, seniority, start date, location and engagement type. A short call is enough — no lengthy intake form before we start looking."
+        "description": "Module, seniority, start date, location and engagement type. A short call is enough — no lengthy intake form before we start looking.",
+        "image": {
+          "src": "/brand/glopros/img/requirements.avif",
+          "alt": "Requirements document illustration"
+        }
       },
       {
         "title": "AI-powered matching",
-        "description": "We search our network across 24 countries for professionals who fit the module specification and are actually available on your start date."
+        "description": "We search our network across 24 countries for professionals who fit the module specification and are actually available on your start date.",
+        "image": {
+          "src": "/brand/glopros/img/source-screen.webp",
+          "alt": "Candidate sourcing and screening interface"
+        }
       },
       {
         "title": "Screened by our recruiters",
-        "description": "Every candidate is sourced, screened and qualified before reaching your shortlist. Only serious matches — quality over quantity."
+        "description": "Every candidate is sourced, screened and qualified before reaching your shortlist. Only serious matches — quality over quantity.",
+        "image": {
+          "src": "/brand/glopros/img/shortlist.avif",
+          "alt": "Shortlist of SAP consultant profiles"
+        }
       },
       {
         "title": "Interviews, contract and onboarding",
-        "description": "You interview the shortlist; we handle engagement type, compliance and onboarding — interim, contract or permanent."
+        "description": "You interview the shortlist; we handle engagement type, compliance and onboarding — interim, contract or permanent.",
+        "image": {
+          "src": "/brand/glopros/img/onboarding.avif",
+          "alt": "Contract management and onboarding interface"
+        }
       }
     ]
   },

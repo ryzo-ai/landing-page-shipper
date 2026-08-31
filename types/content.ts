@@ -60,7 +60,7 @@ export interface ServicesContent {
   headline: string
   cards: [ServiceCard, ServiceCard] | [ServiceCard, ServiceCard, ServiceCard]
 }
-export interface ProcessStep { title: string; description: string }
+export interface ProcessStep { title: string; description: string; image?: { src: string; alt: string } }
 export interface ProcessContent {
   eyebrow?: string
   headline: string

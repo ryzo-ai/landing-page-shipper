@@ -40,9 +40,9 @@
   },
   "mediaBlock": {
     "type": "image",
-    "src": "/brand/glopros/gp-recruitment-og.jpg",
-    "alt": "GloPros recruitment platform — shortlist, screening en contractbeheer op één plek",
-    "aspectRatio": "16/9"
+    "src": "/brand/glopros/img/global-reach.avif",
+    "alt": "Wereldkaart met GloPros-werving in 24 landen",
+    "aspectRatio": "2/1"
   },
   "problemSection": {
     "eyebrow": "Het probleem",
@@ -68,7 +68,11 @@
   "valueProposition": {
     "eyebrow": "Hoe GloPros werkt",
     "headline": "Gescreende SAP professionals, gematcht op module en beschikbaarheid",
-    "body": "GloPros combineert AI-gedreven matching met menselijke screening. De AI koppelt uw opdracht aan professionals uit ons netwerk in 24 landen — op module, senioriteit en startdatum. Onze recruiters screenen daarna elk profiel voordat het uw shortlist bereikt.\n\nU ontvangt een korte lijst met kandidaten die passen en beschikbaar zijn, niet een stapel CV's om zelf door te spitten. Shortlist, interviews en contractbeheer verlopen via één platform."
+    "body": "GloPros combineert AI-gedreven matching met menselijke screening. De AI koppelt uw opdracht aan professionals uit ons netwerk in 24 landen — op module, senioriteit en startdatum. Onze recruiters screenen daarna elk profiel voordat het uw shortlist bereikt.\n\nU ontvangt een korte lijst met kandidaten die passen en beschikbaar zijn, niet een stapel CV's om zelf door te spitten. Shortlist, interviews en contractbeheer verlopen via één platform.",
+    "graphic": {
+      "src": "/brand/glopros/img/platform.avif",
+      "alt": "Recruiter search-interface met gematchte kandidaatprofielen"
+    }
   },
   "services": {
     "eyebrow": "Drie samenwerkingsvormen",
@@ -97,19 +101,35 @@
     "steps": [
       {
         "title": "U deelt de opdracht",
-        "description": "Module, senioriteit, startdatum, locatie en samenwerkingsvorm. Een kort gesprek volstaat — geen uitgebreid intakeformulier vooraf."
+        "description": "Module, senioriteit, startdatum, locatie en samenwerkingsvorm. Een kort gesprek volstaat — geen uitgebreid intakeformulier vooraf.",
+        "image": {
+          "src": "/brand/glopros/img/requirements.avif",
+          "alt": "Illustratie van een opdrachtomschrijving"
+        }
       },
       {
         "title": "AI-matching op ons netwerk",
-        "description": "Onze matching doorzoekt het netwerk in 24 landen op professionals die inhoudelijk passen én daadwerkelijk beschikbaar zijn op uw startdatum."
+        "description": "Onze matching doorzoekt het netwerk in 24 landen op professionals die inhoudelijk passen én daadwerkelijk beschikbaar zijn op uw startdatum.",
+        "image": {
+          "src": "/brand/glopros/img/source-screen.webp",
+          "alt": "Interface voor sourcing en screening van kandidaten"
+        }
       },
       {
         "title": "Screening door onze recruiters",
-        "description": "Elke kandidaat wordt gescreend en gekwalificeerd voordat het profiel uw shortlist bereikt. Alleen serieuze matches, geen CV-stapel."
+        "description": "Elke kandidaat wordt gescreend en gekwalificeerd voordat het profiel uw shortlist bereikt. Alleen serieuze matches, geen CV-stapel.",
+        "image": {
+          "src": "/brand/glopros/img/shortlist.avif",
+          "alt": "Shortlist met SAP-consultantprofielen"
+        }
       },
       {
         "title": "Interviews, contract en onboarding",
-        "description": "U spreekt de shortlist, wij regelen contractvorm, compliance en onboarding — detachering, ZZP of vast dienstverband."
+        "description": "U spreekt de shortlist, wij regelen contractvorm, compliance en onboarding — detachering, ZZP of vast dienstverband.",
+        "image": {
+          "src": "/brand/glopros/img/onboarding.avif",
+          "alt": "Interface voor contractbeheer en onboarding"
+        }
       }
     ]
   },

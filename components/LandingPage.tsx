@@ -40,7 +40,7 @@ interface LandingPageProps {
 
 export default function LandingPage({ content }: LandingPageProps) {
   return (
-    <div className="bg-[var(--color-background)] text-[var(--color-text-primary)]">
+    <div lang={content.lang} className="bg-[var(--color-background)] text-[var(--color-text-primary)]">
       <Navbar content={content.navbar} />
       <main>
         {content.sections.map((key) => (

@@ -138,6 +138,8 @@ export type SectionKey =
 export interface LandingPageContent {
   slug: string
   templateType: 'sprint' | 'pitch'
+  /** BCP-47 language tag for this page; overrides the root <html lang>. */
+  lang?: string
   /** Ordered list of sections to render. Navbar and Footer are always rendered. */
   sections: SectionKey[]
   meta: PageMeta

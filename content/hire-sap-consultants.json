@@ -1,0 +1,175 @@
+{
+  "slug": "hire-sap-consultants",
+  "templateType": "pitch",
+  "lang": "en",
+  "sections": [
+    "hero",
+    "mediaBlock",
+    "problemSection",
+    "services",
+    "valueProposition",
+    "process",
+    "ctaSection",
+    "faq"
+  ],
+  "meta": {
+    "title": "Hire SAP Consultants — SAP Recruitment Agency | GloPros",
+    "description": "Looking to hire SAP consultants? GloPros is the SAP recruitment agency Dutch enterprises trust. Vetted module experts — FICO, ABAP, S/4HANA, SuccessFactors — ready to start."
+  },
+  "navbar": {
+    "logo": {
+      "text": "GloPros",
+      "showMark": false,
+      "href": "https://www.glopros.ai",
+      "imageSrc": "/brand/glopros/gp-logo.png",
+      "imageAlt": "GloPros"
+    },
+    "cta": {
+      "label": "Request a free consultation",
+      "href": "#cta"
+    }
+  },
+  "hero": {
+    "headline": "Hire SAP consultants who match the module, not just the title",
+    "subheadline": "GloPros is the SAP recruitment agency Dutch enterprises trust. AI-powered matching plus human screening delivers vetted SAP professionals — from SAP FI to S/4HANA — for permanent and interim engagements.",
+    "cta": {
+      "label": "Request a free consultation",
+      "href": "#cta"
+    },
+    "socialProof": "Active in 24 countries · 400+ professionals placed annually · 250 active placements"
+  },
+  "mediaBlock": {
+    "type": "image",
+    "src": "/brand/glopros/gp-recruitment-og.jpg",
+    "alt": "GloPros recruitment platform — shortlist, screening and contract management in one place",
+    "aspectRatio": "16/9"
+  },
+  "problemSection": {
+    "eyebrow": "The problem",
+    "headline": "\"SAP consultant\" is not a specification",
+    "cards": [
+      {
+        "icon": "M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z",
+        "title": "The scarcity is at module level",
+        "description": "Generic SAP profiles are easy to find. An FICO specialist with S/4HANA migration experience who can start next month is not. Most agencies search on the job title and hand you the mismatch."
+      },
+      {
+        "icon": "M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z",
+        "title": "Unscreened CVs move the work to you",
+        "description": "Twenty profiles in an inbox is not a shortlist. Every CV that has not been qualified against your actual requirement costs your project lead an hour they owed the project."
+      },
+      {
+        "icon": "M13 10V3L4 14h7v7l9-11h-7z",
+        "title": "An open role slips the whole programme",
+        "description": "One unfilled SAP role in a live implementation or migration moves the plan for the entire team. The cost of waiting compounds faster than the rate you were negotiating."
+      }
+    ]
+  },
+  "services": {
+    "eyebrow": "Module coverage",
+    "headline": "From SAP FI to S/4HANA",
+    "cards": [
+      {
+        "icon": "M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z",
+        "title": "Finance & Controlling",
+        "description": "SAP FI, CO and FICO specialists, plus Concur and treasury-adjacent profiles. Including consultants who have carried a finance workstream through an S/4HANA migration rather than only maintaining one."
+      },
+      {
+        "icon": "M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4",
+        "title": "Technology & Development",
+        "description": "SAP ABAP developers, BTP consultants, integration and solution architects, and S/4HANA migration experts — for build, upgrade and implementation-partner engagements."
+      },
+      {
+        "icon": "M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z",
+        "title": "HR, Procurement & Supply Chain",
+        "description": "SuccessFactors, Ariba, IBP, SD and MM consultants, alongside role-based profiles — SAP project managers, architects, project leads and business analysts."
+      }
+    ]
+  },
+  "valueProposition": {
+    "eyebrow": "Why enterprises use GloPros",
+    "headline": "AI-powered matching, human screening, one shortlist",
+    "body": "Our matching searches a network across 24 countries on module, seniority and actual start date — not on job title alone. Our recruiters then screen and qualify every candidate before the profile reaches you.\n\nWhat you receive is a short list of people who fit and are genuinely available, not a stack of CVs to triage. Shortlist, interviews and contract management run through a single platform, for both permanent and interim engagements."
+  },
+  "process": {
+    "eyebrow": "How it works",
+    "headline": "From requirement to shortlist in four steps",
+    "steps": [
+      {
+        "title": "Share the requirement",
+        "description": "Module, seniority, start date, location and engagement type. A short call is enough — no lengthy intake form before we start looking."
+      },
+      {
+        "title": "AI-powered matching",
+        "description": "We search our network across 24 countries for professionals who fit the module specification and are actually available on your start date."
+      },
+      {
+        "title": "Screened by our recruiters",
+        "description": "Every candidate is sourced, screened and qualified before reaching your shortlist. Only serious matches — quality over quantity."
+      },
+      {
+        "title": "Interviews, contract and onboarding",
+        "description": "You interview the shortlist; we handle engagement type, compliance and onboarding — interim, contract or permanent."
+      }
+    ]
+  },
+  "ctaSection": {
+    "headline": "Which SAP role needs filling?",
+    "subheadline": "Tell us the module and the start date in a 30-minute call. You will hear which profiles are available, on what timeline, and an indicative rate range — no obligation.",
+    "cta": {
+      "label": "Request a free consultation",
+      "href": "https://www.glopros.ai/book-a-demo?utm_source=ryzo-demo&utm_medium=prototype&utm_campaign=hire-sap-consultants-lp"
+    }
+  },
+  "faq": {
+    "eyebrow": "FAQ",
+    "headline": "What hiring managers ask us",
+    "items": [
+      {
+        "question": "Which SAP modules do you cover?",
+        "answer": "FICO, ABAP, S/4HANA, SuccessFactors, Ariba, BTP, Concur, IBP, SD and MM, among others — plus role-based profiles such as SAP project manager, architect, project lead and business analyst. If your module is not listed, put the requirement to us: the network is broader than this list."
+      },
+      {
+        "question": "What does an SAP consultant cost per hour?",
+        "answer": "Hourly rates depend on the module, seniority and engagement type — a senior S/4HANA migration architect and a support-level SD consultant are not comparable. In the first call you get an indicative range for your specific role, so you can check it internally before any profiles are shared."
+      },
+      {
+        "question": "Permanent or interim?",
+        "answer": "Both. We place SAP professionals on permanent contracts, on our own payroll for interim engagements, and as independent contractors for defined scopes of work. Which structure fits depends on the length and nature of the engagement, and we advise on that."
+      },
+      {
+        "question": "How quickly can someone start?",
+        "answer": "It depends on the module and seniority. Because we match on availability rather than profile alone, you get a realistic timeline in the first conversation instead of a commitment that does not survive contact with the candidate's notice period."
+      },
+      {
+        "question": "Do you only recruit in the Netherlands?",
+        "answer": "No. GloPros recruits actively across 24 countries in Europe, the Americas and Asia, with recruiters who understand local markets, regulations and talent landscapes. For Dutch enterprises that means a substantially larger pool than the domestic market alone."
+      }
+    ]
+  },
+  "footer": {
+    "logo": {
+      "text": "GloPros",
+      "showMark": false,
+      "href": "https://www.glopros.ai",
+      "imageSrc": "/brand/glopros/gp-logo-white.png",
+      "imageAlt": "GloPros"
+    },
+    "links": [
+      {
+        "label": "Website",
+        "href": "https://www.glopros.ai"
+      },
+      {
+        "label": "Recruitment services",
+        "href": "https://www.glopros.ai/recruitment-services"
+      },
+      {
+        "label": "Book a demo",
+        "href": "https://www.glopros.ai/book-a-demo"
+      }
+    ],
+    "socialLinks": [],
+    "copyright": "Prototype built by Ryzo for illustration — not a live GloPros page."
+  }
+}

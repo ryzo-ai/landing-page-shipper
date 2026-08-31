@@ -1,6 +1,7 @@
 {
   "slug": "sap-detachering",
   "templateType": "pitch",
+  "lang": "nl",
   "sections": [
     "hero",
     "mediaBlock",

@@ -1,0 +1,174 @@
+{
+  "slug": "sap-detachering",
+  "templateType": "pitch",
+  "sections": [
+    "hero",
+    "mediaBlock",
+    "problemSection",
+    "valueProposition",
+    "services",
+    "process",
+    "ctaSection",
+    "faq"
+  ],
+  "meta": {
+    "title": "SAP Detachering & SAP Specialist Inhuren | GloPros",
+    "description": "SAP detachering nodig? GloPros levert ervaren SAP consultants voor Nederlandse opdrachtgevers — detachering, ZZP-inhuur of werving & selectie. Snel beschikbaar."
+  },
+  "navbar": {
+    "logo": {
+      "text": "GloPros",
+      "showMark": false,
+      "href": "https://www.glopros.ai",
+      "imageSrc": "/brand/glopros/gp-logo.png",
+      "imageAlt": "GloPros"
+    },
+    "cta": {
+      "label": "Vraag een SAP match aan",
+      "href": "#cta"
+    }
+  },
+  "hero": {
+    "headline": "SAP-specialist inhuren, zonder maandenlange zoektocht",
+    "subheadline": "GloPros levert ervaren SAP professionals aan Nederlandse opdrachtgevers — detachering, ZZP-inhuur of werving & selectie. AI-gedreven matching koppelt uw opdracht aan bewezen consultants die daadwerkelijk beschikbaar zijn.",
+    "cta": {
+      "label": "Vraag vrijblijvend een SAP match aan",
+      "href": "#cta"
+    },
+    "socialProof": "Actief in 24 landen · 400+ professionals per jaar geplaatst · 250 lopende plaatsingen"
+  },
+  "mediaBlock": {
+    "type": "image",
+    "src": "/brand/glopros/gp-recruitment-og.jpg",
+    "alt": "GloPros recruitment platform — shortlist, screening en contractbeheer op één plek",
+    "aspectRatio": "16/9"
+  },
+  "problemSection": {
+    "eyebrow": "Het probleem",
+    "headline": "SAP-capaciteit vinden kost te veel tijd",
+    "cards": [
+      {
+        "icon": "M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z",
+        "title": "De schaarste zit in de modules",
+        "description": "Een generieke 'SAP consultant' is zo gevonden. Een FICO-specialist met S/4HANA-migratie-ervaring die volgende maand kan starten is dat niet. Juist op module-niveau loopt de zoektocht vast."
+      },
+      {
+        "icon": "M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z",
+        "title": "CV's zonder screening kosten uren",
+        "description": "Bureaus die twintig profielen sturen verplaatsen het werk naar u. Elk niet-gescreend CV is een uur van uw projectleider dat niet naar het project gaat."
+      },
+      {
+        "icon": "M13 10V3L4 14h7v7l9-11h-7z",
+        "title": "Een openstaande rol vertraagt het project",
+        "description": "Een onbezette SAP-rol in een lopend implementatie- of migratietraject verschuift de planning voor het hele team. De kosten van wachten lopen sneller op dan het tarief."
+      }
+    ]
+  },
+  "valueProposition": {
+    "eyebrow": "Hoe GloPros werkt",
+    "headline": "Gescreende SAP professionals, gematcht op module en beschikbaarheid",
+    "body": "GloPros combineert AI-gedreven matching met menselijke screening. De AI koppelt uw opdracht aan professionals uit ons netwerk in 24 landen — op module, senioriteit en startdatum. Onze recruiters screenen daarna elk profiel voordat het uw shortlist bereikt.\n\nU ontvangt een korte lijst met kandidaten die passen en beschikbaar zijn, niet een stapel CV's om zelf door te spitten. Shortlist, interviews en contractbeheer verlopen via één platform."
+  },
+  "services": {
+    "eyebrow": "Drie samenwerkingsvormen",
+    "headline": "Vaste of flexibele SAP-inzet",
+    "cards": [
+      {
+        "icon": "M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z",
+        "title": "SAP detachering",
+        "description": "Een ervaren SAP consultant op uw project, op onze payroll. U stuurt inhoudelijk aan, wij regelen contract, facturatie en compliance. Op- en afschalen wanneer de projectfase daarom vraagt."
+      },
+      {
+        "icon": "M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z",
+        "title": "ZZP- en freelance-inhuur",
+        "description": "Zelfstandige SAP specialisten voor afgebakende opdrachten en piekbelasting. Wij verzorgen de bemiddeling en contractafhandeling, inclusief de gebruikelijke checks rond zelfstandigheid."
+      },
+      {
+        "icon": "M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z",
+        "title": "Werving & selectie",
+        "description": "Voor SAP-rollen die u structureel in eigen huis wilt beleggen. Wij werven, screenen en begeleiden tot en met contractondertekening en onboarding."
+      }
+    ]
+  },
+  "process": {
+    "eyebrow": "Zo verloopt het",
+    "headline": "Van opdracht naar shortlist in vier stappen",
+    "steps": [
+      {
+        "title": "U deelt de opdracht",
+        "description": "Module, senioriteit, startdatum, locatie en samenwerkingsvorm. Een kort gesprek volstaat — geen uitgebreid intakeformulier vooraf."
+      },
+      {
+        "title": "AI-matching op ons netwerk",
+        "description": "Onze matching doorzoekt het netwerk in 24 landen op professionals die inhoudelijk passen én daadwerkelijk beschikbaar zijn op uw startdatum."
+      },
+      {
+        "title": "Screening door onze recruiters",
+        "description": "Elke kandidaat wordt gescreend en gekwalificeerd voordat het profiel uw shortlist bereikt. Alleen serieuze matches, geen CV-stapel."
+      },
+      {
+        "title": "Interviews, contract en onboarding",
+        "description": "U spreekt de shortlist, wij regelen contractvorm, compliance en onboarding — detachering, ZZP of vast dienstverband."
+      }
+    ]
+  },
+  "ctaSection": {
+    "headline": "Welke SAP-rol moet ingevuld worden?",
+    "subheadline": "Deel uw opdracht in een kort gesprek van 30 minuten. U hoort welke profielen beschikbaar zijn, in welke termijn en tegen welke indicatieve tarieven — vrijblijvend.",
+    "cta": {
+      "label": "Plan een vrijblijvend gesprek",
+      "href": "https://www.glopros.ai/book-a-demo?utm_source=ryzo-demo&utm_medium=prototype&utm_campaign=sap-detachering-lp"
+    }
+  },
+  "faq": {
+    "eyebrow": "Veelgestelde vragen",
+    "headline": "Wat opdrachtgevers meestal vragen",
+    "items": [
+      {
+        "question": "Welke SAP-modules dekken jullie af?",
+        "answer": "Onder meer FICO, ABAP, S/4HANA, SuccessFactors, Ariba, BTP, Concur, IBP, SD en MM. Ook rolgerichte profielen zoals SAP projectmanager, architect, projectleider, analist en programmeur. Staat uw module er niet bij? Leg de opdracht voor — het netwerk is breder dan deze lijst."
+      },
+      {
+        "question": "Hoe snel kan een SAP specialist starten?",
+        "answer": "Dat hangt af van de module en de senioriteit. Omdat we op beschikbaarheid matchen en niet alleen op profiel, krijgt u in het eerste gesprek een realistische termijn te horen in plaats van een toezegging die later niet houdbaar blijkt."
+      },
+      {
+        "question": "Wat is het verschil tussen detachering en ZZP-inhuur?",
+        "answer": "Bij detachering staat de consultant op onze payroll en verzorgen wij contract, facturatie en compliance. Bij ZZP-inhuur werkt de specialist als zelfstandige en bemiddelen wij de opdracht, inclusief de gebruikelijke checks. Welke vorm passend is hangt af van de aard en duur van de opdracht — daar adviseren we in."
+      },
+      {
+        "question": "Werken jullie ook buiten Nederland?",
+        "answer": "Ja. GloPros werft actief in 24 landen in Europa, Amerika en Azië, met recruiters die de lokale markt en regelgeving kennen. Voor Nederlandse opdrachtgevers betekent dat een aanzienlijk grotere vijver dan alleen de NL-markt."
+      },
+      {
+        "question": "Wat kost het?",
+        "answer": "Tarieven hangen af van module, senioriteit en samenwerkingsvorm. In het eerste gesprek krijgt u een indicatieve bandbreedte voor uw specifieke rol, zodat u intern kunt aftoetsen voordat er profielen worden gedeeld."
+      }
+    ]
+  },
+  "footer": {
+    "logo": {
+      "text": "GloPros",
+      "showMark": false,
+      "href": "https://www.glopros.ai",
+      "imageSrc": "/brand/glopros/gp-logo-white.png",
+      "imageAlt": "GloPros"
+    },
+    "links": [
+      {
+        "label": "Website",
+        "href": "https://www.glopros.ai"
+      },
+      {
+        "label": "Recruitment services",
+        "href": "https://www.glopros.ai/recruitment-services"
+      },
+      {
+        "label": "Plan een gesprek",
+        "href": "https://www.glopros.ai/book-a-demo"
+      }
+    ],
+    "socialLinks": [],
+    "copyright": "Prototype gebouwd door Ryzo ter illustratie — geen live GloPros-pagina."
+  }
+}

@@ -43,3 +43,8 @@ next-env.d.ts
 
 # brainstorming sessions
 .superpowers/
+
+# local debug artefacts
+.playwright-mcp/
+footer-preview.png
+*-preview.png

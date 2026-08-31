@@ -1,26 +1,20 @@
 import type { Metadata } from 'next'
-import localFont from 'next/font/local'
+import { Roboto } from 'next/font/google'
 import themeConfig from '../theme.config'
 import { buildCSSVars } from '../lib/theme'
 import './globals.css'
 
-const geist = localFont({
-  src: './fonts/GeistVF.woff',
-  variable: '--font-geist',
-  weight: '100 900',
-  display: 'swap',
-})
-
-const junicode = localFont({
-  src: './fonts/JunicodeVF-Roman.woff2',
-  variable: '--font-albra',
-  weight: '300 900',
+const roboto = Roboto({
+  subsets: ['latin'],
+  weight: ['400', '500', '700'],
+  variable: '--font-roboto',
   display: 'swap',
 })
 
 export const metadata: Metadata = {
-  title: 'Ryzo — Campaign Landing Pages',
-  description: 'Ryzo campaign landing pages',
+  title: 'GloPros — SAP Detachering & Werving',
+  description: 'GloPros levert ervaren SAP professionals voor Nederlandse opdrachtgevers.',
+  robots: { index: false, follow: false },
 }
 
 export default function RootLayout({
@@ -31,11 +25,11 @@ export default function RootLayout({
   const tokens = themeConfig[themeConfig.defaultMode]
 
   return (
-    <html lang="en">
+    <html lang="nl">
       <head>
         <style>{`:root { ${buildCSSVars(tokens)} }`}</style>
       </head>
-      <body className={`${geist.variable} ${junicode.variable} antialiased`}>
+      <body className={`${roboto.variable} antialiased`}>
         {children}
       </body>
     </html>

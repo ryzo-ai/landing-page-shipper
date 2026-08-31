@@ -63,7 +63,7 @@ export default function Hero({ content }: { content: HeroContent }) {
         className="relative z-10 w-full max-w-4xl"
       >
         <h1
-          className={`font-heading font-bold text-[clamp(42px,7.5vw,92px)] leading-[1.02] tracking-tight mb-6 ${
+          className={`font-heading font-bold text-[clamp(42px,7.5vw,80px)] leading-[1.02] tracking-[-0.015em] mb-6 ${
             hasMedia ? 'text-[var(--color-background)]' : 'text-[var(--color-text-primary)]'
           }`}
         >

@@ -19,8 +19,13 @@
 
   h1, h2, h3, h4, h5, h6 {
     font-family: var(--font-heading);
-    font-weight: 700;
+    letter-spacing: -0.01em;
   }
+
+  /* Brand weights: 700 display, 600 subheads
+     (mirrors playlistpush.com — .hero h1 / .faq h2 = 700, h3 = 600) */
+  h1, h2 { font-weight: 700; }
+  h3, h4, h5, h6 { font-weight: 600; }
 
   a, button, [role="button"], summary {
     cursor: pointer;

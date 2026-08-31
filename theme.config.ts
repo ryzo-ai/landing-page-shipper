@@ -16,6 +16,12 @@ export interface ThemeTokens {
     borderHover: string
     surfaceInverse: string
     textOnInverse: string
+    // Brand accent tokens — mirror playlistpush.com :root (read 2026-08-31)
+    salmon: string
+    teal: string
+    star: string
+    blueHighlight: string
+    redOnDark: string
   }
   typography: {
     fontBody: string
@@ -52,47 +58,52 @@ const themeConfig: ThemeConfig = {
   defaultMode: 'light',
   light: {
     colors: {
-      primary:      '#FD5750',
-      primaryHover: '#E64843',
+      primary:      '#E85154',   // --red
+      primaryHover: '#EF5D60',   // brand lightens on hover
       primaryFg:    '#FFFFFF',
       background:   '#FFFFFF',
-      surface:      '#F2F3F6',
+      surface:      '#F2F3F6',   // --gray-bg
       surfaceHover: '#E5E9EF',
-      surfaceInverse: '#0F2240',
+      surfaceInverse: '#0F2240', // --navy
       textOnInverse:  '#F2F3F6',
-      textPrimary:  '#0F2240',
+      textPrimary:  '#0F2240',   // --navy
       textSecondary:'rgba(15,34,64,0.65)',
-      textMuted:    'rgba(15,34,64,0.40)',
-      border:       'rgba(15,34,64,0.10)',
+      textMuted:    '#A7B1C1',   // --muted
+      border:       '#D8DFE9',   // --gray-line
       borderHover:  'rgba(15,34,64,0.20)',
+      salmon:        '#E37577',  // --salmon
+      teal:          '#00F2EA',  // --teal
+      star:          '#169FE7',  // --star
+      blueHighlight: '#4256E8',  // --blue-hl
+      redOnDark:     '#FF7A6E',  // --red-on-dark
     },
     typography: {
-      fontBody:    'var(--font-poppins), system-ui, sans-serif',
-      fontHeading: 'var(--font-poppins), system-ui, sans-serif',
+      fontBody:    'var(--font-geist), -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif',
+      fontHeading: 'var(--font-geist), -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif',
     },
     spacing: {
       sectionPaddingY:  '6rem',
-      containerMaxWidth:'72rem',
+      containerMaxWidth:'1140px',
       containerPaddingX:'1.5rem',
     },
     shape: {
-      radiusSm:   '0.375rem',
-      radiusMd:   '0.75rem',
-      radiusLg:   '1rem',
-      radiusXl:   '1.5rem',
+      radiusSm:   '12px',
+      radiusMd:   '20px',
+      radiusLg:   '28px',
+      radiusXl:   '36px',
       radiusFull: '9999px',
     },
     shadows: {
-      shadowSm: '0 1px 2px 0 rgba(22,0,66,0.06)',
-      shadowMd: '0 4px 10px -1px rgba(22,0,66,0.10)',
-      shadowLg: '0 12px 24px -4px rgba(22,0,66,0.12)',
+      shadowSm: '0 2px 6px -2px rgba(15,34,64,0.10)',
+      shadowMd: '0 10px 24px -10px rgba(15,34,64,0.18)',
+      shadowLg: '0 20px 50px -20px rgba(15,34,64,0.25)',
     },
   },
   dark: {
     colors: {
-      primary:      '#FD5750',
-      primaryHover: '#E64843',
-      primaryFg:    '#FFFFFF',
+      primary:      '#FF7A6E',   // --red-on-dark
+      primaryHover: '#FF8F85',
+      primaryFg:    '#0F2240',
       background:   '#0F2240',
       surface:      '#16305A',
       surfaceHover: '#1D3D70',
@@ -103,21 +114,26 @@ const themeConfig: ThemeConfig = {
       textMuted:    'rgba(242,243,246,0.40)',
       border:       'rgba(242,243,246,0.10)',
       borderHover:  'rgba(242,243,246,0.20)',
+      salmon:        '#E37577',
+      teal:          '#00F2EA',
+      star:          '#169FE7',
+      blueHighlight: '#4256E8',
+      redOnDark:     '#FF7A6E',
     },
     typography: {
-      fontBody:    'var(--font-poppins), system-ui, sans-serif',
-      fontHeading: 'var(--font-poppins), system-ui, sans-serif',
+      fontBody:    'var(--font-geist), -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif',
+      fontHeading: 'var(--font-geist), -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif',
     },
     spacing: {
       sectionPaddingY:  '6rem',
-      containerMaxWidth:'72rem',
+      containerMaxWidth:'1140px',
       containerPaddingX:'1.5rem',
     },
     shape: {
-      radiusSm:   '0.375rem',
-      radiusMd:   '0.75rem',
-      radiusLg:   '1rem',
-      radiusXl:   '1.5rem',
+      radiusSm:   '12px',
+      radiusMd:   '20px',
+      radiusLg:   '28px',
+      radiusXl:   '36px',
       radiusFull: '9999px',
     },
     shadows: {

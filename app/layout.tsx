@@ -1,13 +1,13 @@
 import type { Metadata } from 'next'
-import { Poppins } from 'next/font/google'
+import { Geist } from 'next/font/google'
 import themeConfig from '../theme.config'
 import { buildCSSVars } from '../lib/theme'
 import './globals.css'
 
-const poppins = Poppins({
+const geist = Geist({
   subsets: ['latin'],
   weight: ['400', '500', '600', '700'],
-  variable: '--font-poppins',
+  variable: '--font-geist',
   display: 'swap',
 })
 
@@ -29,7 +29,7 @@ export default function RootLayout({
       <head>
         <style>{`:root { ${buildCSSVars(tokens)} }`}</style>
       </head>
-      <body className={`${poppins.variable} antialiased`}>
+      <body className={`${geist.variable} antialiased`}>
         {children}
       </body>
     </html>

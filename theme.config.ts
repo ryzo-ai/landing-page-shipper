@@ -7,6 +7,7 @@ export interface ThemeTokens {
     primaryHover: string
     primaryFg: string
     primaryOnInverse: string
+    gradientAccent: string
     background: string
     surface: string
     surfaceHover: string
@@ -56,12 +57,13 @@ const themeConfig: ThemeConfig = {
       primary:      '#052D69',
       primaryHover: '#041F4A',
       primaryFg:    '#FFFFFF',
-      primaryOnInverse: '#3BA0C1',
+      primaryOnInverse: '#052D69',
+      gradientAccent: 'linear-gradient(180deg, #F7FCFE 0%, #E4F4FB 55%, #D7EEF7 100%)',
       background:   '#FFFFFF',
       surface:      '#F5F8FA',
       surfaceHover: '#DEEDFB',
-      surfaceInverse: '#18233A',
-      textOnInverse:  '#F5F8FA',
+      surfaceInverse: '#E8F5FB',
+      textOnInverse:  '#18233A',
       textPrimary:  '#18233A',
       textSecondary:'rgba(24,35,58,0.68)',
       textMuted:    'rgba(24,35,58,0.45)',
@@ -73,7 +75,7 @@ const themeConfig: ThemeConfig = {
       fontHeading: 'var(--font-roboto), system-ui, sans-serif',
     },
     spacing: {
-      sectionPaddingY:  '6rem',
+      sectionPaddingY:  '8.5rem',
       containerMaxWidth:'72rem',
       containerPaddingX:'1.5rem',
     },
@@ -96,6 +98,7 @@ const themeConfig: ThemeConfig = {
       primaryHover: '#2F87A5',
       primaryFg:    '#08111F',
       primaryOnInverse: '#3BA0C1',
+      gradientAccent: 'linear-gradient(180deg, #1F2C48 0%, #18233A 100%)',
       background:   '#18233A',
       surface:      '#1F2C48',
       surfaceHover: '#27375A',
@@ -112,7 +115,7 @@ const themeConfig: ThemeConfig = {
       fontHeading: 'var(--font-roboto), system-ui, sans-serif',
     },
     spacing: {
-      sectionPaddingY:  '6rem',
+      sectionPaddingY:  '8.5rem',
       containerMaxWidth:'72rem',
       containerPaddingX:'1.5rem',
     },

@@ -7,6 +7,7 @@ export function buildCSSVars(tokens: ThemeTokens): string {
     `--color-primary-hover: ${colors.primaryHover}`,
     `--color-primary-fg: ${colors.primaryFg}`,
     `--color-primary-on-inverse: ${colors.primaryOnInverse}`,
+    `--gradient-accent: ${colors.gradientAccent}`,
     `--color-background: ${colors.background}`,
     `--color-surface: ${colors.surface}`,
     `--color-surface-hover: ${colors.surfaceHover}`,

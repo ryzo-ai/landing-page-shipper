@@ -7,7 +7,7 @@ export default function ValueProposition({ content }: { content: ValuePropositio
   const hasGraphic = Boolean(content.graphic)
 
   return (
-    <SectionWrapper className="py-24 px-6 bg-[var(--color-surface-inverse)]">
+    <SectionWrapper className="py-[var(--section-padding-y)] px-6 bg-[var(--color-background)]">
       <div
         className={
           hasGraphic

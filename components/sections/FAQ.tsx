@@ -5,7 +5,7 @@ import { FAQContent } from '../../types/content'
 
 export default function FAQ({ content }: { content: FAQContent }) {
   return (
-    <SectionWrapper className="py-24 px-6 bg-[var(--color-background)]">
+    <SectionWrapper className="py-[var(--section-padding-y)] px-6 bg-[var(--color-background)]">
       <div className="max-w-3xl mx-auto">
         {content.eyebrow && (
           <p className="font-body text-xs font-medium text-[var(--color-primary)] tracking-[0.2em] uppercase mb-4 text-center">

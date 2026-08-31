@@ -6,7 +6,7 @@ import { ProblemSectionContent } from '../../types/content'
 
 export default function ProblemSection({ content }: { content: ProblemSectionContent }) {
   return (
-    <SectionWrapper className="py-24 px-6 bg-[var(--color-background)]">
+    <SectionWrapper className="py-[var(--section-padding-y)] px-6 bg-[var(--color-background)]">
       <div className="max-w-6xl mx-auto">
         {content.eyebrow && (
           <p className="font-body text-xs font-medium text-[var(--color-primary)] tracking-[0.2em] uppercase mb-4 text-center">
@@ -21,7 +21,7 @@ export default function ProblemSection({ content }: { content: ProblemSectionCon
           {content.cards.map((card) => (
             <div
               key={card.title}
-              className="flex flex-col items-start gap-4 p-8 rounded-[var(--radius-lg)] bg-[var(--color-surface)] hover:shadow-[var(--shadow-lg)] transition-shadow duration-200"
+              className="flex flex-col items-start gap-5 p-10 rounded-[var(--radius-lg)] bg-[var(--color-surface)] hover:shadow-[var(--shadow-lg)] transition-shadow duration-200"
             >
               <div className="w-11 h-11 rounded-[var(--radius-md)] bg-[var(--color-primary)]/10 flex items-center justify-center text-[var(--color-primary)]">
                 <Icon d={card.icon} size={22} />

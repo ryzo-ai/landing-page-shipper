@@ -24,8 +24,8 @@ const socialIcons: Record<string, { path: string; filled: boolean }> = {
 
 export default function Footer({ content }: { content: FooterContent }) {
   return (
-    <footer className="bg-[#171717] -mt-px">
-      <div className="max-w-6xl mx-auto px-6 py-12">
+    <footer className="bg-[var(--color-background)] px-6 pb-10 -mt-px">
+      <div className="max-w-6xl mx-auto px-8 py-12 rounded-[var(--radius-xl)] bg-[var(--color-surface-inverse)] bg-[image:var(--gradient-accent)]">
         <div className="flex flex-col md:flex-row items-start md:items-center justify-between gap-8">
 
           {/* Logo + social */}
@@ -34,7 +34,7 @@ export default function Footer({ content }: { content: FooterContent }) {
               {content.logo.imageSrc ? (
                 <img src={content.logo.imageSrc} alt={content.logo.imageAlt ?? content.logo.text} className="h-7 w-auto" />
               ) : content.logo.showMark === false ? (
-                <span className="font-heading text-sm font-semibold text-white">{content.logo.text}</span>
+                <span className="font-heading text-sm font-semibold text-[var(--color-text-on-inverse)]">{content.logo.text}</span>
               ) : (
                 <svg viewBox="0 0 996.81 996.81" className="h-7 w-auto" role="img" aria-label={content.logo.text}>
                   <rect width="996.81" height="996.81" fill="var(--color-primary)" />
@@ -59,7 +59,7 @@ export default function Footer({ content }: { content: FooterContent }) {
                       target="_blank"
                       rel="noopener noreferrer"
                       aria-label={`Ryzo on ${s.platform}`}
-                      className="text-white/40 hover:text-white transition-colors duration-150"
+                      className="text-[var(--color-text-on-inverse)]/45 hover:text-[var(--color-text-on-inverse)] transition-colors duration-150"
                     >
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
@@ -91,7 +91,7 @@ export default function Footer({ content }: { content: FooterContent }) {
                   href={link.href}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="font-body text-sm text-white/50 hover:text-white transition-colors duration-150"
+                  className="font-body text-sm text-[var(--color-text-on-inverse)]/65 hover:text-[var(--color-text-on-inverse)] transition-colors duration-150"
                 >
                   {link.label}
                 </a>
@@ -100,8 +100,8 @@ export default function Footer({ content }: { content: FooterContent }) {
           )}
         </div>
 
-        <div className="mt-8 pt-8 border-t border-white/10">
-          <p className="font-body text-xs text-white/25">{content.copyright}</p>
+        <div className="mt-8 pt-8 border-t border-[var(--color-text-on-inverse)]/15">
+          <p className="font-body text-xs text-[var(--color-text-on-inverse)]/50">{content.copyright}</p>
         </div>
       </div>
     </footer>

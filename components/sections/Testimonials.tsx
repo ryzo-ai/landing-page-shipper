@@ -5,7 +5,7 @@ import { TestimonialsContent } from '../../types/content'
 
 export default function Testimonials({ content }: { content: TestimonialsContent }) {
   return (
-    <SectionWrapper className="py-24 px-6 bg-[var(--color-background)]">
+    <SectionWrapper className="py-[var(--section-padding-y)] px-6 bg-[var(--color-background)]">
       <div className="max-w-6xl mx-auto">
         {content.eyebrow && (
           <p className="font-body text-xs font-medium text-[var(--color-primary)] tracking-[0.2em] uppercase mb-4 text-center">

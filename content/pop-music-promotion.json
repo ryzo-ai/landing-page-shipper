@@ -5,6 +5,7 @@
     "hero",
     "mediaBlock",
     "problemSection",
+    "partnerLogos",
     "valueProposition",
     "services",
     "process",
@@ -67,7 +68,11 @@
   "valueProposition": {
     "eyebrow": "How Playlist Push is different",
     "headline": "Matched by your actual sound, not a genre tag",
-    "body": "Playlist DNA analyzes your track's audio profile and matches it to curators whose playlists genuinely fit — by mood, production and vocal style, not just the word 'pop' in a dropdown."
+    "body": "Playlist DNA analyzes your track's audio profile and matches it to curators whose playlists genuinely fit — by mood, production and vocal style, not just the word 'pop' in a dropdown.",
+    "graphic": {
+      "src": "/brand/playlistpush/covers/summer-hits.jpeg",
+      "alt": "Summer Hits — a real Spotify playlist in the Playlist Push curator network"
+    }
   },
   "services": {
     "eyebrow": "Two ways to grow",
@@ -165,5 +170,34 @@
     ],
     "socialLinks": [],
     "copyright": "© 2026 Playlist Push. All rights reserved."
+  },
+  "partnerLogos": {
+    "eyebrow": "Featured in",
+    "logos": [
+      {
+        "src": "/brand/playlistpush/press/rolling-stone.png",
+        "alt": "Rolling Stone"
+      },
+      {
+        "src": "/brand/playlistpush/press/wired.png",
+        "alt": "WIRED"
+      },
+      {
+        "src": "/brand/playlistpush/press/npr.svg",
+        "alt": "NPR"
+      },
+      {
+        "src": "/brand/playlistpush/press/fortune.png",
+        "alt": "Fortune"
+      },
+      {
+        "src": "/brand/playlistpush/press/la-times.png",
+        "alt": "Los Angeles Times"
+      },
+      {
+        "src": "/brand/playlistpush/press/vox.svg",
+        "alt": "Vox"
+      }
+    ]
   }
 }

@@ -5,6 +5,7 @@
     "hero",
     "mediaBlock",
     "problemSection",
+    "partnerLogos",
     "valueProposition",
     "services",
     "process",
@@ -67,7 +68,11 @@
   "valueProposition": {
     "eyebrow": "How Playlist Push is different",
     "headline": "Verified curators. Matched by your sound. Measured in the open.",
-    "body": "Playlist DNA analyzes your track's audio profile and matches it to curators whose playlists genuinely fit — by genre, mood, and sound, not spray-and-pray blasts.\n\nEvery curator in the network is vetted and re-verified, and every placement shows up in your campaign dashboard. You always know where your music is, and what it's doing there."
+    "body": "Playlist DNA analyzes your track's audio profile and matches it to curators whose playlists genuinely fit — by genre, mood, and sound, not spray-and-pray blasts.\n\nEvery curator in the network is vetted and re-verified, and every placement shows up in your campaign dashboard. You always know where your music is, and what it's doing there.",
+    "graphic": {
+      "src": "/brand/playlistpush/covers/indie-focus.jpeg",
+      "alt": "Indie Focus — a real Spotify playlist in the Playlist Push curator network"
+    }
   },
   "services": {
     "eyebrow": "Two ways to grow",
@@ -165,5 +170,34 @@
     ],
     "socialLinks": [],
     "copyright": "© 2026 Playlist Push. All rights reserved."
+  },
+  "partnerLogos": {
+    "eyebrow": "Featured in",
+    "logos": [
+      {
+        "src": "/brand/playlistpush/press/rolling-stone.png",
+        "alt": "Rolling Stone"
+      },
+      {
+        "src": "/brand/playlistpush/press/wired.png",
+        "alt": "WIRED"
+      },
+      {
+        "src": "/brand/playlistpush/press/npr.svg",
+        "alt": "NPR"
+      },
+      {
+        "src": "/brand/playlistpush/press/fortune.png",
+        "alt": "Fortune"
+      },
+      {
+        "src": "/brand/playlistpush/press/la-times.png",
+        "alt": "Los Angeles Times"
+      },
+      {
+        "src": "/brand/playlistpush/press/vox.svg",
+        "alt": "Vox"
+      }
+    ]
   }
 }

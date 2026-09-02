@@ -75,7 +75,7 @@ const themeConfig: ThemeConfig = {
       fontHeading: 'var(--font-roboto), system-ui, sans-serif',
     },
     spacing: {
-      sectionPaddingY:  '8.5rem',
+      sectionPaddingY:  'clamp(4rem, 14vw, 8.5rem)',
       containerMaxWidth:'72rem',
       containerPaddingX:'1.5rem',
     },
@@ -115,7 +115,7 @@ const themeConfig: ThemeConfig = {
       fontHeading: 'var(--font-roboto), system-ui, sans-serif',
     },
     spacing: {
-      sectionPaddingY:  '8.5rem',
+      sectionPaddingY:  'clamp(4rem, 14vw, 8.5rem)',
       containerMaxWidth:'72rem',
       containerPaddingX:'1.5rem',
     },

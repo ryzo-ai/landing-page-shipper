@@ -12,7 +12,7 @@ export default function Hero({ content }: { content: HeroContent }) {
     0
 
   return (
-    <section className="relative flex flex-col items-start justify-center min-h-screen text-left px-6 pt-24 pb-16 bg-[var(--color-background)] overflow-hidden">
+    <section className="relative flex flex-col items-start justify-center min-h-screen text-left px-[clamp(24px,6vw,96px)] pt-24 pb-16 bg-[var(--color-background)] overflow-hidden">
       {/* Background video */}
       {content.backgroundVideo && (
         <video

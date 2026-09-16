@@ -4,6 +4,8 @@ import fs from 'fs'
 import path from 'path'
 import { LandingPageContent } from '../../types/content'
 import LandingPage from '../../components/LandingPage'
+import PlaylistPushPage from '../../components/playlistpush/PlaylistPushPage'
+import { PlaylistPushContent } from '../../types/playlistpush'
 
 // Only serve slugs that were known at build time — blocks dynamic traversal attempts
 export const dynamicParams = false
@@ -12,7 +14,9 @@ interface PageProps {
   params: Promise<{ slug: string }>
 }
 
-function readContent(slug: string): LandingPageContent | null {
+type AnyContent = LandingPageContent | PlaylistPushContent
+
+function readContent(slug: string): AnyContent | null {
   // Allowlist: slugs may only contain letters, digits, and hyphens
   if (!/^[a-z0-9-]+$/i.test(slug)) return null
 
@@ -24,7 +28,7 @@ function readContent(slug: string): LandingPageContent | null {
 
   try {
     const raw = fs.readFileSync(filePath, 'utf-8')
-    return JSON.parse(raw) as LandingPageContent
+    return JSON.parse(raw) as AnyContent
   } catch {
     return null
   }
@@ -50,7 +54,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
     title: content.meta.title,
     description: content.meta.description,
     robots: { index: false, follow: false },
-    openGraph: content.meta.ogImage
+    openGraph: 'ogImage' in content.meta && content.meta.ogImage
       ? { images: [{ url: content.meta.ogImage }] }
       : undefined,
   }
@@ -60,5 +64,6 @@ export default async function Page({ params }: PageProps) {
   const { slug } = await params
   const content = readContent(slug)
   if (!content) notFound()
+  if (content.templateType === 'playlistpush') return <PlaylistPushPage content={content} />
   return <LandingPage content={content} />
 }

@@ -1,182 +1,224 @@
 {
   "slug": "hip-hop-music-promotion",
-  "templateType": "pitch",
-  "sections": [
-    "hero",
-    "mediaBlock",
-    "problemSection",
-    "partnerLogos",
-    "valueProposition",
-    "services",
-    "process",
-    "ctaSection",
-    "faq"
-  ],
+  "templateType": "playlistpush",
   "meta": {
-    "title": "Hip-Hop Promotion — Real Spotify Playlists | Playlist Push",
-    "description": "Get your hip-hop track on real Spotify playlists. Verified playlists, transparent results, no bots. Campaigns from $280."
+    "title": "Hip-Hop Spotify Playlist Promotion | Playlist Push",
+    "description": "Grow your monthly listeners and real streams by pitching your hip-hop track to top Spotify playlist curators. 4,000+ verified playlists, 150M+ total reach, from $280."
   },
-  "navbar": {
-    "logo": {
-      "text": "Playlist Push",
-      "showMark": false,
-      "href": "https://playlistpush.com",
-      "imageSrc": "/brand/playlistpush/pp-logo-full-color.png",
-      "imageAlt": "Playlist Push"
+  "header": {
+    "home": "https://playlistpush.com",
+    "logoOnLight": {
+      "src": "/brand/playlistpush/logo-dark.png",
+      "alt": "Playlist Push Logo"
+    },
+    "logoOnDark": {
+      "src": "/brand/playlistpush/logo.png",
+      "alt": "Playlist Push Logo"
+    },
+    "signIn": {
+      "label": "Sign in",
+      "href": "https://app.playlistpush.com/login"
     },
     "cta": {
-      "label": "Start your campaign",
-      "href": "#cta"
+      "label": "Get Started",
+      "href": "https://app.playlistpush.com/apply"
     }
   },
   "hero": {
-    "headline": "Hip-hop promotion on real Spotify playlists",
-    "subheadline": "Submit your track once. Playlist DNA matches it to verified curators whose playlists actually run rap, trap and drill — not a generic blast to everyone.",
-    "cta": {
-      "label": "Start your campaign",
-      "href": "#cta"
+    "h1": {
+      "before": "Hip-Hop",
+      "highlight": "Spotify",
+      "after": " Playlist Promotion"
     },
-    "socialProof": "50,000+ artists · 4,000+ verified playlists"
-  },
-  "mediaBlock": {
-    "type": "image",
-    "src": "/brand/playlistpush/pp-campaign-dashboard-mockup.webp",
-    "alt": "Playlist Push campaign dashboard showing Spotify playlist adds, stream growth, and TikTok video view metrics",
-    "aspectRatio": "4/3"
-  },
-  "problemSection": {
-    "eyebrow": "The problem",
-    "headline": "Hip-hop is the most saturated genre on Spotify",
-    "cards": [
+    "sub": "Grow your monthly listeners & real streams by pitching to top Spotify Playlist Curators.",
+    "cta": {
+      "label": "Start Playlist Promotion",
+      "href": "https://app.playlistpush.com/apply/artist"
+    },
+    "secondary": {
+      "label": "How it works",
+      "href": "#how-it-works"
+    },
+    "promo": {
+      "title": "Campaign Results for “All Time High”",
+      "playlists": {
+        "label": "Playlist by our curators",
+        "value": 82,
+        "prefix": "+",
+        "sub": "With a combined following of 1.1M followers"
+      },
+      "streams": {
+        "label": "Streams",
+        "value": 133,
+        "suffix": "K",
+        "badge": "1279%"
+      },
+      "editorial": {
+        "label": "Editorial Playlists",
+        "value": 13,
+        "badge": "+4",
+        "sub": "Compared to 1 year ago"
+      },
+      "algorithmic": {
+        "label": "Algorithmic Playlists",
+        "value": 16,
+        "badge": "+10",
+        "sub": "Compared to 1 year ago"
+      },
+      "listeners": {
+        "label": "Monthly Listeners",
+        "value": 32,
+        "suffix": "K",
+        "badge": "+11,273",
+        "sub": "Compared to 1 year ago"
+      },
+      "followers": {
+        "label": "Followers",
+        "value": 9.9,
+        "suffix": "K",
+        "badge": "+13%"
+      }
+    },
+    "phone": {
+      "src": "/brand/playlistpush/hero/promo-phone.webp",
+      "alt": "Playlist Push app showing a curator adding a track to their playlist"
+    },
+    "trust": {
+      "href": "https://playlistpush.com/reviews",
+      "rating": 4.6,
+      "ratingText": "out of 5",
+      "countText": "based on 5,982 artist reviews",
+      "avatars": [
+        "/brand/playlistpush/reviews/lyod.webp",
+        "/brand/playlistpush/reviews/chloe-tang.webp",
+        "/brand/playlistpush/reviews/tristan-roberson-spotify.webp"
+      ]
+    },
+    "stats": [
       {
-        "icon": "M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z",
-        "title": "Everyone is pitching the same playlists",
-        "description": "Hip-hop gets more submissions than any other genre. The well-known playlists are buried in demos, and a cold DM is competing with hundreds the same week."
+        "num": "4000+",
+        "label": "Verified Playlists"
       },
       {
-        "icon": "M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z",
-        "title": "The scam services target rappers hardest",
-        "description": "Bot-filled 'rap promo' packages are everywhere, and Spotify's filters catch them. A cheap stream spike can cost you the track — and sometimes the artist profile."
+        "num": "1M+",
+        "label": "Playlist Adds"
       },
       {
-        "icon": "M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z",
-        "title": "Placement without fit does nothing",
-        "description": "Landing on a playlist that mixes drill with lo-fi study beats gets you skips, not listeners. Skip rate is what tells the algorithm whether to keep pushing your song."
+        "num": "150M+",
+        "label": "Total Reach"
       }
     ]
   },
-  "valueProposition": {
-    "eyebrow": "How Playlist Push is different",
-    "headline": "Matched to curators who actually run rap playlists",
-    "body": "Playlist DNA analyzes your track's audio profile — tempo, energy, vocal delivery, production — and matches it to curators whose playlists genuinely fit that sound. A trap record and a boom-bap record do not belong on the same playlist, and we don't pretend otherwise.",
-    "graphic": {
-      "src": "/brand/playlistpush/covers/trap-hits.jpeg",
-      "alt": "Trap Hits — a real Spotify playlist in the Playlist Push curator network"
-    }
-  },
-  "services": {
-    "eyebrow": "Two ways to grow",
-    "headline": "Built for rappers and producers",
-    "cards": [
+  "pitch": {
+    "eyebrow": "Spotify Playlist Promotion",
+    "title": "Submit your music to Spotify Playlist curators",
+    "checklist": [
+      "Connect with playlist curators instantly",
+      "Trigger the Spotify algorithm",
+      "Drive long-term results",
+      "Measure and maximize your impact"
+    ],
+    "cta": {
+      "label": "Submit to our Spotify Playlists",
+      "href": "https://app.playlistpush.com/apply/artist"
+    },
+    "covers": [
       {
-        "icon": "M9 19V6l12-3v13M9 19c0 1.105-1.343 2-3 2s-3-.895-3-2 1.343-2 3-2 3 .895 3 2zm12-3c0 1.105-1.343 2-3 2s-3-.895-3-2 1.343-2 3-2 3 .895 3 2zM9 10l12-3",
-        "title": "Spotify Playlist Pitching",
-        "description": "Your track goes to verified curators matched by Playlist DNA. Curators listen and decide — placements are earned, tracked, and reported in your dashboard."
+        "src": "/brand/playlistpush/covers/trap-hits.jpeg",
+        "alt": "Trap Hits Spotify playlist cover"
       },
       {
-        "icon": "M15 10l4.553-2.276A1 1 0 0121 8.618v6.764a1 1 0 01-1.447.894L15 14M5 18h8a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v8a2 2 0 002 2z",
-        "title": "TikTok Creator Campaigns",
-        "description": "Real TikTok creators use your sound in their content, putting your music in front of new audiences organically — no ads, no bots."
+        "src": "/brand/playlistpush/covers/run-this-city.jpeg",
+        "alt": "Run This City Spotify playlist cover"
+      },
+      {
+        "src": "/brand/playlistpush/covers/afrobeats.webp",
+        "alt": "Afrobeats Spotify playlist cover"
+      },
+      {
+        "src": "/brand/playlistpush/covers/festival-music.jpeg",
+        "alt": "Festival Music Spotify playlist cover"
+      },
+      {
+        "src": "/brand/playlistpush/covers/quiet-ppl.jpeg",
+        "alt": "Quiet People Spotify playlist cover"
+      },
+      {
+        "src": "/brand/playlistpush/covers/tropical-house.jpeg",
+        "alt": "Tropical House Spotify playlist cover"
+      },
+      {
+        "src": "/brand/playlistpush/covers/summer-hits.jpeg",
+        "alt": "Summer Hits Spotify playlist cover"
+      },
+      {
+        "src": "/brand/playlistpush/covers/chill-modern-rock.jpeg",
+        "alt": "Chill Modern Rock Spotify playlist cover"
+      },
+      {
+        "src": "/brand/playlistpush/covers/indie-focus.jpeg",
+        "alt": "Indie Focus Spotify playlist cover"
       }
     ]
   },
-  "process": {
-    "eyebrow": "How it works",
-    "headline": "From upload to placements in four steps",
+  "howItWorks": {
+    "eyebrow": "Spotify Playlist Submissions",
+    "title": "How it works",
     "steps": [
       {
-        "title": "Submit your track",
-        "description": "Share your released or upcoming track and set your campaign budget. Campaigns are pay-per-campaign — no subscription, no lock-in."
+        "title": "Submit your song",
+        "text": "Campaigns can start as early as 2 weeks before release, so playlist adds are already secured and the song appears in them on day one."
       },
       {
-        "title": "Playlist DNA matches",
-        "description": "Our AI analyzes your track's audio profile and finds the verified curators whose playlists fit your genre, mood, and sound."
+        "title": "Select targeting & budget",
+        "text": "Pick the genres, moods and languages that fit your song. See how many playlists match, then choose how many you want to reach."
       },
       {
-        "title": "Curators listen",
-        "description": "Matched curators review your track and decide whether it fits their playlist. Placements are real editorial decisions by real people."
+        "title": "Your song is sent to playlists",
+        "text": "We deliver your submission to your targeted group of real Spotify playlist curators for placement consideration"
       },
       {
-        "title": "Track your results",
-        "description": "Follow every placement, review, and stream in your campaign dashboard — transparent data from start to finish."
+        "title": "You receive curator responses",
+        "text": "You'll start receiving responses from Spotify curators at launch, and they'll keep coming until your budget runs out."
+      },
+      {
+        "title": "Review your results",
+        "text": "Get detailed final campaign reporting with advanced analytics"
       }
     ]
   },
-  "ctaSection": {
-    "headline": "Ready to get your track heard?",
-    "subheadline": "Campaigns start at $280. Pay per campaign — no subscription. See exactly which playlists pick you up and what it does for your audience.",
+  "curators": {
+    "title": "Connect with real Spotify playlist curators",
+    "sub": "Each curator is rigorously vetted to ensure their followers, listeners, and streams are organic.",
     "cta": {
-      "label": "Start your campaign",
-      "href": "https://playlistpush.com/?utm_source=google&utm_medium=cpc&utm_campaign=indie-lp-prototype"
+      "label": "Submit to our Curators",
+      "href": "https://app.playlistpush.com/apply/artist"
+    },
+    "curator": {
+      "name": "Trevor R.",
+      "tag": "CURATOR",
+      "avatar": {
+        "src": "/brand/playlistpush/trevor.jpg",
+        "alt": "Trevor R., verified Spotify playlist curator"
+      },
+      "checks": [
+        "Real followers",
+        "Active Listeners",
+        "Organic growth",
+        "Identity verified"
+      ]
     }
   },
-  "faq": {
-    "eyebrow": "FAQ",
-    "headline": "Common questions",
-    "items": [
-      {
-        "question": "Is Playlist Push legit?",
-        "answer": "Yes. Playlist Push has been operating since 2017 and works only with verified playlist curators — real people with real audiences. Curators are reviewed before joining the network and monitored continuously. No bots, no fake streams, no guaranteed-placement schemes."
-      },
-      {
-        "question": "Do you guarantee streams or placements?",
-        "answer": "No — and you should be suspicious of anyone who does. Curators make their own editorial decisions. What we guarantee is that your track reaches verified curators matched to your sound, and that you can see every result in your dashboard."
-      },
-      {
-        "question": "What does a campaign cost?",
-        "answer": "Campaigns start at $280 and scale with your budget and goals. You pay per campaign — there's no subscription and no recurring fee."
-      },
-      {
-        "question": "How does Playlist DNA matching work?",
-        "answer": "Playlist DNA analyzes the audio characteristics of your track — genre, mood, energy, sound — and matches it against curator playlist profiles, so your music lands with curators who actually feature your kind of music."
-      },
-      {
-        "question": "I'm an independent artist without a label. Is this for me?",
-        "answer": "That's exactly who Playlist Push is built for. More than 50,000+ artists have run campaigns — you don't need a label, a distributor deal, or an existing following to start."
-      },
-      {
-        "question": "How do I see my results?",
-        "answer": "Your campaign dashboard shows every curator review, playlist placement, and the follower and stream activity around your campaign — live, from start to finish."
-      }
-    ]
-  },
-  "footer": {
-    "logo": {
-      "text": "Playlist Push",
-      "showMark": false,
-      "href": "https://playlistpush.com",
-      "imageSrc": "/brand/playlistpush/pp-logo-text-white.png",
-      "imageAlt": "Playlist Push"
-    },
-    "links": [
-      {
-        "label": "Website",
-        "href": "https://playlistpush.com"
-      },
-      {
-        "label": "Privacy",
-        "href": "https://playlistpush.com/privacy"
-      }
-    ],
-    "socialLinks": [],
-    "copyright": "© 2026 Playlist Push. All rights reserved."
-  },
-  "partnerLogos": {
-    "eyebrow": "Featured in",
+  "press": {
+    "label": "Featured in",
     "logos": [
       {
         "src": "/brand/playlistpush/press/rolling-stone.png",
         "alt": "Rolling Stone"
+      },
+      {
+        "src": "/brand/playlistpush/press/fortune.png",
+        "alt": "Fortune"
       },
       {
         "src": "/brand/playlistpush/press/wired.png",
@@ -184,11 +226,8 @@
       },
       {
         "src": "/brand/playlistpush/press/npr.svg",
-        "alt": "NPR"
-      },
-      {
-        "src": "/brand/playlistpush/press/fortune.png",
-        "alt": "Fortune"
+        "alt": "NPR",
+        "invert": true
       },
       {
         "src": "/brand/playlistpush/press/la-times.png",
@@ -197,6 +236,241 @@
       {
         "src": "/brand/playlistpush/press/vox.svg",
         "alt": "Vox"
+      }
+    ]
+  },
+  "reviews": {
+    "eyebrow": "Real Artist Feedback",
+    "title": "Artist Reviews",
+    "items": [
+      {
+        "quote": "Thanks to Playlist Push, I was able to get into big playlists that fit my genre and so many people discovered me.",
+        "name": "LYOD",
+        "photo": "/brand/playlistpush/reviews/lyod.webp",
+        "artistUrl": "https://open.spotify.com/artist/2a97LenVl6Fez8pkVAcFuq"
+      },
+      {
+        "quote": "Playlist Push has been a huge support in finding my niche audience and getting that loyalty from listeners.",
+        "name": "Chloe Tang",
+        "photo": "/brand/playlistpush/reviews/chloe-tang.webp",
+        "artistUrl": "https://open.spotify.com/artist/4uwIzZYa9X7krqWld1B7JV"
+      },
+      {
+        "quote": "Playlist Push has been a game-changer in getting my music in front of the right listeners.",
+        "name": "Tristan Roberson",
+        "photo": "/brand/playlistpush/reviews/tristan-roberson-spotify.webp",
+        "artistUrl": "https://open.spotify.com/artist/3DciIsSZJFKwH06cc9l9RR"
+      }
+    ]
+  },
+  "team": {
+    "eyebrow": "Meet the Team",
+    "title": "We’re here to help you grow",
+    "sub": "Our experienced team of music promotion experts",
+    "avatars": [
+      "/brand/playlistpush/team/team-1.jpg",
+      "/brand/playlistpush/team/team-2.jpg",
+      "/brand/playlistpush/team/team-3.jpg",
+      "/brand/playlistpush/team/team-4.jpg",
+      "/brand/playlistpush/team/team-5.jpg",
+      "/brand/playlistpush/team/team-6.jpg"
+    ],
+    "caption": "Real people, no bots — just like our curator network."
+  },
+  "pricing": {
+    "eyebrow": "Pricing",
+    "title": "Spotify Promotion Pricing",
+    "label": "How much do you want to spend?",
+    "min": 280,
+    "max": 6000,
+    "step": 50,
+    "initial": 630,
+    "dollarsPerPlaylist": 8,
+    "onRequestAbove": 5000,
+    "reachLabel": "Reach",
+    "playlistsLabel": "Playlists",
+    "currencyLabel": "usd",
+    "onRequestPrompt": "Want to reach more Playlists?",
+    "onRequestLabel": "On Request",
+    "minLabel": "Min.",
+    "maxLabel": "Max.",
+    "cta": {
+      "label": "Get Started",
+      "href": "https://app.playlistpush.com/apply/artist"
+    },
+    "note": "This calculator is just to give an indication of our average pricing. When setting up a campaign these numbers can vary, the actual pricing and number of playlists reached will depend on the selected genres and which curators the music will be sent to. Your music will be submitted to curators managing these playlists but that does not guarantee your music will be added to those playlists."
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "items": [
+      {
+        "q": "Is Playlist Push legit?",
+        "a": "Playlist Push is a fully legitimate music promotion platform founded in 2017 that has supported over 50,000 artists, managers, and labels. We are a US-based company with a 4.5+ rating and have been recognized by Rolling Stone, Wired, and NPR. Unlike unverified services that may use fake bot streams, we offer a transparent, pay-for-review model that connects you with real human curators, ensuring your growth is organic and safe for your artist profile."
+      },
+      {
+        "q": "How does a Playlist Push Spotify promotion campaign work?",
+        "a": "Our platform uses a sophisticated genre-matching system to connect your song with the most relevant independent curators. When setting up a campaign, you simply select your track's genres, mood, and language. Our system then identifies curators who manage active playlists in those specific categories. These curators provide a professional review; if they find the track is a good fit, they add it to their playlist, generating organic listener signals that help you find real fans."
+      },
+      {
+        "q": "What is a Pre-Release Campaign and how does it benefit my launch?",
+        "a": "A Pre-Release Campaign allows you to secure playlist commitments before your official release date. By clustering activity on day one, you send powerful engagement signals to the Spotify algorithm right when they matter most. Data shows that artists using this feature see a significant increase in first-week streams and higher chances of landing on algorithmic playlists like Discover Weekly."
+      },
+      {
+        "q": "How do curators hear my music before it is officially released?",
+        "a": "When you set up a pre-release campaign, you securely upload your unreleased track directly to our platform. We deliver this audio to our network of trusted curators, allowing them to listen, provide feedback, and commit to adding the track to their playlists ahead of time. This ensures all placements go live within the first 48 hours of your track hitting Spotify."
+      },
+      {
+        "q": "Is using Playlist Push safe for my Spotify for Artists account?",
+        "a": "Yes. We prioritize your long-term account health by strictly adhering to Spotify's anti-fraud policies. Our service is designed to be fully compliant, as we do not use bot-driven traffic or artificial engagement—the primary causes of platform flags. By facilitating 100% human reviews through our vetted curator network, we ensure your data remains clean, authentic, and safe for your artist profile."
+      },
+      {
+        "q": "How does Playlist Push help trigger the Spotify algorithm?",
+        "a": "To qualify for Discover Weekly or Release Radar, Spotify requires seed data like high save rates and low skip rates. Playlist Push helps generate these high-intent signals by placing your song in front of active listeners. When our curators add your track, it tells the Spotify algorithm exactly who your ideal listener is, which is the primary driver for getting picked up by Spotify Radio and other automated recommendations."
+      },
+      {
+        "q": "What is the minimum budget for a Spotify campaign?",
+        "a": "Spotify campaigns on Playlist Push start at $280. This minimum ensures your release reaches a critical mass of curators to generate actionable data. In digital music promotion, smaller budgets often fail to create the statistical volume required for the Spotify algorithm to recognize a trend. This investment allows your song to reach enough curators to produce meaningful algorithmic momentum."
+      },
+      {
+        "q": "How do you ensure the quality of the playlists in your network?",
+        "a": "We maintain the most rigorous standards in the music promotion industry. Every playlist in our network is subject to a high-level vetting process that combines human expertise with ongoing monitoring to ensure only authentic, active playlists are included. Over 99% of curator applications are turned down. Once a curator is admitted, their playlists are continuously reviewed to ensure they remain healthy and provide real value to artists. Our commitment to quality means your budget is focused exclusively on genuine discovery within a high-integrity ecosystem."
+      },
+      {
+        "q": "What is the best music promotion service for Spotify?",
+        "a": "The best music promotion services share a few traits you can verify before spending a dollar: real human curators instead of bots, transparent pay-for-review pricing rather than pay-for-placement, compliance with Spotify's Terms of Service, and reporting that shows exactly where your money went. Playlist Push is consistently ranked among the best music promotion services on all of these criteria. Since 2017 we have run campaigns for over 50,000 artists, managers, and labels, hold a 4.5+ rating, and have been featured by Rolling Stone, Wired, and NPR. Whichever service you choose, avoid any company that guarantees placements or streams, as that model relies on manipulation that can get your music removed from Spotify."
+      },
+      {
+        "q": "What makes Playlist Push different from SoundCampaign or SubmitHub?",
+        "a": "Playlist Push is built for scale, precision, and safety. While platforms like SubmitHub require artists to manually pitch to individual curators, our genre-matching system automates the targeting process. Compared to SoundCampaign, Playlist Push offers a more established, rigorously vetted curator network and exclusive features like Pre-Release Campaigns, which allow you to build momentum before your song drops. We provide a premium service for serious artists who demand verified data and protection from streaming manipulation."
+      },
+      {
+        "q": "Can I get a refund if a curator doesn't like my song?",
+        "a": "You are paying for a professional review and guaranteed consideration. While we cannot buy placements (this would violate Spotify's Terms of Service), we offer an Artist Protection Fund. If a curator fails to provide a qualitative, professional review of your music, the cost of that specific submission is automatically returned to your account balance. This ensures your promotion budget is only ever spent on curators who are actively engaged."
+      },
+      {
+        "q": "How long does it take to see results?",
+        "a": "Most artists see their first curator reviews and playlist activity within 48 to 72 hours. You will receive real-time notifications via your Live Analytics Dashboard, allowing you to track placements, read feedback, and monitor your song's performance as it happens. Your campaign continues to run until your full budget has been utilized, ensuring maximum exposure and trajectory for your release."
+      }
+    ]
+  },
+  "footer": {
+    "cta": {
+      "title": "Get started today",
+      "sub": "Set up your campaign in under 3 minutes.",
+      "button": {
+        "label": "Start Promotion",
+        "href": "https://app.playlistpush.com/apply/artist"
+      }
+    },
+    "logo": {
+      "src": "/brand/playlistpush/logo.png",
+      "alt": "Playlist Push Logo",
+      "href": "https://playlistpush.com"
+    },
+    "tagline": {
+      "label": "Music Promotion Services",
+      "href": "https://playlistpush.com"
+    },
+    "social": [
+      {
+        "icon": "/brand/playlistpush/icons/instagram.svg",
+        "href": "https://instagram.com/playlistpush",
+        "label": "Playlist Push Instagram"
+      },
+      {
+        "icon": "/brand/playlistpush/icons/youtube.svg",
+        "href": "https://www.youtube.com/c/playlistpush",
+        "label": "Playlist Push YouTube"
+      },
+      {
+        "icon": "/brand/playlistpush/icons/linkedin.png",
+        "href": "https://www.linkedin.com/company/playlistpush",
+        "label": "Playlist Push LinkedIn"
+      }
+    ],
+    "disclaimer": "All names and logos of third parties including Spotify, TikTok, and their respective logos displayed on this site are trademarks of their respective owners. Playlist Push is not endorsed by or affiliated with these third parties. Our use of these names and logos, and brands is solely for identification purposes only, and does not imply any endorsement or affiliation.",
+    "columns": [
+      {
+        "title": "For Artists",
+        "links": [
+          {
+            "label": "Spotify Playlists Promotion",
+            "href": "https://playlistpush.com/spotify-playlists-promotion"
+          },
+          {
+            "label": "Pricing",
+            "href": "https://playlistpush.com/pricing"
+          },
+          {
+            "label": "TikTok Music Promotion",
+            "href": "https://playlistpush.com/tiktok-music-promotion"
+          },
+          {
+            "label": "Blog for Artists",
+            "href": "https://playlistpush.com/blog/tag/for-artists/"
+          },
+          {
+            "label": "Artists Help Center",
+            "href": "https://help.playlistpush.com"
+          },
+          {
+            "label": "Gift Cards",
+            "href": "https://app.playlistpush.com/giftcard"
+          }
+        ]
+      },
+      {
+        "title": "For Creators",
+        "links": [
+          {
+            "label": "TikTok Creators",
+            "href": "https://playlistpush.com/tiktok-creator-program"
+          },
+          {
+            "label": "Playlists Creators",
+            "href": "https://playlistpush.com/spotify-curator-program"
+          },
+          {
+            "label": "Creators Help Center",
+            "href": "https://help.playlistpush.com"
+          },
+          {
+            "label": "Spotify Playlist Analyzer",
+            "href": "https://www.isitagoodplaylist.com/spotify-playlist-analyzer"
+          }
+        ]
+      },
+      {
+        "title": "Company",
+        "links": [
+          {
+            "label": "Contact",
+            "href": "mailto:support@playlistpush.com"
+          },
+          {
+            "label": "Privacy Policy",
+            "href": "https://playlistpush.com/blog/privacy-policy/"
+          },
+          {
+            "label": "Terms of Service",
+            "href": "https://playlistpush.com/blog/terms-of-use/"
+          },
+          {
+            "label": "Logos",
+            "href": "https://playlistpush.com/blog/playlistpush-logos/"
+          },
+          {
+            "label": "Reviews",
+            "href": "https://playlistpush.com/reviews"
+          }
+        ]
+      }
+    ],
+    "copyright": "© PlaylistPush LLC. Music Promotion Services. All rights reserved.",
+    "bottomLinks": [
+      {
+        "label": "Do Not Sell or Share My Personal information",
+        "href": "https://app.termly.io/notify/badc61f4-4a81-4841-a283-be7103f456e6"
       }
     ]
   }

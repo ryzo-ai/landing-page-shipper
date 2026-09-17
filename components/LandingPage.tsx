@@ -16,6 +16,9 @@ import CaseStudies from './sections/CaseStudies'
 import NextSteps from './sections/NextSteps'
 import CTASection from './sections/CTASection'
 import FAQ from './sections/FAQ'
+import Stats from './sections/Stats'
+import Comparison from './sections/Comparison'
+import HiringModels from './sections/HiringModels'
 
 type SectionRenderer = (c: LandingPageContent) => ReactNode
 
@@ -31,7 +34,11 @@ const SECTION_MAP: Record<SectionKey, SectionRenderer> = {
   caseStudies:      (c) => c.caseStudies      ? <CaseStudies content={c.caseStudies} />           : null,
   nextSteps:        (c) => c.nextSteps        ? <NextSteps content={c.nextSteps} />               : null,
   ctaSection:       (c) => c.ctaSection       ? <CTASection content={c.ctaSection} />             : null,
-  faq:              (c) => c.faq              ? <FAQ content={c.faq} />                           : null,
+  faq:              (c) => c.faq              ? <FAQ content={c.faq} /> : null,
+  stats:            (c) => c.stats            ? <Stats content={c.stats} />                       : null,
+  comparison:       (c) => c.comparison       ? <Comparison content={c.comparison} />             : null,
+  hiringModels:     (c) => c.hiringModels     ? <HiringModels content={c.hiringModels} />         : null,
+  servicesSecondary:(c) => c.servicesSecondary? <Services content={c.servicesSecondary} id="coverage" /> : null,
 }
 
 interface LandingPageProps {

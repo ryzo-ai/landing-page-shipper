@@ -1,15 +1,16 @@
 'use client'
 
 import { motion } from 'framer-motion'
-import { ReactNode } from 'react'
+import { CSSProperties, ReactNode } from 'react'
 
 interface SectionWrapperProps {
   children: ReactNode
   className?: string
   id?: string
+  style?: CSSProperties
 }
 
-export default function SectionWrapper({ children, className = '', id }: SectionWrapperProps) {
+export default function SectionWrapper({ children, className = '', id, style }: SectionWrapperProps) {
   return (
     <motion.section
       id={id}
@@ -18,6 +19,7 @@ export default function SectionWrapper({ children, className = '', id }: Section
       transition={{ duration: 0.5, ease: 'easeOut' }}
       viewport={{ once: true, margin: '-80px' }}
       className={className}
+      style={style}
     >
       {children}
     </motion.section>

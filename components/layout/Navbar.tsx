@@ -25,7 +25,7 @@ export default function Navbar({ content }: NavbarProps) {
           : 'bg-transparent'
       }`}
     >
-      <div className="max-w-6xl mx-auto flex flex-wrap items-center justify-between gap-3 px-6 py-5 md:py-6">
+      <div className="gp-container flex flex-wrap items-center justify-between gap-3 py-5 md:py-6">
         {/* Logo — href comes from config, defaults to '/' */}
         <a
           href={content.logo.href ?? '/'}
@@ -64,7 +64,8 @@ export default function Navbar({ content }: NavbarProps) {
         <Button
           href={content.cta.href}
           variant="primary"
-          className="whitespace-nowrap px-4 py-2 text-xs sm:px-6 sm:py-2.5 sm:text-sm"
+          size="sm"
+          className="whitespace-nowrap"
         >
           {content.cta.label}
         </Button>

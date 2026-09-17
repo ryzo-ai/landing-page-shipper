@@ -18,6 +18,15 @@ export function buildCSSVars(tokens: ThemeTokens): string {
     `--color-border-hover: ${colors.borderHover}`,
     `--color-surface-inverse: ${colors.surfaceInverse}`,
     `--color-text-on-inverse: ${colors.textOnInverse}`,
+    `--color-secondary: ${colors.secondary}`,
+    `--color-accent: ${colors.accent}`,
+    `--color-accent-hover: ${colors.accentHover}`,
+    `--color-text-body: ${colors.textBody}`,
+    `--color-surface-stats: ${colors.surfaceStats}`,
+    `--gradient-hero: ${colors.gradientHero}`,
+    `--gradient-services: ${colors.gradientServices}`,
+    `--gradient-feature: ${colors.gradientFeature}`,
+    `--gradient-footer: ${colors.gradientFooter}`,
     `--font-body: ${typography.fontBody}`,
     `--font-heading: ${typography.fontHeading}`,
     `--section-padding-y: ${spacing.sectionPaddingY}`,
@@ -31,5 +40,7 @@ export function buildCSSVars(tokens: ThemeTokens): string {
     `--shadow-sm: ${shadows.shadowSm}`,
     `--shadow-md: ${shadows.shadowMd}`,
     `--shadow-lg: ${shadows.shadowLg}`,
+    `--shadow-card: ${shadows.shadowCard}`,
+    `--shadow-glass-inset: ${shadows.shadowGlassInset}`,
   ].join('; ')
 }

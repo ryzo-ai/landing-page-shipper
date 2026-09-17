@@ -4,17 +4,19 @@
   "lang": "en",
   "sections": [
     "hero",
-    "mediaBlock",
-    "problemSection",
+    "partnerLogos",
+    "stats",
+    "comparison",
     "services",
-    "valueProposition",
+    "servicesSecondary",
     "process",
-    "ctaSection",
-    "faq"
+    "hiringModels",
+    "faq",
+    "ctaSection"
   ],
   "meta": {
-    "title": "Hire SAP Consultants — SAP Recruitment Agency | GloPros",
-    "description": "Looking to hire SAP consultants? GloPros is the SAP recruitment agency Dutch enterprises trust. Vetted module experts — FICO, ABAP, S/4HANA, SuccessFactors — ready to start."
+    "title": "Hire SAP Consultants — Book a Demo | GloPros",
+    "description": "Hire vetted SAP consultants, from SAP FI to S/4HANA, with AI-powered matching and expert recruiters. Faster, more efficient and more affordable than traditional agencies. Book a 20-minute demo."
   },
   "navbar": {
     "logo": {
@@ -25,49 +27,168 @@
       "imageAlt": "GloPros"
     },
     "cta": {
-      "label": "Request a free consultation",
-      "href": "#cta"
+      "label": "Book a demo",
+      "href": "https://www.glopros.ai/book-a-demo?utm_source=ryzo-demo&utm_medium=landing-page&utm_campaign=hire-sap-consultants&utm_content=header"
     }
   },
   "hero": {
+    "layout": "centered",
     "headline": "Hire SAP consultants who match the module, not just the title",
-    "subheadline": "GloPros is the SAP recruitment agency Dutch enterprises trust. AI-powered matching plus human screening delivers vetted SAP professionals — from SAP FI to S/4HANA — for permanent and interim engagements.",
+    "subheadline": "GloPros combines AI-powered matching with expert recruiters to deliver vetted SAP professionals, from SAP FI to S/4HANA, for permanent and interim roles. Faster, more efficient and more affordable than traditional agencies.",
     "cta": {
-      "label": "Request a free consultation",
-      "href": "#cta"
+      "label": "Book a demo",
+      "href": "https://www.glopros.ai/book-a-demo?utm_source=ryzo-demo&utm_medium=landing-page&utm_campaign=hire-sap-consultants&utm_content=hero"
     },
-    "socialProof": "Active in 24 countries · 400+ professionals placed annually · 250 active placements"
+    "microcopy": [
+      "20-minute live demo",
+      "No commitment",
+      "If we can't find them, you don't pay"
+    ]
   },
-  "mediaBlock": {
-    "type": "image",
-    "src": "/brand/glopros/img/global-reach.avif",
-    "alt": "Simplified world map showing GloPros recruitment across 24 countries",
-    "aspectRatio": "2/1"
-  },
-  "problemSection": {
-    "eyebrow": "The problem",
-    "headline": "\"SAP consultant\" is not a specification",
-    "cards": [
+  "partnerLogos": {
+    "variant": "marquee",
+    "eyebrow": "Trusted by market-leading companies",
+    "logos": [
       {
-        "icon": "M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z",
-        "title": "The scarcity is at module level",
-        "description": "Generic SAP profiles are easy to find. An FICO specialist with S/4HANA migration experience who can start next month is not. Most agencies search on the job title and hand you the mismatch."
+        "src": "/brand/glopros/logos/booking.avif",
+        "alt": "Booking.com"
       },
       {
-        "icon": "M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z",
-        "title": "Unscreened CVs move the work to you",
-        "description": "Twenty profiles in an inbox is not a shortlist. Every CV that has not been qualified against your actual requirement costs your project lead an hour they owed the project."
+        "src": "/brand/glopros/logos/alaika.avif",
+        "alt": "Alaika"
       },
       {
-        "icon": "M13 10V3L4 14h7v7l9-11h-7z",
-        "title": "An open role slips the whole programme",
-        "description": "One unfilled SAP role in a live implementation or migration moves the plan for the entire team. The cost of waiting compounds faster than the rate you were negotiating."
+        "src": "/brand/glopros/logos/client-03.svg",
+        "alt": "GloPros client logo"
+      },
+      {
+        "src": "/brand/glopros/logos/alsico.avif",
+        "alt": "Alsico"
+      },
+      {
+        "src": "/brand/glopros/logos/fletcher.avif",
+        "alt": "Fletcher Hotels"
+      },
+      {
+        "src": "/brand/glopros/logos/perfetti-van-melle.avif",
+        "alt": "Perfetti Van Melle"
+      },
+      {
+        "src": "/brand/glopros/logos/workwize.avif",
+        "alt": "Workwize"
+      },
+      {
+        "src": "/brand/glopros/logos/miele.avif",
+        "alt": "Miele"
+      },
+      {
+        "src": "/brand/glopros/logos/client-09.svg",
+        "alt": "GloPros client logo"
+      },
+      {
+        "src": "/brand/glopros/logos/aquablu.avif",
+        "alt": "Aquablu"
+      },
+      {
+        "src": "/brand/glopros/logos/client-11.svg",
+        "alt": "GloPros client logo"
+      },
+      {
+        "src": "/brand/glopros/logos/midstad.avif",
+        "alt": "Midstad"
       }
     ]
   },
+  "stats": {
+    "headline": "Why companies choose GloPros",
+    "items": [
+      {
+        "value": "24",
+        "label": "countries",
+        "description": "Active recruitment across Europe, Americas, and Asia"
+      },
+      {
+        "value": "400+",
+        "label": "professionals",
+        "description": "Placed annually with leading organizations"
+      },
+      {
+        "value": "250",
+        "label": "active placements",
+        "description": "Currently working for clients globally"
+      }
+    ]
+  },
+  "comparison": {
+    "headline": "Faster, more efficient and more affordable than traditional agencies",
+    "body": "Hand over the search to our GloPros Recruiters. You get qualified candidates without the hassle.",
+    "themLabel": "Traditional recruitment agency",
+    "usLabel": "GloPros",
+    "rows": [
+      {
+        "them": "You wait, and a stack of unscreened CVs lands in your inbox",
+        "us": "Qualified shortlists, fast: results delivered within days"
+      },
+      {
+        "them": "You carry the fee either way",
+        "us": "If we can't find them, you don't pay"
+      },
+      {
+        "them": "Roles get posted, and the search waits for applicants",
+        "us": "Active headhunting across our network in 24 countries, not just posting"
+      },
+      {
+        "them": "Little visibility on who is approached or how the search is going",
+        "us": "One platform to review candidates, give feedback and plan interviews with your team"
+      },
+      {
+        "them": "Screening shaped by CVs and gut feel",
+        "us": "Skills-based, bias-free screening through anonymization technology"
+      }
+    ],
+    "usImage": {
+      "src": "/brand/glopros/img/hire-globally.avif",
+      "alt": "World map showing qualified professionals GloPros recruits across countries"
+    },
+    "cta": {
+      "label": "Book a demo",
+      "href": "https://www.glopros.ai/book-a-demo?utm_source=ryzo-demo&utm_medium=landing-page&utm_campaign=hire-sap-consultants&utm_content=comparison"
+    }
+  },
   "services": {
-    "eyebrow": "Module coverage",
-    "headline": "From SAP FI to S/4HANA",
+    "variant": "band",
+    "headline": "Our recruitment services: we do the work for you",
+    "body": "Hand over the search to our GloPros Recruiters. You get qualified candidates without the hassle.",
+    "cards": [
+      {
+        "icon": "",
+        "iconSrc": "/brand/glopros/img/service-icon-1.svg",
+        "title": "Qualified shortlists, fast",
+        "description": "Results delivered within days. If we can't find them, you don't pay."
+      },
+      {
+        "icon": "",
+        "iconSrc": "/brand/glopros/img/service-icon-2.svg",
+        "title": "Your dedicated recruiter",
+        "description": "One GloPros Recruiter who learns your business and delivers consistently."
+      },
+      {
+        "icon": "",
+        "iconSrc": "/brand/glopros/img/service-icon-3.svg",
+        "title": "Active headhunting, not just posting",
+        "description": "We proactively source professionals from our network across 24 countries."
+      }
+    ],
+    "cta": {
+      "label": "Book a demo",
+      "href": "https://www.glopros.ai/book-a-demo?utm_source=ryzo-demo&utm_medium=landing-page&utm_campaign=hire-sap-consultants&utm_content=services",
+      "style": "accent"
+    }
+  },
+  "servicesSecondary": {
+    "variant": "grid",
+    "headline": "SAP roles we fill, from SAP FI to S/4HANA",
+    "body": "We search on module, seniority and start date, not on job title alone.",
     "cards": [
       {
         "icon": "M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z",
@@ -86,18 +207,10 @@
       }
     ]
   },
-  "valueProposition": {
-    "eyebrow": "Why enterprises use GloPros",
-    "headline": "AI-powered matching, human screening, one shortlist",
-    "body": "Our matching searches a network across 24 countries on module, seniority and actual start date — not on job title alone. Our recruiters then screen and qualify every candidate before the profile reaches you.\n\nWhat you receive is a short list of people who fit and are genuinely available, not a stack of CVs to triage. Shortlist, interviews and contract management run through a single platform, for both permanent and interim engagements.",
-    "graphic": {
-      "src": "/brand/glopros/img/platform.avif",
-      "alt": "Recruiter search interface showing matched candidate profiles"
-    }
-  },
   "process": {
-    "eyebrow": "How it works",
+    "variant": "badges",
     "headline": "From requirement to shortlist in four steps",
+    "body": "From requirement to contract signing, managed in one platform without juggling multiple tools.",
     "steps": [
       {
         "title": "Share the requirement",
@@ -133,16 +246,45 @@
       }
     ]
   },
-  "ctaSection": {
-    "headline": "Which SAP role needs filling?",
-    "subheadline": "Tell us the module and the start date in a 30-minute call. You will hear which profiles are available, on what timeline, and an indicative rate range — no obligation.",
-    "cta": {
-      "label": "Request a free consultation",
-      "href": "https://www.glopros.ai/book-a-demo?utm_source=ryzo-demo&utm_medium=prototype&utm_campaign=hire-sap-consultants-lp"
-    }
+  "hiringModels": {
+    "headline": "Flexible hiring, one platform",
+    "body": "One platform, three hiring models - choose what works for your situation",
+    "models": [
+      {
+        "title": "Freelance",
+        "description": "Independent professionals for project flexibility and specialist expertise.",
+        "included": "Hourly rate + transparent platform fee",
+        "forCompanies": "Professionals who plug seamlessly into your existing workflows",
+        "image": {
+          "src": "/brand/glopros/img/model-freelance.avif",
+          "alt": "Stack of freelance contract documents, signed electronically"
+        }
+      },
+      {
+        "title": "Payroll contract",
+        "description": "Combine employee security with engagement flexibility through our payroll services.",
+        "included": "All-inclusive hourly rate with full admin support",
+        "forCompanies": "Flexibility without the administrative burden",
+        "image": {
+          "src": "/brand/glopros/img/model-payroll.avif",
+          "alt": "Stack of payroll contract documents, signed electronically"
+        }
+      },
+      {
+        "title": "Direct employment",
+        "description": "Build lasting professional relationships through permanent roles.",
+        "included": "One-time placement fee, full support through onboarding",
+        "forCompanies": "Integrate talent directly into your organization",
+        "image": {
+          "src": "/brand/glopros/img/model-permanent.avif",
+          "alt": "Permanent contract document, signed electronically"
+        }
+      }
+    ],
+    "note": "Switch between models as your needs evolve - no restrictions, complete flexibility."
   },
   "faq": {
-    "eyebrow": "FAQ",
+    "variant": "glopros",
     "headline": "What hiring managers ask us",
     "items": [
       {
@@ -164,10 +306,40 @@
       {
         "question": "Do you only recruit in the Netherlands?",
         "answer": "No. GloPros recruits actively across 24 countries in Europe, the Americas and Asia, with recruiters who understand local markets, regulations and talent landscapes. For Dutch enterprises that means a substantially larger pool than the domestic market alone."
+      },
+      {
+        "question": "What happens in the demo?",
+        "answer": "A 20-minute live session with our team: a platform walkthrough tailored to your recruitment needs, an open discussion of your current hiring challenges, a real-time demonstration of AI matching, recruiter search and collaboration tools, and time for your questions."
       }
     ]
   },
+  "ctaSection": {
+    "variant": "card",
+    "headline": "Ready for your next hire?",
+    "subheadline": "Book a 20-minute demo and see how GloPros simplifies your hiring process.",
+    "checklist": [
+      "Live platform walkthrough tailored to your recruitment needs",
+      "Open discussion of your current recruitment challenges",
+      "Real-time demonstration of AI matching, recruiter search, and collaboration tools",
+      "Q&A session with our product experts"
+    ],
+    "cta": {
+      "label": "Book a demo",
+      "href": "https://www.glopros.ai/book-a-demo?utm_source=ryzo-demo&utm_medium=landing-page&utm_campaign=hire-sap-consultants&utm_content=final"
+    },
+    "microcopy": "No commitment",
+    "image": {
+      "src": "/brand/glopros/img/cta-demo-card.avif",
+      "alt": "Smiling woman using a tablet next to an invitation to book a free 20-minute product demo"
+    },
+    "badge": {
+      "src": "/brand/glopros/img/iso27001.avif",
+      "alt": "ISO 27001 certified",
+      "label": "ISO 27001 certified"
+    }
+  },
   "footer": {
+    "variant": "glass",
     "logo": {
       "text": "GloPros",
       "showMark": false,
@@ -177,19 +349,18 @@
     },
     "links": [
       {
-        "label": "Website",
-        "href": "https://www.glopros.ai"
-      },
-      {
-        "label": "Recruitment services",
-        "href": "https://www.glopros.ai/recruitment-services"
-      },
-      {
         "label": "Book a demo",
-        "href": "https://www.glopros.ai/book-a-demo"
+        "href": "https://www.glopros.ai/book-a-demo?utm_source=ryzo-demo&utm_medium=landing-page&utm_campaign=hire-sap-consultants&utm_content=footer"
+      },
+      {
+        "label": "Privacy policy",
+        "href": "https://www.glopros.ai/privacy-policy"
+      },
+      {
+        "label": "Security & compliance",
+        "href": "https://www.glopros.ai/security-compliance"
       }
     ],
-    "socialLinks": [],
-    "copyright": "Prototype built by Ryzo for illustration — not a live GloPros page."
+    "copyright": "© 2026 GloPros · Prototype landing page built by Ryzo, not indexed"
   }
 }

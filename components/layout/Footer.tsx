@@ -22,7 +22,45 @@ const socialIcons: Record<string, { path: string; filled: boolean }> = {
   },
 }
 
+function Glass({ content }: { content: FooterContent }) {
+  return (
+    <footer className="mt-[clamp(2rem,5vw,4rem)] rounded-t-[50px] bg-[#F5FAFD] relative overflow-hidden">
+      <div className="absolute -left-24 bottom-[-6rem] w-[28rem] h-[28rem] rounded-full bg-[rgba(12,110,243,0.23)] blur-[120px]" aria-hidden="true" />
+      <div className="absolute -right-24 top-[-4rem] w-[26rem] h-[26rem] rounded-full bg-[rgba(12,148,193,0.41)] blur-[120px]" aria-hidden="true" />
+      <div className="relative gp-container py-[clamp(2.5rem,5vw,4rem)]">
+        <div
+          className="rounded-[var(--radius-lg)] border border-white backdrop-blur-[70px] px-6 md:px-10 py-10"
+          style={{ backgroundImage: 'var(--gradient-footer)', boxShadow: 'var(--shadow-card)' }}
+        >
+          <div className="flex flex-col md:flex-row md:items-center justify-between gap-8">
+            <a href={content.logo.href ?? '/'} aria-label={content.logo.text}>
+              {content.logo.imageSrc ? (
+                <img src={content.logo.imageSrc} alt={content.logo.imageAlt ?? content.logo.text} className="h-8 w-auto" />
+              ) : (
+                <span className="font-heading text-lg font-semibold text-[var(--color-text-primary)]">{content.logo.text}</span>
+              )}
+            </a>
+            {content.links && content.links.length > 0 && (
+              <nav className="flex flex-wrap gap-x-8 gap-y-3" aria-label="Footer">
+                {content.links.map((link) => (
+                  <a key={link.href} href={link.href} className="font-body text-base text-[var(--color-text-primary)] hover:text-[var(--color-secondary)] transition-colors duration-150">
+                    {link.label}
+                  </a>
+                ))}
+              </nav>
+            )}
+          </div>
+          <div className="mt-8 pt-6 border-t border-[rgba(6,59,131,0.12)] text-center">
+            <p className="font-heading text-xs font-medium tracking-[0.02rem] text-[var(--color-text-primary)]">{content.copyright}</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+  )
+}
+
 export default function Footer({ content }: { content: FooterContent }) {
+  if (content.variant === 'glass') return <Glass content={content} />
   return (
     <footer className="bg-[var(--color-background)] px-6 pb-10 -mt-px">
       <div className="max-w-6xl mx-auto px-8 py-12 rounded-[var(--radius-xl)] bg-[var(--color-surface-inverse)] bg-[image:var(--gradient-accent)]">

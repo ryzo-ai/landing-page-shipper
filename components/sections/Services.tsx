@@ -13,11 +13,13 @@ function Band({ content, id }: { content: ServicesContent; id?: string }) {
           <h2 className="gp-h2">{content.headline}</h2>
           {content.body && <p className="gp-body mt-4">{content.body}</p>}
         </div>
+        {/* Cards share one row track per element (subgrid) so icons, titles and body copy
+            start on the same line in every card, whatever the title length. */}
         <div className="mx-auto max-w-[76rem] grid grid-cols-1 md:grid-cols-3 gap-6">
           {content.cards.map((card) => (
             <div
               key={card.title}
-              className="rounded-[var(--radius-md)] bg-[rgba(253,254,255,0.8)] p-5 md:p-8 md:min-h-[17.5rem] flex flex-col"
+              className="rounded-[var(--radius-md)] bg-[rgba(253,254,255,0.8)] p-5 md:p-8 flex flex-col md:grid md:grid-rows-subgrid md:row-span-3 md:gap-y-0"
               style={{ boxShadow: 'var(--shadow-card)' }}
             >
               {card.iconSrc ? (
@@ -27,10 +29,8 @@ function Band({ content, id }: { content: ServicesContent; id?: string }) {
                   <Icon d={card.icon} size={26} />
                 </div>
               )}
-              <div className="mt-8 flex flex-col gap-3">
-                <h3 className="gp-h3">{card.title}</h3>
-                <p className="gp-body">{card.description}</p>
-              </div>
+              <h3 className="gp-h3 mt-8">{card.title}</h3>
+              <p className="gp-body mt-3">{card.description}</p>
             </div>
           ))}
         </div>

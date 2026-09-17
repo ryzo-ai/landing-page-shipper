@@ -11,15 +11,17 @@ function Badges({ content }: { content: ProcessContent }) {
           <h2 className="gp-h2">{content.headline}</h2>
           {content.body && <p className="gp-body mt-4">{content.body}</p>}
         </div>
+        {/* Each step spans four shared row tracks (badge, title, body, image) via subgrid,
+            so titles, body copy and images line up across columns and every block ends level. */}
         <ol className="mx-auto max-w-[76rem] grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-x-6 gap-y-12">
           {content.steps.map((step, index) => (
-            <li key={step.title} className="relative flex flex-col">
+            <li key={step.title} className="relative flex flex-col sm:grid sm:grid-rows-subgrid sm:row-span-4 sm:gap-y-0">
               {/* connector line, desktop only (glopros.ai step rail) */}
               {index < content.steps.length - 1 && (
                 <div className="hidden lg:block absolute top-[1.3rem] left-0 right-[-1.5rem] h-px bg-[#F2F2F2]" aria-hidden="true" />
               )}
               <span
-                className={`relative z-10 self-start rounded-[var(--radius-sm)] border px-[1.125rem] py-2 font-body text-[1.125rem] leading-[1.55] ${
+                className={`relative z-10 self-start justify-self-start rounded-[var(--radius-sm)] border px-[1.125rem] py-2 font-body text-[1.125rem] leading-[1.55] ${
                   index === 0
                     ? 'bg-[var(--color-secondary)] border-[var(--color-secondary)] text-[#F5F8FA]'
                     : 'bg-white border-[#F2F2F2] text-[var(--color-text-secondary)]'
@@ -29,10 +31,12 @@ function Badges({ content }: { content: ProcessContent }) {
               </span>
               <h3 className="gp-h3 mt-6 mb-3">{step.title}</h3>
               <p className="gp-body-sm">{step.description}</p>
-              {step.image && (
+              {step.image ? (
                 <div className="mt-6 rounded-[var(--radius-md)] bg-[var(--color-surface-stats)] p-4">
                   <img src={step.image.src} alt={step.image.alt} loading="lazy" className="w-full h-40 object-contain" />
                 </div>
+              ) : (
+                <div aria-hidden="true" />
               )}
             </li>
           ))}

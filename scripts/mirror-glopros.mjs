@@ -118,6 +118,41 @@ function stripRevealHiding(css) {
   return css.replace(/[^{}]*\[data-(anim|slide-animation)[^{}]*\{[^{}]*(visibility\s*:\s*hidden|opacity\s*:\s*0)[^{}]*\}/g, '')
 }
 
+// --- Sanitiser. The fragment is rendered with dangerouslySetInnerHTML, so treat the source page as
+// untrusted even though it is GloPros' own site: a compromised Webflow page must not become XSS here.
+const DROP_TAGS = 'script, noscript, template, iframe, frame, frameset, object, embed, applet, base, meta, link, ' +
+  'form, input, textarea, select, button[formaction], portal, math, animate, animatemotion, animatetransform, set, foreignobject, use'
+const URL_ATTRS = /^(href|src|action|formaction|xlink:href|poster|background|lowsrc|dynsrc|ping|cite|longdesc|srcset|imagesrcset|data|codebase)$/i
+const DROP_ATTRS = /^(on|srcdoc$|formaction$|attributename$|values$|from$|to$|by$|begin$|xmlns:xlink$)/i
+const WF_ATTRS = /^data-wf-(ao|native|element|component)/
+
+/** Strip whitespace, control chars and entities-turned-chars so "java\tscript:" is caught. */
+const normaliseUrl = (v) => String(v).replace(/[\u0000-\u0020\u007f-\u009f\u00ad\u200b-\u200f\u2028\u2029\ufeff]/g, '').toLowerCase()
+function unsafeUrl(name, value, tag) {
+  const v = normaliseUrl(value)
+  if (/^(javascript|vbscript|livescript|mocha):/.test(v)) return true
+  if (v.startsWith('data:')) return !(tag === 'img' && /^data:image\/(png|gif|jpe?g|webp|avif);/.test(v))
+  return false
+}
+
+function sanitise($frag, root) {
+  root.find(DROP_TAGS).remove()
+  root.find('*').each((_, e) => {
+    const tag = (e.tagName || '').toLowerCase()
+    for (const k of Object.keys(e.attribs || {})) {
+      const v = e.attribs[k]
+      if (WF_ATTRS.test(k) || DROP_ATTRS.test(k)) $frag(e).removeAttr(k)
+      else if (URL_ATTRS.test(k) && unsafeUrl(k, v, tag)) $frag(e).removeAttr(k)
+      else if (k.toLowerCase() === 'style' && /expression\s*\(|javascript:|behavior\s*:|-moz-binding/i.test(normaliseUrl(v))) $frag(e).removeAttr(k)
+    }
+  })
+  // Final assertion: fail the mirror run rather than ship anything that still looks executable
+  const html = root.prop('outerHTML') || ''
+  if (/<(script|iframe|object|embed|animate|set|foreignobject)\b|\son[a-z]+\s*=|javascript:/i.test(html)) {
+    throw new Error('sanitiser: executable content survived; refusing to write the fragment')
+  }
+}
+
 function relabel($, $el, label) {
   // Replace the deepest non-empty text node so the button keeps its inner structure.
   const textEls = $el.find('*').addBack().filter((_, e) => $(e).children().length === 0 && $(e).text().trim())
@@ -228,13 +263,7 @@ async function mirror(slug, url) {
   }
   // Webflow runtime ids that would otherwise trip IX2 lookups; plus a hard sanitise, since the
   // fragment is rendered with dangerouslySetInnerHTML: no inline handlers, no javascript: URLs.
-  root.find('*').each((_, e) => {
-    for (const k of Object.keys(e.attribs || {})) {
-      if (/^data-wf-(ao|native|element|component)/.test(k) || /^on/i.test(k)) $frag(e).removeAttr(k)
-      else if (/^(href|src|action|formaction|xlink:href)$/i.test(k) && /^\s*javascript:/i.test(e.attribs[k])) $frag(e).removeAttr(k)
-    }
-  })
-  root.find('object, embed, base, meta, link').remove()
+  sanitise($frag, root)
 
   const out =
     `<link rel="stylesheet" href="${PUBLIC_PREFIX}/css/${cssFile}">\n` +

@@ -1,8 +1,8 @@
 'use client'
 
 import { useState, useEffect, useCallback } from 'react'
-import { ScanResult, FieldScore } from '../../../types/airtable'
-import { ClientSummary } from '../../api/clients/route'
+import { ScanResult, FieldScore } from '../../../../types/airtable'
+import { ClientSummary } from '../../../api/clients/route'
 
 // ─── Scan section helpers (unchanged) ────────────────────────────────────────
 

@@ -2,8 +2,8 @@ import { notFound } from 'next/navigation'
 import { Metadata } from 'next'
 import fs from 'fs'
 import path from 'path'
-import { LandingPageContent } from '../../types/content'
-import LandingPage from '../../components/LandingPage'
+import { LandingPageContent } from '../../../types/content'
+import LandingPage from '../../../components/LandingPage'
 
 // Only serve slugs that were known at build time — blocks dynamic traversal attempts
 export const dynamicParams = false

@@ -1,18 +1,18 @@
 import type { Metadata } from 'next'
 import localFont from 'next/font/local'
-import themeConfig from '../theme.config'
-import { buildCSSVars } from '../lib/theme'
-import './globals.css'
+import themeConfig from '../../theme.config'
+import { buildCSSVars } from '../../lib/theme'
+import '../globals.css'
 
 const geist = localFont({
-  src: './fonts/GeistVF.woff',
+  src: '../fonts/GeistVF.woff',
   variable: '--font-geist',
   weight: '100 900',
   display: 'swap',
 })
 
 const junicode = localFont({
-  src: './fonts/JunicodeVF-Roman.woff2',
+  src: '../fonts/JunicodeVF-Roman.woff2',
   variable: '--font-albra',
   weight: '300 900',
   display: 'swap',

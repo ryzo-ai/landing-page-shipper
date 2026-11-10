@@ -1,0 +1,349 @@
+
+                
+            /* gramoV Fonts */
+            				.gramoV main p,.gramoV main h1, .gramoV main h4,.gramoV main h3, .gramoV main label , .gramoV main a,
+				.gramoV-post p,.gramoV-post h1, .gramoV-post h4,.gramoV-post h3, .gramoV-post label , .gramoV-post a
+				{
+					font-family:'Poppins' !important;
+				}
+				.gramoV main, .gramoV-post, .gramoV-post button
+				{
+					font-family:'Poppins' !important;
+				}
+				
+				
+				
+                /* Job Filters Background Color */
+                .gramoV main .gramoV-filters,
+				.gramoV-post .gramoV-filters
+                {
+                    background-color: #f2f2f2;
+                }
+                                                    
+                /* Listing & Detail Page Title Color */
+                .gramoV main .list-data .job-info h4 a,
+				.gramoV-post .list-data .job-info h4 a                 
+                {
+                    color: #3b3a3c;
+                }                
+                                                    
+                /* Job Detail Page Headings */
+                .gramoV main .gramoV-detail .list-data h3,
+                .gramoV main .gramoV-detail .list-data ul li::before,
+                .gramoV main .gramoV-detail .list-data .job-detail h3,
+                .gramoV main .gramoV-archive-page .job-title,
+				.gramoV-post .gramoV-detail .list-data h3,
+                .gramoV-post .gramoV-detail .list-data ul li::before,
+                .gramoV-post .gramoV-detail .list-data .job-detail h3,
+                .gramoV-post .gramoV-archive-page .job-title
+                {
+                    color: #3b3a3c; 
+                }
+                                                    
+                /* Fontawesome Icon Color */
+                .gramoV main .list-data .job-type i,
+                .gramoV main .list-data .job-location i,
+                .gramoV main .list-data .job-date i,
+				.gramoV-post .list-data .job-type i,
+                .gramoV-post .list-data .job-location i,
+				.gramoV-post .list-data .job-education i,
+                .gramoV-post .list-data .job-date i
+                {
+                    color: #008a69;
+                }
+
+                /* Fontawesome Text Color */
+                .gramoV main .list-data .job-type,
+                .gramoV main .list-data .job-location,
+                .gramoV main .list-data .job-date,
+				.gramoV-post .list-data .job-type,
+                .gramoV-post .list-data .job-location,
+				.gramoV-post .list-data .job-education,
+                .gramoV-post .list-data .job-date
+                {
+                    color: #008a69;
+                }
+                                                    
+                /* Job Filters-> All Buttons Background Color */
+                .gramoV main .btn-primary,
+                .gramoV main .btn-primary:hover,
+                .gramoV main .btn-primary:active:hover,
+                .gramoV main .btn-primary:active:focus,
+                .gramoV main .gramoV-detail .jobpost-form .file div,                
+                .gramoV main .gramoV-detail .jobpost-form .file:hover div,
+				.gramoV-post .btn-primary,
+                .gramoV-post .btn-primary:hover,
+                .gramoV-post .btn-primary:active:hover,
+                .gramoV-post .btn-primary:active:focus,
+                .gramoV-post .gramoV-detail .jobpost-form .file div,                
+                .gramoV-post .gramoV-detail .jobpost-form .file:hover div
+                {
+                    background-color: #ffbe3d;
+                    color: #143e35;
+                }
+				.gramoV main .btn-primary, .gramoV main #apply_form #apply_button, .gramoV main #apply_button,
+				.gramoV-post .btn-primary, .gramoV-post #apply_form #apply_button, .gramoV-post #apply_button
+				{
+					 background-color: #ffbe3d;
+                    color: #143e35 !important;
+					border-color: #ffbe3d;
+				}
+				.gramoV main .btn-primary:focus,
+				.gramoV main .btn-primary.focus,
+				.gramoV-post .btn-primary:focus				
+				{
+				   background-color: #143e35;
+                    color: #ffffff !important;
+					border-color: #143e35;
+				}
+				.gramoV main .btn-primary:hover, .gramoV main #apply_form #apply_button:hover, .gramoV main #apply_button:hover ,
+				.gramoV-post .btn-primary:hover, .gramoV-post #apply_form #apply_button:hover, .gramoV-post #apply_button:hover 
+				{
+				    background-color: #143e35;
+                    color: #ffffff !important;
+					border-color: #143e35;
+				} 
+				.button_cvr a:hover span.newbtn svg g path, button.btn-search.btn.btn-primary:hover span.newbtn svg g path, .splitdiv button:hover span.newbtn svg g path, #apply_button:hover span.newbtn svg g path, .cx2_applyform-apply:hover span.newbtn svg g path{
+					fill: #ffffff !important;
+				}
+				.button_cvr a:focus span.newbtn svg g path, button.btn-search.btn.btn-primary:focus span.newbtn svg g path, .splitdiv button:focus span.newbtn svg g path, #apply_button:focus span.newbtn svg g path, .cx2_applyform-apply:focus span.newbtn svg g path, .cx2_applyform-apply:hover + span.newbtn svg g path {
+					fill: #ffffff !important;
+				}
+				.gramoV main .btn-primary:active,
+				.gramoV main .btn-primary.active,
+				.open > .dropdown-toggle.gramoV main .btn-primary ,
+				.gramoV-post .btn-primary:active,
+				.gramoV-post .btn-primary.active,
+				.open > .dropdown-toggle.gramoV-post .btn-primary
+				
+				{
+				   background-color: #143e35;
+                    color: #ffffff;
+					border-color: #143e35;
+				}
+
+                /* Pagination Text Color */
+                /* Pagination Background Color */                
+                .gramoV main .pagination li.list-item span.current,
+                .gramoV main .pagination li.list-item a:hover, 
+                .gramoV main .pagination li.list-item span.current:hover,
+				.gramoV-post .pagination li.list-item span.current,
+				.gramoV-post .pagination li.list-item a:hover, 
+				.gramoV-post .pagination li.list-item span.current:hover
+                {
+                    background: #143e35;
+                    border-color: #143e35;                    
+                    color: #ffffff;
+                }
+                .gramoV main .btn, #apply_button, .call-me-btn a,
+				 .gramoV-post .btn, #apply_button, .call-me-btn a,
+				{
+					 border-radius: 25px !important;
+				}    
+				.fltr-s-head h2
+				{
+					color: #153e35 !important;	
+					font-weight:600 !important;
+				}
+				.gramoV main .list-data .job-info h4 a,
+				.gramoV-post .list-data .job-info h4 a
+				{
+					color: #008a69;	
+				}
+				.gramoV main span.job-title,
+				.gramoV-post span.job-title
+				{
+					color: #008a69;	
+				}
+				.gramoV main .list-data .job-description p,
+				.gramoV-post .list-data .job-description p
+				{
+					color: #153e35;	
+				}
+				.gramoV main .gramoV-filters .form-control,
+				.gramoV-post .gramoV-filters .form-control
+				{
+					color: #153e35;	
+				}
+				.gramoV main h1.fusion-post-title,
+				.gramoV-post h1.fusion-post-title
+				{
+					color: #008a69 !important;	
+				}
+				
+				.gramoV main .cx_h3,
+				.gramoV-post .cx_h3 
+				{
+					color: #008a69  !important;
+				}
+				.gramoV main  h4,
+				.gramoV-post  h4
+				{
+					color: #143e35 !important;
+				}
+				.gramoV main  div.cx2_introduction,
+				.gramoV main  div.cx2_function,
+				.gramoV main  div.cx2_organization,
+				.gramoV main  div.cx2_requirements,
+				.gramoV main  div.cx2_offer,
+				.gramoV main  div.cx2_application,
+				.gramoV-post  div.cx2_introduction,
+				.gramoV-post  div.cx2_function,
+				.gramoV-post  div.cx2_organization,
+				.gramoV-post  div.cx2_requirements,
+				.gramoV-post  div.cx2_offer,
+				.gramoV-post  div.cx2_application
+				{
+					color: #153e35;
+				}
+				#apply_form label{
+					
+					color: #008a69;
+				}
+				#apply_form span, #agreement_container a{
+					color: #008a69;
+				}
+				.gramoV main .carerix_input, .gramoV-post .carerix_input
+				{
+					border: 1px solid #008a69;
+				}
+				.gramoV main .custom_error, .gramoV-post .custom_error
+				{
+					border: 1px solid #ff0202 ;
+				}
+				.gramoV main .error, .gramoV-post .error
+				{
+					color: #ff0202 !important;
+				}
+				.gramoV_callme_btn
+				{
+					display: inline-block !important;
+				}
+				.gramoV_callme_btn{
+					width: 20%;
+					border-radius: 25px;
+				}
+				.gramoV_all_btn{
+					width: 25%;
+					border-radius: 25px;
+				}
+				.gramoV main #apply_button,
+				.gramoV-post #apply_button
+				{
+					width: 19%;
+					border-radius: 25px !important;
+				}
+				.overview_btn2{
+					width: 23%;
+					border-radius: 25px !important;
+				}
+				.overview_btn1{
+					width: 19%;
+					border-radius: 25px !important;
+				}
+				input.btn-search.btn.btn-primary {
+					width: 100%;
+					border-radius: 25px !important;
+				}
+				.gramoV main .call-me-btn .btn-primary,
+				.gramoV-post .call-me-btn .btn-primary
+				{
+					float: left;
+				}
+				.gramoV main .list-data, 
+				.gramoV-post .list-data
+				{
+					background-color: #fffff2 !important;
+				}
+				.subtitle-above
+				{
+					color: #ffbe3d;	
+				}
+				.subtitle-below{
+					color: #ffbe3d;
+				}
+				@media only screen and (max-width: 767px) {
+
+					.overview_btn1
+					{
+						width: 38%;
+					}
+					 .overview_btn2{
+						 width: 60% !important;
+					 }
+				}
+				@media only screen and (max-width: 991px) {
+
+					.gramoV_callme_btn, .gramoV_all_btn, .cx2_applyform-apply
+					{
+						width: 100%;
+					}
+					.gramoV_button_pos {
+						flex-direction: column;
+						position: static !important;
+						margin-top: 0 !important;
+						margin-left: 0 !important;
+						height: auto !important;
+						width:100% !important;
+					}
+					.gramoV_button_pos .btn.btn-primary{
+						margin-left:0px !important;
+						margin-bottom:30px !important;
+					}
+					/*.gramoV main #apply_button,
+					.gramoV-post #apply_button
+					{
+						width: 100%;
+					}
+					*/
+				}
+				.gramoV_button_pos {
+					display: flex;
+					align-items: center;
+					position: relative;
+					margin-top: -95px;
+					margin-left: 19%;
+					height: 61px;
+					width: calc(100% - 19%);
+				}
+				.gramoV_button_pos .btn.btn-primary{
+					font-size: 20px;
+					padding: 15px;
+					/* border-radius: 5px; */
+					margin-left:20px;
+					font-weight:900;
+					text-transform:uppercase;
+				}
+
+				.gramoV_button_pos .btn.btn-primary:hover {
+					background-color: #638fcc;
+					color: #2b3367;
+					border-color: #638fcc;
+				}
+				.gramoV main input[type="email"], .gramoV main input[type="password"], .gramoV main input[type="tel"], .gramoV main input[type="text"], .gramoV main input[type="file"],
+				.gramoV-post input[type="email"], .gramoV-post input[type="password"], .gramoV-post input[type="tel"], .gramoV-post input[type="text"], .gramoV-post input[type="file"]
+				{
+					background-color: #f4f4f4 !important;
+				}
+				.gramoV.single-post .container {
+    max-width: 1140px;
+    padding: 0px 50px;
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+}
+span.newbtn.elementor-button-icon {
+    font-size: 12px;
+    margin-left: 65px;
+    display: inline-block;
+    margin-top: 3px;
+}
+#apply_form span.newbtn.elementor-button-icon{
+	
+	    position: absolute;
+    bottom: 214px;
+    left: 15%;
+}
+
+            

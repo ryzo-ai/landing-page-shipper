@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.2" viewBox="0 0 47 47" width="47" height="47">
+  <title>Favicon</title>
+  <style>
+		.s0 { fill: #6cb690 } 
+	</style>
+  <g id="Folder 1">
+    <path id="Layer" fill-rule="evenodd" class="s0" d="m17 40c-9.4 0-17-7.6-17-17 0-9.4 7.6-17 17-17 9.3 0 16.9 7.6 16.9 17 0 9.4-7.6 17-16.9 17zm11.2-17c0-6.2-5-11.3-11.2-11.3-6.3 0-11.3 5.1-11.3 11.3 0 6.2 5 11.2 11.3 11.2 6.2 0 11.2-5 11.2-11.2z"></path>
+    <path id="Layer" class="s0" d="m41.3 16.8c-3 0-5.4-2.4-5.4-5.4 0-3 2.4-5.4 5.4-5.4 3 0 5.4 2.4 5.4 5.4 0 3-2.4 5.4-5.4 5.4z"></path>
+    <path id="Layer" class="s0" d="m16.9 28.4c-3 0-5.4-2.4-5.4-5.4 0-3 2.4-5.4 5.4-5.4 3 0 5.4 2.4 5.4 5.4 0 3-2.4 5.4-5.4 5.4z"></path>
+  </g>
+</svg>

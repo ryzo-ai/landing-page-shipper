@@ -1,0 +1,254 @@
+/*
+Useful generic selectors
+*/
+
+.carerix_required {
+    border: 1px solid #FAA2A8;
+}
+
+#apply_form .error, #subscribe_form .error {
+    display: inline-block;
+    color: #FAA2A8;
+}
+
+.cx_hint {
+    display: inline-block;
+    color: #C2E5B9;
+}
+
+.cx_default_style_success {
+    background-color: #F2FDEF;
+    border: 1px solid #C2E5B9;
+    padding: 5px;
+}
+
+.cx_msgBox_success {
+    background-color: #F2FDEF;
+    border: 1px solid #C2E5B9;
+    padding: 5px;
+}
+
+.cx2_applyform-apply .cx2_spinner_icon {
+    width: 1em;
+    height: 1em;
+    margin-right: 0.5em;
+    vertical-align: middle;
+    display: none;
+}
+
+
+/*
+Legacy layout selectors
+These won't be used in flexbox mode
+*/
+#apply_form, #subscribe_form {
+    &:not(.cx2_flex) {
+
+        #apply_form div {
+            margin: 2px;
+        }
+
+        #apply_form label {
+            display: inline-block;
+            width: 30%;
+        }
+
+        #apply_form #agreement_container label {
+            width: 100%;
+        }
+
+        #tellafriend_form div {
+            margin: 2px;
+        }
+
+        #tellafriend_form label {
+            display: inline-block;
+            width: 40%;
+        }
+
+        #login_form div {
+            margin: 2px;
+        }
+
+        #login_form label {
+            display: inline-block;
+            width: 40%;
+        }
+
+        #campaign_form div {
+            margin: 2px;
+        }
+
+        #campaign_form label {
+            display: inline-block;
+            width: 20%;
+        }
+
+        #logged_out {
+            text-align: right;
+        }
+
+        .cx_checkbox_group {
+            max-height: 300px;
+            overflow-y: auto;
+            border: 1px solid #ddd;
+            background-color: #fff;
+            margin-bottom: 5px;
+        }
+
+        .cx_checkbox_group label {
+            display: block;
+            padding-left: 5px;
+            cursor: pointer;
+        }
+        .cx_checkbox_group input:focus {
+            outline: none;
+        }
+        .cx_search_widget_select {
+            width: 100%;
+        }
+
+        .cx_applyform_salary {
+            display: inline-block;
+        }
+        .cx_applyform_salary label {
+            width: auto !important;
+            margin-right: 8px;
+        }
+        .cx_applyform_salary input[type="text"] {
+            width: 100px;
+        }
+
+        div#subscribe_success {
+            margin: 20px;
+        }
+
+        div#subscribe_form input#subscribe_button {
+            margin-top: 20px;
+        }
+
+        div#subscribe_form #prefCountry1Node {
+            display: block;
+        }
+
+        div#prefRegion1Node_container, div#prefRegion2Node_container, div#prefRegion3Node_container, div#prefRegion4Node_container {
+        }
+
+        div#subscribe_form #prefRegion1Node, div#subscribe_form #prefRegion2Node, div#subscribe_form #prefRegion3Node, div#subscribe_form #prefRegion4Node {
+        }
+
+        div#subscribe_form #functionLevel0, div#subscribe_form #functionLevel1 {
+
+        }
+
+    }
+}
+
+
+
+
+
+
+
+
+
+
+/*
+Flex layout support (since plugin version 3.3)
+*/
+
+/* Flex container */
+.cx2_flex, .cx2_flex > .workExperience, .cx2_flex > .education, .cx2_flex > .language {
+    display: flex;
+    flex-wrap: wrap;
+    /*align-items: flex-end;*/  /* Push all children to the bottom (Useful if 2 cx2_flex-half divs differ in inside/outside labels) */
+    gap: 1rem;                 /* spacing between fields */
+    width: 100%;
+}
+
+/* Selector rows: equal columns, min width, wrap if needed */
+.cx2_flex .selector_chain_holder {
+    display: flex;
+    flex-wrap: wrap;        /* ⬅ REQUIRED for wrapping */
+    gap: 1rem;              /* horizontal gap */
+    width: 100%;
+}
+
+/* Flex items (the span wrappers) */
+.cx2_flex .selector_chain_holder > span:not(.starter):not(.stopper) {
+    flex: 1 1 0;            /* equal distribution */
+    min-width: 150px;       /* ⬅ prevents tight columns */
+}
+
+/* Select fills its column */
+.cx2_flex .selector_chain_holder select {
+    width: 100%;
+}
+
+/* Remove layout-only legacy spans */
+.cx2_flex .selector_chain_holder > .starter,
+.cx2_flex .selector_chain_holder > .stopper {
+    display: none;
+}
+
+/* Vertical spacing between rows */
+.cx2_flex .selector_chain_holder {
+    margin-bottom: 1rem;
+}
+
+.cx2_flex .selector_chain_holder:last-child {
+    margin-bottom: 0;
+}
+
+
+
+
+
+/* Make every .data_* (and loose <a> action rows) behave as items */
+.cx2_flex > [class^="data_"],
+.cx2_flex > .cx2_flex-full,
+.cx2_flex > .cx2_flex-half,
+.cx2_flex > .cx2_flex-third{
+    display:block;
+    min-width: 150px;         /* prevents too-narrow columns */
+    flex: 0 1 100%;           /* default: full width on small screens */
+}
+
+.cx2_flex label {
+    display: block;
+}
+
+/* Width helpers (override flex-basis per breakpoint) */
+.cx2_flex .cx2_flex-half  { flex-basis: calc(50% - 0.5rem);}
+
+.cx2_flex .cx2_flex-third,
+.cx2_flex > div.block-repeat,
+.cx2_flex > div.block-derepeat{ flex-basis: calc((100% - 2rem) / 3);}
+
+.cx2_flex .cx2_flex-twothird { flex-basis: calc((100% - 0.5rem) / 1.5);}
+.cx2_flex .cx2_flex-full  { flex-basis: 100%;}
+
+.cx2_flex-half, .cx2_flex-third, .cx2_flex-twothird, .cx2_flex-full {
+    /*border: 2px solid #A195DC;*/
+}
+
+
+/*
+.cx2_flex div.language {
+    display: flex;
+    flex-wrap:wrap;
+    gap:1rem;                 !* spacing between fields *!
+}
+*/
+
+.cx2_flex select.cx2_languages-language,
+.cx2_flex select.cx2_languages-read,
+.cx2_flex select.cx2_languages-write,
+.cx2_flex select.cx2_languages-speak,
+.cx2_flex select {
+    width: 100%;
+}
+
+.cx2_flex .cx2_applyform-apply {
+    margin-top: 1rem;
+}

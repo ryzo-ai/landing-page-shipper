@@ -44,8 +44,19 @@ export async function hasValidSession(cookie: string | undefined, password: stri
   return safeEqual(cookie, await sessionToken(password))
 }
 
-/** Only same-site relative paths may be used as the post-login destination. */
+/**
+ * Only same-origin paths may be used as the post-login destination. Resolved against a dummy
+ * origin instead of prefix checks: browsers strip tab/CR/LF, so "/\t/evil.com" would otherwise
+ * pass a startsWith('//') check and be followed as "//evil.com" (open redirect).
+ * Tests: node scripts/demo-auth.test.mts
+ */
 export function safeNext(from: string | null | undefined, fallback: string): string {
-  if (!from || !from.startsWith('/') || from.startsWith('//') || from.includes('\\') || from.startsWith('/login')) return fallback
-  return from
+  if (!from || /[\u0000-\u001f\u007f\s\\]/.test(from)) return fallback
+  try {
+    const u = new URL(from, 'http://x')
+    if (u.origin !== 'http://x' || u.pathname.startsWith('/login')) return fallback
+    return u.pathname + u.search + u.hash
+  } catch {
+    return fallback
+  }
 }

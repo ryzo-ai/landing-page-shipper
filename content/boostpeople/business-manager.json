@@ -1,0 +1,39 @@
+{
+  "vacancy": {
+    "slug": "business-manager",
+    "title": "Business Manager",
+    "location": "Amsterdam e.o.",
+    "facts": ["Amsterdam e.o.", "€4.000 – €4.750 bruto per maand", "40 uur", "HBO / WO"]
+  },
+  "privacyUrl": "https://boostpeople.nl/cookiebeleid/",
+  "recruiter": {
+    "name": "Florian Verhagen",
+    "firstName": "Florian"
+  },
+  "form": {
+    "title": "Solliciteren · Business Manager",
+    "steps": [
+      { "id": "kennismaken", "title": "Kennismaken", "intro": "Fijn dat je wilt solliciteren. Eerst even je contactgegevens." },
+      { "id": "ervaring", "title": "Jouw ervaring", "intro": "Vertel kort waar je nu staat." },
+      { "id": "profiel", "title": "Jouw profiel", "intro": "Deel je LinkedIn-profiel of kies je cv. Eén van de twee is genoeg." },
+      { "id": "afronden", "title": "Bijna klaar", "intro": "Nog twee laatste vragen, dan is je sollicitatie compleet." }
+    ],
+    "experienceOptions": ["Minder dan 3 jaar", "3–5 jaar", "5–10 jaar", "Meer dan 10 jaar"],
+    "sectorOptions": ["Supply Chain", "Logistiek", "Operations", "Anders"],
+    "availabilityOptions": ["Per direct", "Binnen 1 maand", "1–2 maanden", "2–3 maanden", "Langer dan 3 maanden"],
+    "motivationMax": 500,
+    "submitLabel": "Verstuur sollicitatie",
+    "nextLabel": "Volgende stap",
+    "backLabel": "Vorige"
+  },
+  "thankYou": {
+    "title": "Bedankt voor je sollicitatie!",
+    "lead": "We hebben je sollicitatie voor de functie Business Manager ontvangen. Zo gaat het verder:",
+    "steps": [
+      { "title": "Florian neemt binnen 2 werkdagen contact op", "body": "Hij belt of mailt je om kort kennis te maken en je vragen over de rol te beantwoorden." },
+      { "title": "Kennismakingsgesprek", "body": "Je maakt kennis met Florian en Noor op ons kantoor in Amsterdam of online. We bespreken wat je zoekt en wat de rol inhoudt." },
+      { "title": "Vervolggesprek en aanbod", "body": "Klikt het van beide kanten? Dan volgt een vervolggesprek en bespreken we het arbeidsvoorwaardenpakket." }
+    ],
+    "backLabel": "Terug naar de vacature"
+  }
+}
